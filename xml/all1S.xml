@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<?xml-stylesheet title="Default" type="text/xsl" href="article.xsl" media="screen"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+      dest="everybody">
+<author email="bridge@thomasoandrews.com">Thomas Andrews</author>
+<copyright>2008-2009</copyright>
+<title>Everybody Makes <contract code='1S'/></title>
+<body>
+<diagram id="start">
+           <hand seat="N" sp="J432" cl="Q87" di="AQ5" he="K76"/>
+<hand seat="W" sp="T65" cl="J432" di="J98" he="AQ5"/>
+                            <hand seat="E" sp="Q87" cl="AK9" di="K76" he="T432"/>
+           <hand seat="S" sp="AK9" cl="T65" di="T432" he="J98"/>
+</diagram>
+<p>There are no symmetric deals where everybody can make the same suit contract, but in this deal, we find that every declarer can make <contract code='1N'/>, <contract
+code='1S'/>, and <contract code='1H'/>.  No higher contracts make.</p>
+<p>The contract <contract code='1D'/> makes  when declared by North or South.</p>
+<p>The contract <contract code='1C'/> makes when declared by East or West.</p>
+<p>I have yet to write up a analysis of why <contract code="1S"/> makes from each seat, so I leave it as an exercise for the reader.</p>
+<p>Richard Pavlicek has <link href="http://www.rpbridge.net/8k03.htm">previously found a deal</link> where everybody makes <contract code="1S"/>, but in that deal, some declarers can make more than seven tricks in other suits.</p>
+<p>I found this deal by combining two symmetric deals.</p>
+<p>In this first symmetric deal, West can only make six tricks in spades, but every other seat can make seven tricks in spades.</p>
+<diagram>
+           <hand seat="N" sp="J432" he="Q87" di="AK9" cl="T65"/>
+<hand seat="W" sp="T65" he="J432" di="Q87" cl="AK9"/>
+                            <hand seat="E" sp="Q87" he="AK9" di="T65" cl="J432"/>
+           <hand seat="S" sp="AK9" he="T65" di="J432" cl="Q87"/>
+</diagram>
+<p>In this second symmetric deal, East can only make six tricks in spades, but every other seat can make seven tricks.</p>
+<diagram>
+           <hand seat="N" sp="T432" he="J98" di="AQ5" cl="K76"/>
+<hand seat="W" sp="K76" he="T432" di="J98" cl="AQ5"/>
+                            <hand seat="E" sp="J98" he="AQ5" di="K76" cl="T432"/>
+           <hand seat="S" sp="AQ5" he="K76" di="T432" cl="J98"/>
+</diagram>
+<p>On an interesting side note, in both of these symmetric deals, there are four one-level suit contracts that do not make.  In both examples, each seat fails to make seven tricks in one suit.</p>
+<p>But in our example where <contract code="1S"/> makes from every seat, there are also exactly four one-level contracts which fail, namely, <contract code="1D"/> by East and West, and <contract code="1C"/> by North and South.</p>
+<p>Is this possibly the mathematical limit, or are there deals where fewer one-level contracts fail?  Ideally, is it possible for every hand to make every one-level suit contract?</p>
+</body>
+</article>

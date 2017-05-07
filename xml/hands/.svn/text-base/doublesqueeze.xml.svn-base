@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Little Too High</title>
+<body>
+<diagram>
+<header>
+<dealer>North</dealer>
+<vul>None</vul>
+<scoring>Matchpoints</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+<!-- MP-29.123 -->
+</header>
+<hand seat="N" sp="AQ" he="T7" di="A76532" cl="AT9"/>
+<hand seat="S" sp="KT9852" he="KQ62" di="T" cl="K6"/>
+</diagram>
+<hr/>
+<p>
+North opened a slightly odd strong notrump, and South made a few too many
+slam tries, finally landing in <contract code="5S"/> contract.
+</p><p>
+West found the good lead of a spade.  Declarer won in dummy, and led
+a heart to the king.  If the <heart card="A"/> was onside, declarer would
+have only two heart losers.   Sadly, West won and continued spades, East
+following.
+</p><p>
+Declarer won and cashed the <diamond card="A"/> and ruffed a diamond,
+East playing the king.  After drawing the last trump, declarer
+ducked a heart at this position (pitching a diamond from dummy:)
+<diagram>
+<hand seat="N" sp="" he="" di="765^3" cl="AT9"/>
+<hand seat="S" sp="T9" he="Q6^2" di="" cl="K6"/>
+</diagram>
+</p><p>
+West won and returned a diamond, East pitching a heart, and declarer
+ruffing.  Declarer then cashed the <heart card="Q"/> (pitching a diamond
+from dummy).  If East started with four or more hearts, the position would
+be something like:
+<diagram>
+<hand seat="N" sp="" he="" di="7" cl="AT9"/>
+<hand seat="W"  sp="" he="" di="Q" cl="Qxx"/>
+<hand seat="E"  sp="" he="9" di="" cl="Jxx"/>
+<hand seat="S" sp="^T" he="6" di="" cl="K6"/>
+</diagram>
+</p><p>
+On the <spade card="T"/>, West can not part with a diamond, so he must part
+with a club.  Declarer pitches the diamond from dummy, and East is
+now caught in the squeeze, forced to part with either a heart, setting
+up the heart in declarers hand, or a club.
+</p><p>
+As it was, West showed out on the third round of hearts, having started
+with <holding cards="H:AJ"/> tight.  Declarer could have claimed on learning that West
+was guarding the diamonds and East the hearts.
+</p><p>
+Was there any better defense?  
+</p><p>
+The full hand was:
+<diagram>
+<hand seat="N" sp="AQ" he="T7" di="A76532" cl="AT9"/>
+<hand seat="W"  sp="76" he="AJ" di="QJ98" cl="QJ542"/>
+<hand seat="E"  sp="J43" he="98543" di="K4" cl="873"/>
+<hand seat="S" sp="KT9852" he="KQ62" di="T" cl="K6"/>
+</diagram>
+West couldn't duck the heart, because
+he was holding the <heart cards="AJ"/>.  If he had played the jack, declarer's
+ten in dummy would have become a useful card, and again declarer would
+have lost only two heart tricks.
+Could West have broken up the squeeze?  I don't see an obvious way.
+</p><p>
+As you can see, the clubs are both in West's hand.  Technically, East
+was never squeezed as the cards lie.  The club situation keeps West
+from ever leading clubs.  If East had both clubs, West could lead
+clubs every time.  The spade lead was necessary to keep declarer from
+ruffing out his diamonds - two of his entries to dummy are in spades,
+but to be useful for setting up diamonds, they needed to be used after
+the diamonds ace entry had been used.
+</p>
+</body>
+</article>

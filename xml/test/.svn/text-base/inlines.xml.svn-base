@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Contracts</title>
+<body>
+
+<test title="Example">
+<testbody>
+<p>Contract: <contract code="4C" declarer="S"/></p>
+
+<p>Contract: <contract code="5S"/></p>
+
+<p> When you have a choice of
+    <contract code="4SXX" declarer="S"/> 
+    or <contract code="5DX" declarer="N"/>,
+    you'll probably prefer the diamond contract,
+    unless you are a risk-taker.
+</p>
+</testbody>
+<testnote>
+Some example auctions with declarers.
+</testnote>
+</test>
+
+<test title="Inline Red Color">
+<testbody>
+<p>Darker red:
+The heart finesse would be 50%, but it is slightly better than 50%
+that the <heart card="K"/> and the <diamond card="Q"/> were in
+different hands. You play the <heart card="A"/>, cash the 
+<diamond card="K"/> and run the spades, pitching a diamond and the
+<heart card="Q"/>.  You reach this position:
+<diagram>
+<hand seat="N" sp="" he="J" di="J" cl="3"/>
+<hand seat="S" sp="" he="" di="" cl="KJ5"/>
+</diagram>
+</p>
+<p><span class="forcered">Bright red:
+The heart finesse would be 50%, but it is slightly better than 50%
+that the <heart card="K"/> and the <diamond card="Q"/> were in
+different hands. You play the <heart card="A"/>, cash the 
+<diamond card="K"/> and run the spades, pitching a diamond and the
+<heart card="Q"/>.  You reach this position:
+</span>
+<diagram>
+<hand seat="N" sp="" he="J" di="J" cl="3"/>
+<hand seat="S" sp="" he="" di="" cl="KJ5"/>
+</diagram>
+</p>
+</testbody>
+<testnote>
+<p>
+The above &lt;span class="forcered"> is a gross hack so you can
+see the difference between a darker red in the middle of a paragraph,
+versus a bright red.  I find the bright red interrupts the flow
+of the paragraph more, so I've set the formatter to use a bright red
+only in diagrams, and use the darker red in the paragraphs. 
+</p>
+<p>These colors, as well as many of the other look decision, are
+controlled by the  <link rel='onsite' href="/deals/article.css">CSS
+file</link>, so I can tinker with these aspect without regenerating
+the HTML.
+</p>
+</testnote>
+</test>
+</body>
+</article>

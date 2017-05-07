@@ -1,0 +1,80 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Slow Coup</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="98" he="AK7" di="A985432" cl="2"/>
+<hand seat="W"  sp="K752" he="94" di="KQJ7" cl="Q98"/>
+<hand seat="E"  sp="T64" he="Q8532" di="6" cl="JT64"/>
+<hand seat="S" sp="AQJ3" he="JT6" di="T" cl="AK753"/>
+<!--
+             S: 98
+             H: AK7
+             D: A985432
+             C: 2
+
+S: K752                    S: T64          
+H: 94                      H: Q8532        
+D: KQJ7                    D: 6            
+C: Q98                     C: JT64         
+
+             S: AQJ3
+             H: JT6
+             D: T
+             C: AK753
+-->
+</diagram>
+<p>
+Can North/South make any game?
+</p><p>
+In <contract code="5D"/>, the defense gets three trumps.
+</p><p>
+Can <contract code="3N"/> make?  It's hard to see how without a little help
+from the defense. Declarer has six top tricks, with a two more which can set
+be up in spades and one more in clubs, or, even more slowly, in his long
+diamond suit.  Timing is difficult, however.  For example, on a
+club lead, one entry to the South hand is lost, and when declarer
+leads a spade from North, East covers with the ten, which blocks the
+spade suit.
+</p><p>
+What about <contract code="4S"/>?  On a trump lead, win the queen, cash
+the minor winners, cross with a heart to dummy, then ruff a diamond
+(overruffing East if necessary), ruff a club, and ruff (or overruff)
+another diamond.  East's best defense is to attempt to keep you from
+scoring your small trump, so he should ruff ahead of you at each
+opportunity, so the end position becomes:
+<diagram original="start">
+<hand seat="N" sp="" he="A" di="9854" cl=""/>
+<hand seat="W"  sp="K75" he="4" di="K" cl=""/>
+<hand seat="E"  sp="" he="Q853" di="" cl="J"/>
+<hand seat="S" sp="3" he="JT" di="" cl="73"/>
+</diagram>
+<!--
+             S: -
+             H: A
+             D: 9854
+             C: -
+
+S: K75                     S: -
+H: 4                       H: Q853
+D: K                       D: -
+C: -                       C: J        
+
+             S: 3
+             H: JT
+             D: -
+             C: 73
+-->
+Note, you've ruffed once with your ace.
+</p><p>
+The <heart card="A"/> is still available for one more diamond lead off dummy,
+and you finally get to ruff with your three, East out of trumps.
+</p><p>
+You score all four trumps in the South hand, a club ruff in North,
+and five top tricks in the other suits.  Amusingly, the three
+defensive tricks are West's remaining trumps.
+</p><p>
+I believe this extended effort to score the trump three is what
+Kelsey and Ottlik call an "elopement" play.
+</p>
+</body>
+</article>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Redemption</title>
+<body>
+<diagram>
+<header>
+<dealer>West</dealer>
+<vul>N/S</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+</header>
+<!-- (IMP-2.19, 1996) -->
+<hand seat="N" sp="Q32" he="AT96" di="K9876" cl="4"/>
+<hand seat="W"  sp="AK9" he="854" di="A3" cl="QJ763"/>
+<hand seat="E"  sp="J5" he="KQ73" di="QT54" cl="852"/>
+<hand seat="S" sp="T8764" he="J2" di="J2" cl="AKT9"/>
+</diagram>
+<auction dealer="W">
+<call code="1C"/>
+<call code="X" comment="?"/>
+<call code="1H"/>
+<call code="1S"/>
+
+<call code="1N"/>
+<call code="P"/>
+<call code="P"/>
+<call code="2S"/>
+
+<call code="P"/>
+<call code="P"/>
+<call code="P"/>
+
+<!--
+West    North   East    South
+1C      X(?)    1H      1S
+1NT     Pass    Pass    2S
+All pass
+-->
+</auction>
+<hr/>
+<p>
+North's double is not to my taste.  Perhaps it was made in frustration;
+East/West were a famous bridge father and son, and they were
+clobbering the talented North/South pair.
+</p><p>
+West led a low heart, ducked to his partner's queen.  East, spying the
+potential for a club ruff in dummy, switched to a spade.  West
+cleared away dummy's trumps, playing the ace, king, and a third trump.
+</p><p>
+Declarer played a club to the ace, a diamond to the king, and a
+diamond, West winning the <diamond card="A"/>.  West exited a heart,
+won in dummy. Declarer ruffed a heart, getting to this end position:
+<diagram>
+<hand seat="N" sp="" he="6" di="876" cl=""/>
+<hand seat="W"  sp="" he="" di="" cl="QJ76"/>
+<hand seat="E"  sp="" he="K" di="QT" cl="8"/>
+<hand seat="S" sp="T" he="" di="" cl="KT9"/>
+</diagram>
+Declarer led the <club card="T"/>, and West could either duck or be
+end-played.  In either event, declarer got three of the last four
+tricks.
+</p><p>
+Making was worth 4 IMPs and down one would have been worth -1.25 IMPs,
+for a total swing of 5.25 IMPs.
+</p>
+</body>
+</article>

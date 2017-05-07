@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Two-way Blockage</title>
+<body>
+<diagram>
+<!--
+In notrump south makes 8, north makes 9
+In spades south makes 10, north makes 9
+In hearts south makes 7, north makes 7
+In diamonds south makes 7, north makes 7
+In clubs south makes 7, north makes 7
+NOTE: In notrump, diamond leads from west score four diamonds and a heart
+      In spades, strip and endplay in hearts is the risk for west, and
+      a heart opening lead from east breaks it up
+          S: T92
+          H: Q52
+          D: Q752
+          C: KJ4
+ S: 43             S: 865
+ H: AJ98           H: 643
+ D: AJT8           D: K93
+ C: 632            C: 9875
+          S: AKQJ7
+          H: KT7
+          D: 64
+          C: AQT
+-->
+<hand seat="N" sp='T92' he='Q52' di='Q752' cl='KJ4'/>
+<hand seat="W" sp='43' he='AJ98' di='AJT8' cl='632'/>
+<hand seat="E" sp='865' he='643' di='K93' cl='9875'/>
+<hand seat="S" sp='AKQJ7' he='KT7' di='64' cl='AQT'/>
+</diagram>
+<h2>Notrump</h2>
+<p>Only North can make <contract code="3N"/>.  If South declares notrump, then west can start with the <card code="DJ"/>, and the defense starts with
+three diamonds, then a heart to the ace, and a fourth diamond.</p>
+<p>But if East is on lead, the diamond suit is blocked.  The defense can take three diamonds off the top, but then North's <card code="DQ"/> is good.</p>
+<h2>Spades</h2>
+<p>The trick here is to avoid letting East lead hearts twice.  If North is declarer in spades, then East can lead hearts, and then again when he gets on lead with the <card code="DK"/>.</p>
+<p>But if South is declarer, she can keep East from winning
+two diamonds by playing the <card code="DQ"/> if West leads the
+<card code="D8"/>, and plays small diamonds otherwise.  The suit
+is safely blocked.  When East gets in with the diamond queen and
+leads a heart, south plays the <card code="HK"/>, and West must win
+the ace.</p>
+<p>Declarer can easily achieve this end position:</p>
+<diagram>
+<hand seat="N" sp='' he='Q5' di='7' cl=''/>
+<hand seat="W" sp='' he='J9' di='A' cl=''/>
+<hand seat="E" sp='' he='64' di='' cl='9'/>
+<hand seat="S" sp='J' he='T7' di='' cl=''/>
+</diagram>
+<p>On the last spade, West is squeezed in the red suits.</p>
+</body>
+</article>

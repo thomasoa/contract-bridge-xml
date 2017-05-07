@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Held to Five</title>
+<body>
+<diagram id="base">
+<hand seat="S" sp="AQ94" he="JT3" di="K2" cl="8765"/>
+<hand seat="W"  sp="JT3" he="K2" di="8765" cl="AQ94"/>
+<hand seat="N" sp="K2" he="8765" di="AQ94" cl="JT3"/>
+<hand seat="E"  sp="8765" he="AQ94" di="JT3" cl="K2"/>
+</diagram>
+<p>
+In this case, the defense can always hold declarer to five tricks
+in every contract.
+</p>
+<p>
+If South declares notrump, hearts, or clubs, the defense can take eight
+tricks off the top, playing four trumps first in the trump contracts.
+</p>
+<p>
+If South declares spades, the defense starts with three top clubs, East
+pitching a diamond on the third round. West then leads a fourth club
+at this position:
+<diagram original="base">
+<hand seat="S" sp="AQ94" he="JT3" di="K2" cl="8"/>
+<hand seat="W"  sp="JT3" he="K2" di="8765" cl="^9"/>
+<hand seat="N" sp="K2" he="8765" di="AQ94" cl=""/>
+<hand seat="E"  sp="8765" he="AQ94" di="JT" cl=""/>
+</diagram>
+</p>
+<p>
+If North ruffs low, East overruffs and the defense runs three hearts and
+promotes another trump trick with a fourth heart.
+</p>
+<p>
+If North ruffs high, East pitches a diamond, leading to the position:
+<diagram original="base">
+<hand seat="S" sp="AQ94" he="JT3" di="K2" cl=""/>
+<hand seat="W"  sp="JT3" he="K2" di="8765" cl=""/>
+<hand seat="N" sp="2" he="8765" di="AQ94" cl=""/>
+<hand seat="E"  sp="8765" he="AQ94" di="J" cl=""/>
+</diagram>
+What are North/South to do?  The high ruff promoted one trick for West.
+Attacking diamonds now lets East ruff.</p>
+<p>So the best thing for declarer is to play the ace, queen and low
+spade, leading to this position:
+<diagram original="base">
+<hand seat="S" sp="9" he="JT3" di="K2" cl=""/>
+<hand seat="W"  sp="" he="K2" di="8765" cl=""/>
+<hand seat="N" sp="" he="87" di="AQ94" cl=""/>
+<hand seat="E"  sp="8" he="AQ94" di="J" cl=""/>
+</diagram>
+with West on lead.  Now the defense takes three hearts and the 
+<heart card="9"/>.
+South can ruff, but that promotes East's trump eight.
+</p>
+</body>
+</article>
+

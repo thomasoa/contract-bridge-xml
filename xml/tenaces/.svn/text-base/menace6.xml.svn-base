@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Three Suits</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="J653" he="AKQ" di="QJ5432" cl=""/>
+<hand seat="W"  sp="87" he="T64" di="AT97" cl="AK84"/>
+<hand seat="E"  sp="KT92" he="J8" di="6" cl="T97652"/>
+<hand seat="S" sp="AQ4" he="97532" di="K8" cl="QJ3"/>
+</diagram>
+<!--
+             S: J653
+             H: AKQ
+             D: QJ5432
+             C: -
+
+S: 87                   S: KT92
+H: T64                  H: J8
+D: AT97                 D: 6
+C: AK84                 C: T97652
+
+             S: AQ4
+             H: 97532
+             D: K8
+             C: QJ3
+-->
+<h2>Hearts</h2>
+<p>
+Against <contract code="4H"/>, the defense doesn't do itself any good to
+play the <diamond card="A"/>  and a diamond ruff, followed by a club.
+Declarer ruffs in dummy, promoting a trump trick in the West hand, but
+compensates by playing one round of trumps (drawing East's last trump)
+and then running diamonds, pitching two clubs.  On the fifth diamond
+the situation is: 
+<diagram original="start">
+<hand seat="N" sp="J653" he="K" di="5^4" cl=""/>
+<hand seat="W"  sp="87" he="T6" di="" cl="A84"/>
+<hand seat="E"  sp="KT92" he="" di="" cl="97^6"/>
+<hand seat="S" sp="AQ^4" he="9753" di="" cl=""/>
+</diagram>
+West can ruff with his natural trump trick, but then declarer has the
+rest of the tricks.  If West holds off, declarer cashes the
+<heart card="K"/>, then finesses in spades and still only has one
+loser.
+</p><p>
+So the diamond ruff is not the way to go.  How about trying to promote
+more tricks with club forces?  If West leads a high club, declarer
+ruffs in North, and attacks diamonds. If West wins
+the first diamond and gives East a diamond ruff, East can continue a club,
+forcing a ruff in dummy, but then we are at this position:
+<diagram original="start">
+<hand seat="N" sp="J653" he="A" di="Q543" cl=""/>
+<hand seat="W"  sp="87" he="T64" di="T7" cl="84"/>
+<hand seat="E"  sp="KT92" he="J" di="" cl="T976"/>
+<hand seat="S" sp="AQ4" he="97532" di="" cl="Q"/>
+</diagram>
+Now, North cashes a heart and pitches a spade on a high diamond,
+takes the spade finesse, then forces out West's <heart card="T"/>.
+The second forced club ruff did not gain a trump trick, and, South got
+an edge by having a club set up for him.</p>
+<p>Okay, so say West ducks the first diamond, and wins the second, then
+plays another high club.  North ruffs at this position:
+<diagram original="start">
+<hand seat="N" sp="J653" he="A" di="QJ54" cl=""/>
+<hand seat="W"  sp="87" he="T64" di="T7" cl="84"/>
+<hand seat="E"  sp="KT92" he="J8" di="" cl="T97"/>
+<hand seat="S" sp="AQ4" he="97532" di="" cl="Q"/>
+</diagram>
+Declarer finesses in spades, and crosses to the <heart card="A"/>,
+then plays off a top diamond, pitching a small spade at this
+position:
+<diagram original="start">
+<hand seat="N" sp="J65" he="" di="^QJ54" cl=""/>
+<hand seat="W"  sp="8" he="T6" di="^T9" cl="84"/>
+<hand seat="E"  sp="KT" he="J" di="" cl="T97"/>
+<hand seat="S" sp="A^4" he="9753" di="" cl="Q"/>
+</diagram>
+East can ruff, but it does not help the defense, which gets only
+two trumps.
+</p>
+<p>Part of the reason club leads don't work is it establishes
+a club in the South hand.  Look at the previous end-position
+if South's remaining club is a small one:
+<diagram original="start">hsi
+<hand seat="N" sp="J65" he="" di="QJ54" cl=""/>
+<hand seat="W"  sp="8" he="T6" di="T9" cl="84"/>
+<hand seat="E"  sp="KT" he="J" di="" cl="T97"/>
+<hand seat="S" sp="A4" he="9753" di="" cl="3"/>
+</diagram>
+Now, if North leads a high diamond, East can ruff and South can
+only pitch one of his losers.
+</p>
+<p>This is the essential asymmetry - if East leads clubs, the
+defense can avoid setting up a club trick in the South hand. If
+East leads a club, declarer ruffs in the North hand and attacks diamonds.
+West can now win the first diamond, give East a diamond ruff and East leads
+another club, West covering, dummy ruffing again at this position:
+<diagram original="start">
+<hand seat="N" sp="J653" he="A" di="J543" cl=""/>
+<hand seat="W"  sp="87" he="T64" di="T9" cl="84"/>
+<hand seat="E"  sp="KT92" he="J" di="" cl="9765"/>
+<hand seat="S" sp="AQ4" he="97532" di="" cl="3"/>
+</diagram>
+If declarer leads a low diamond, to set up the suit, then East
+pitches a club, South ruffs, crosses to the <heart card="A"/>, and plays
+diamonds.  But now the <diamond card="J"/> gives South one pitch,
+but not two, and if he plays a long diamond next, it promotes 
+another trump trick for West.
+</p>
+<p>There are other variations of this line to evaluate, but they
+are essentially equivalent.</p>
+<h2>Spades</h2>
+<p>Against spades, the defense has two natural spade tricks and the 
+<diamond card="A"/>.
+Any diamond ruffs will be with natural trump tricks, so that can't be
+the source of extra tricks.  Hearts can't work.  So we're back at the
+club suit.</p>
+<p>If South doesn't ruff any diamonds, West has two diamonds.  Setting
+up hearts in the South hand does not improve the situation for North.
+So the only choices are attacking trumps and diamonds.  Trumps are
+risky - if East gets in with his long trumps he can run a lot of clubs.
+</p>
+<p>
+So suppose North leads a diamond to the king, West wins the 
+<diamond card="A"/> and
+exits with a spade.  Declarer wins the <spade card="Q"/> (East and North
+ducking.) We are at this position:
+<diagram original="start">
+<hand seat="N" sp="J6" he="AKQ" di="QJ543" cl=""/>
+<hand seat="W"  sp="8" he="T64" di="T97" cl="A84"/>
+<hand seat="E"  sp="KT9" he="J8" di="" cl="T9765"/>
+<hand seat="S" sp="A4" he="97532" di="8" cl="Q3"/>
+</diagram>
+South to lead.
+</p>
+<p>If South leads a diamond, East ruffs and continues clubs, forcing
+North to ruff:
+<diagram original="start">
+<hand seat="N" sp="J" he="AKQ" di="Q543" cl=""/>
+<hand seat="W"  sp="8" he="T64" di="T7" cl="84"/>
+<hand seat="E"  sp="KT" he="J8" di="" cl="T976"/>
+<hand seat="S" sp="A4" he="97532" di="" cl="3"/>
+</diagram>
+Declarer still is angling for a diamond ruff.
+</p>
+
+<h2>Diamonds</h2>
+<p>
+Against <contract code="5D"/>, West has two natural trump tricks.  His
+goal is to kill the South hand and keep him from pitching spades on
+long hearts. So West leads a spade, ducked by North and dummy, South
+winning the <spade card="Q"/>.  Suppose South leads a low trump from
+hand (to draw East's only trump,) West forced to duck the ace to avoid
+giving up his second trump trick.  Then declarer cashes the 
+<heart cards="AKQ"/> and crosses to the <spade card="A"/> and plays a
+heart:
+<diagram original="start">
+<hand seat="N" sp="J6" he="" di="J5432" cl=""/>
+<hand seat="W" sp="" he="" di="AT7" cl="AK84"/>
+<hand seat="E" sp="KT" he="" di="" cl="T9765"/>
+<hand seat="S" sp="4" he="^97" di="K" cl="QJ3"/>
+</diagram>
+This is not a success for declarer - West ruffs the heart, keeping declarer
+from pitching more than one spade.
+</p>
+<p>
+And if declarer tries to draw West's trumps before attack hearts, West
+wins a trump and continues spades.
+</p><p>
+On the other hand, if East is on lead, he can't damage declarer by
+leading spades.  A low spade fails to kill the entry, and leading
+the <spade card="K"/> means that declarer only needs one pitch.
+</p>
+</body>
+</article>

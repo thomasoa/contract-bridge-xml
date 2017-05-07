@@ -1,0 +1,626 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Auctions</title>
+<body>
+
+<test title="Verbose Auction">
+<testbody>
+<auction dealer="W">
+    <call seat="W" code="P"/> 
+    <call seat="N" code="1S"/> 
+    <call seat="E" code="2H"/> 
+    <call seat="S" code="3C"/>
+
+    <call seat="W" code="X"/>
+    <call seat="N" code="XX"/>
+    <call seat="E" code="P"/> 
+    <call seat="S" code="P"/> 
+
+    <call seat="W" code="P"/>
+</auction>
+</testbody>
+<testnote>
+<p>
+We've specified the seat in each call.  In fact, only calls made out
+of turn are required to have a seat specified - when no seat is present,
+the XSL script defaults to the next seat in turn.
+</p>
+</testnote>
+</test>
+
+<test title="Simple Auction - No dealer specified">
+<testbody>
+<auction>
+    <call code="P"/> 
+    <call code="1S"/> 
+    <call code="2H"/> 
+    <call code="3C"/>
+
+    <call code="X"/>
+    <call code="XX"/>
+    <call code="P"/> 
+    <call code="P"/> 
+
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+When no dealer is specified, we label the hands in the auction as
+"Dealer," "LHO," "Partner," and "RHO." Dealer is the leftmost label.
+</testnote>
+</test>
+
+<test title="Simple Auction - first seat specified">
+<testbody>
+<auction>
+    <call code="P" seat="S"/> 
+    <call code="1S"/> 
+    <call code="2H"/> 
+    <call code="3C"/>
+
+    <call code="X"/>
+    <call code="XX"/>
+    <call code="P"/> 
+    <call code="P"/> 
+
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+<p>When no dealer is specified, but the first call has a "seat" id,
+we assume that seat is dealer.</p>
+</testnote>
+</test>
+
+<test title="Simple Auction - West deals">
+<testbody>
+<auction dealer="W">
+    <call code="P"/> 
+    <call code="1S"/> 
+    <call code="2H"/> 
+    <call code="3C"/>
+
+    <call code="X"/>
+    <call code="XX"/>
+    <call code="P"/> 
+    <call code="P"/> 
+
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+<p>The style guide suggests that West should always be to the left of
+East, for easier reading.  West is taken as the left-most hand in all
+cases except when South is dealer - then South is taken as the
+left-most hand (to avoid the dangling first bid with dealer 
+in the fourth column.)</p>
+<p>Note that the 'X' and 'XX' get translated to <call
+context="auction" code='X'/> and
+    <call context="auction" code='XX'/>.
+</p>
+<p>The white-space in the input above is optional, and used just to
+clarify the auction to someone stuck reading or writing the XML.</p>
+<p>The task of deciding which hand should be left-most in the table
+is reserved for the XSL formatter - the XML document is meant to
+represent the play of the deal, and contain as little formatting
+specifics as possible.
+</p>
+</testnote>
+</test>
+
+<test title="Simple Auction With Names, South Deals">
+<testbody>
+<auction dealer="S">
+    <name seat="S">Andrews</name>
+    <name seat="N">Partner</name>
+    <call code="P"/> 
+    <call code="1S"/> 
+    <call code="2H"/> 
+    <call code="3C"/>
+
+    <call code="X"/>
+    <call code="XX"/>
+    <call code="P"/> 
+    <call code="P"/> 
+
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+When names are provided, add them to the auction.  Keep seat
+names in case there are duplicate names (as in all-GIB auctions.)
+</testnote>
+</test>
+
+<test title="Simple Auction - East deals">
+<testbody>
+<auction dealer="E">
+    <call code="P"/> 
+    <call code="1S"/> 
+    <call code="2H"/> 
+    <call code="3C"/>
+
+    <call code="X"/>
+    <call code="XX"/>
+    <call code="P"/> 
+    <call code="P"/> 
+
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+When East deals, we put West left-most.
+</testnote>
+</test>
+
+<test title="Simple Auction - North deals">
+<testbody>
+<auction dealer="N">
+    <call code="P"/> 
+    <call code="1S"/> 
+    <call code="2H"/> 
+    <call code="3C"/>
+
+    <call code="X"/>
+    <call code="XX"/>
+    <call code="P"/> 
+    <call code="P"/> 
+
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+When North deals, West is the left-most hand to keep West's hand to the left of East's hand.
+</testnote>
+</test>
+
+<test title="Pass Out Auction">
+<testbody>
+<auction dealer="S">
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+
+<hr/>
+
+<auction dealer="W">
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+
+<hr/>
+
+<auction dealer="N">
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+
+<hr/>
+
+<auction dealer="E">
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+These should generate one cell with the text "<call code="_PO_"/>."
+</testnote>
+</test>
+
+<test title="Fourth Seat Opener">
+<testbody>
+<auction dealer="E">
+   <call code="P"/>
+   <call code="P"/>
+   <call code="P"/>
+   <call code="1N"/>
+
+   <call code="P"/>
+   <call code="P"/>
+   <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+Make sure auctions starting with three passes don't start with "All Pass."
+</testnote>
+</test>
+
+
+<h1>Auctions with Notes</h1>
+<test title="One Note">
+<testbody>
+<auction dealer="W">
+    <call code="1N"><note>15-17</note></call>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+Adding a note to a call internally makes life simple and natural.
+</testnote>
+</test>
+
+<test title="One Note, Multiple Times">
+<testbody>
+<auction dealer="W">
+    <call code="1N"/>
+    <call code="P"/>
+    <call code="3S"/>
+    <call code="P"/>
+
+    <call code="4C"><note id="cue">Cue bid</note></call>
+    <call code="P"/>
+    <call code="4D"><note ref="cue"/></call>
+    <call code="P"/>
+
+    <call code="5D"><note ref="cue"/></call>
+    <call code="P"/>
+    <call code="6S"/>
+
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+Easy to write duplicate notes.
+</testnote>
+</test>
+
+<test title="Several Notes on One Bid">
+<testbody>
+<auction>
+    <call code="P"/>
+    <call code="1N"><note>20 second pause</note>
+                <note>12-14</note></call>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+Several notes applied to one tag.
+</testnote>
+</test>
+
+<test title="Several Notes on One Bid - Sorting?">
+<testbody>
+<auction>
+    <call code="1N"/>
+    <call code="P"><note id="hitch">Hesitation</note></call>
+    <call code="P"/>
+    <call code="2S"><note>Nominally <spade/> + minor</note><note ref="hitch"/></call>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+Should we sort comments on individual calls?  I couldn't quite get the XSL to do it.
+</testnote>
+</test>
+<test title="Several Notes, Some Duplicated">
+<testbody>
+<auction dealer="W">
+    <call code="1N"><note>15-17</note></call>
+    <call code="P"/>
+    <call code="3S"><note>Game forcing</note></call>
+    <call code="P"/>
+
+    <call code="4C"><note>Good spades, club concentration</note></call>
+    <call code="P"/>
+    <call code="4D"><note id="cue">Cue bid</note></call>
+    <call code="P"/>
+
+    <call code="5D"><note ref="cue"/></call>
+    <call code="P"/>
+    <call code="6S"/>
+
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+Easy to write duplicate notes.
+</testnote>
+</test>
+
+<test title="Note In Last Three Passes">
+<testbody>
+<auction dealer="W">
+    <call code="1N"/>
+    <call code="P"><note>Hesitation</note></call>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+<hr/>
+<auction dealer="W">
+    <call code="1N"/>
+    <call code="P"/>
+    <call code="P"><note>Hesitation</note></call>
+    <call code="P"/>
+</auction>
+<hr/>
+<auction dealer="W">
+    <call code="1N"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"><note>Hesitation</note></call>
+</auction>
+</testbody>
+<testnote>
+If there is a note applied to one of the last three
+passes, write out the passes explicitly.
+</testnote>
+</test>
+
+<test title="Note In Pass-out Auctions">
+<testbody>
+<auction>
+    <call code="P"><note>Hesitation</note></call>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+<hr/>
+<auction>
+    <call code="P"/>
+    <call code="P"><note>Hesitation</note></call>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+<hr/>
+<auction>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"><note>Hesitation</note></call>
+    <call code="P"/>
+</auction>
+<hr/>
+<auction>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"><note>Hesitation</note></call>
+</auction>
+</testbody>
+<testnote>
+If the auction is passed out and there is a note in one pass,
+then show all passes.
+</testnote>
+</test>
+
+<test title="Editorial Comments with '!' or '?'">
+<testbody>
+<auction dealer="W">
+    <call code="1N" comment="?"/>
+    <call code="P"/>
+    <call code="7N" comment="!"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+The comment is meant as inline editorials, rather than the footnote
+"note" method, above.  Pavlicek's style guide suggests that only one
+'?' or one '!' be used in this instance.  My processors don't enforce
+that rule, but I follow it when writing my documents.
+</testnote>
+</test>
+
+<test title="Editorial Comment among the last three passes">
+<testbody>
+<auction dealer="E">
+    <call code="1N"/>
+    <call code="P" comment="?"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+<hr/>
+<auction dealer="E">
+    <call code="1N"/>
+    <call code="P"/>
+    <call code="P" comment="?"/>
+    <call code="P"/>
+</auction>
+<hr/>
+<auction dealer="E">
+    <call code="1N"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P" comment="?"/>
+</auction>
+</testbody>
+<testnote>
+Show all calls if there is a comment added to one of the last three passes.
+</testnote>
+</test>
+
+<test title="Editorial Comment in passed-out auctions">
+<testbody>
+<auction dealer="E">
+    <call code="P" comment="?"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+<hr/>
+<auction dealer="E">
+    <call code="P"/>
+    <call code="P" comment="?"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+<hr/>
+<auction dealer="E">
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P" comment="?"/>
+    <call code="P"/>
+</auction>
+<hr/>
+<auction dealer="E">
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P" comment="?"/>
+</auction>
+</testbody>
+<testnote>
+Show all calls if there is a comment in a pass-out auction.  Currently,
+the first case is "broken," or this behavior could be seen as a feature.
+</testnote>
+</test>
+
+<h1>Incomplete Auctions</h1>
+
+<test title="Passes">
+<testbody>
+<auction>
+    <call code="P"/>
+</auction>
+<hr/>
+<auction>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+<hr/>
+<auction>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+Make sure that three passes don't get translated to "All Pass."
+</testnote>
+</test>
+
+<test title="No Pass at the End">
+<testbody>
+<auction>
+    <call code="1N"/>
+    <call code="P"/>
+    <call code="3D"/>
+</auction>
+</testbody>
+<testnote>
+No pass at the end of an auction.
+</testnote>
+</test>
+
+<test title="One Pass at the End">
+<testbody>
+<auction>
+    <call code="1N"/>
+    <call code="P"/>
+    <call code="3D"/>
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+One pass at the end of an auction.
+</testnote>
+</test>
+
+<test title="Two Pass at the End">
+<testbody>
+<auction>
+    <call code="1N"/>
+    <call code="P"/>
+    <call code="3D"/>
+    <call code="P"/>
+    <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+Two passes at the end of an auction.
+</testnote>
+</test>
+
+<h1>Incomplete Auctions with Query</h1>
+
+<test title="Passes">
+<testbody>
+<auction>
+    <call code="P"/>
+    <call code="?"/>
+</auction>
+<hr/>
+<auction>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="?"/>
+</auction>
+<hr/>
+<auction>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="?"/>
+</auction>
+</testbody>
+<testnote>
+Make sure that three passes don't get translated to "All Pass."
+</testnote>
+</test>
+
+<test title="No Pass at the End">
+<testbody>
+<auction>
+    <call code="1N"/>
+    <call code="P"/>
+    <call code="3D"/>
+    <call code="?"/>
+</auction>
+</testbody>
+<testnote>
+No pass at the end of an auction.
+</testnote>
+</test>
+
+<test title="One Pass at the End">
+<testbody>
+<auction>
+    <call code="1N"/>
+    <call code="P"/>
+    <call code="3D"/>
+    <call code="P"/>
+    <call code="?"/>
+</auction>
+</testbody>
+<testnote>
+One pass at the end of an auction.
+</testnote>
+</test>
+
+<test title="Two Pass at the End">
+<testbody>
+<auction>
+    <call code="1N"/>
+    <call code="P"/>
+    <call code="3D"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="?"/>
+</auction>
+</testbody>
+<testnote>
+Two passes at the end of an auction.
+</testnote>
+</test>
+
+</body>
+</article>
+

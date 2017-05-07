@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>The Prize</title>
+<body>
+<diagram>
+<header>
+<dealer>East</dealer>
+<vul>Both</vul>
+<scoring>Matchpoints</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+<!-- (MP-24.103, 1996) -->
+</header>
+<hand seat="N" sp="A98" he="T964" di="Q743" cl="K6"/>
+<hand seat="W"  sp="Q652" he="AK" di="KT96" cl="QJ7"/>
+<hand seat="E"  sp="743" he="J752" di="J" cl="T9432"/>
+<hand seat="S" sp="KJT" he="Q83" di="A852" cl="A85"/>
+</diagram>
+<!--
+             S: A98
+             H: T964
+             D: Q743
+             C: K6
+
+S: Q652                     S: 743
+H: AK                       H: J752
+D: KT96                     D: J
+C: QJ7                      C: T9432
+
+             S: KJT
+             H: Q83
+             D: A852
+             C: A85
+-->
+<auction dealer="E">
+<call code="P"/>
+<call code="1D"/>
+<call code="P"/>
+<call code="1H"/>
+
+<call code="P"/>
+<call code="1N"/>
+<call code="P"/>
+<call code="P"/>
+
+<call code="P"/>
+<!--
+East    South   West    North
+Pass    1D      Pass    1H
+Pass    1NT     All Pass
+-->
+</auction>
+<hr/>
+<p>
+West found an unfortunate spade lead, which had disasterous matchpoint
+consequences.  Moxie, my partner, won in hand and played the <diamond card="A"/> and, noting East's <diamond card="J"/>, ducked a diamond, West winning.  West
+made another fateful mistake, playing off two top hearts.  He then
+exited with the <club card="Q"/>, won in dummy.
+</p><p>
+Moxie crossed to hand with the <heart card="Q"/>, and lead another diamond,
+West playing his king.  West exited the <club card="J"/>, won by declarer.
+The damage was already done.
+</p><p>
+Moxie scored three spades, one heart, two diamonds, and two clubs, for
+eight tricks.
+</p><p>
+How much did that one trick gain?  Here are the results from the board:
+<pre>
+(1)         3H        N       -3   -300             0.0%
+(2)         3H        N       -2   -200             3.5%
+(3)         2D        S       -1   -100             8.9%
+(4)         3NT       N       -1   -100             8.9%
+(5-6)       1NT       W       +1    -90            14.3%
+(7-11)      2D        N       +2    +90            26.8%
+(12-14)     1NT       W       -1   +100            46.4%
+(15-16)     2S        W       -1   +100            46.4%
+(17-21)     2D        N       +3   +110            67.8%
+(22)        2H        N       +2   +110            67.8%
+(23)        3D        N       +3   +110            67.8%
+(24)        1NT       S       +2   +120            82.1%
+(25)        1NT-X     W       -1   +200            92.9%
+(26-27)     2S        W       -2   +200            92.9%
+(28)        2S-X      W       -1   +200            92.9%
+(29)        2NT       W       -2   +200            92.9%
+</pre>
+</p><p>
+That one trick moved us from +90, or 27%, to +120, or 82%.
+</p></body>
+</article>

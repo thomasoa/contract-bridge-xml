@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Basic Example</title>
+<author email="bridge@thomasoandrews.com">Thomas Andrews</author>
+<programdata program="GIB" href="http://www.gibware.com/">
+s AK843.T43.A5.Q82
+e 975.K5.986.AKJ54
+s Q2.J76.KQ732.T96
+w JT6.AQ982.JT4.73
+</programdata>
+<!-- level 3 - spades, diamonds, clubs -->
+<body>
+<diagram>
+     <hand seat="N" sp="AK843" he="T43" di="A5" cl="Q82"/>
+<hand seat="W" sp="JT6" he="AQ982" di="JT4" cl="73"/>
+                   <hand seat="E" sp="975" he="K5" di="986" cl="AKJ54"/>
+     <hand seat="S" sp="Q2" he="J76" di="KQ732" cl="T96"/>
+</diagram>
+<p>
+This is a typical "six plus promotion" deal.
+</p><p>
+If North/South declare diamonds
+or spades, the defense takes three hearts, three clubs, and on the fourth
+club, West ruffs high, promoting a trump in East's hand.
+</p><p>
+This is essentially a trivial variation of various of our "cooked"
+examples in the introduction.
+</p></body>
+</article>

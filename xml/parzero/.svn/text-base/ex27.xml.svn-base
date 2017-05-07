@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<article>
+<!--
+#
+# GIB Input ( http://www.gibware.com/ )
+#
+n KQ.AJT4.J9.T8754
+e T75.7532.K.KQ932
+s A963.KQ.65432.J6
+w J842.986.AQT87.A
+#
+# iDeal Input ( http://bridge.thomasoandrews.com/iDeal/notes.html )
+#
+north is {KQ AJT4 J9 T8754}
+east is {T75 7532 K KQ932}
+south is {A963 KQ 65432 J6}
+west is {J842 986 AQT87 A}
+-->
+<!-- level 2 - diamonds, clubs -->
+<pre>
+          S: KQ
+          H: AJT4
+          D: J9
+          C: T8754
+ S: J842           S: T75
+ H: 986            H: 7532
+ D: AQT87          D: K
+ C: A              C: KQ932
+          S: A963
+          H: KQ
+          D: 65432
+          C: J6
+</pre>
+
+<h2>Notrump</h2>
+
+This is a fascinating deal with lots of blockages in various suits.
+For example, for North/South, they have three spades and four hearts,
+but the spade king queen have to be unblocked before the heart entry
+is taken in order to take the seven tricks.  So if East/West declare
+notrump, North takes the <spade cards=KQ"/>, then leads the
+<heart card="4"/> to South, cash the <spade card="A"/> and overtake
+the last heart with the ace, taking seven top tricks.
+<p>
+If North/South declare notrump, the defense appears to have five diamond
+tricks and three clubs, but there is no way to unblock both suits.  The
+best the defense can do, off the top, is five diamonds and one club.
+After running the diamonds and the club ace, South exits
+eight top tricks, but there is no way to untangle them to take more
+than four off the top (East pitching two clubs and two spades) West exits
+a heart, forcing North/South to take the hearts in the wrong order.
+<pre>
+          S: KQ
+          H: AJT4
+          D: ---
+          C: T
+ S: J842           S: T
+ H: 98*6*          H: 7532
+ D: ---            D: ---
+ C: ---            C: KQ
+          S: A963
+          H: KQ
+          D: ---
+          C: J
+</pre>
+There is no way for North/South to untangle their major suits, so they
+must concede either a heart or a club at the end.
+
+<h2>Spades</h2>
+If East/West declare spades, North/South start as against notrump,
+cashing the spade king and queen, crossing to a heart, cashing the
+spade ace, and then running three more hearts.  West can ruff the
+last heart, but that just promotes South's trump nine.
+<p>
+four hearts, pitching clubs from South's hand.  West has to 
+</article></article>

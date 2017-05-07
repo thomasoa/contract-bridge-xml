@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>The Only Chance</title>
+<date>April 3, 1999</date>
+<body>
+<diagram id="start">
+<header>
+<dealer>North</dealer>
+<vul>N-S</vul>
+<scoring>IMPS</scoring>
+<source href="http://www.floater.org/">Floater</source>
+</header>
+<hand seat="N" sp="AQJ5" he="964" di="AJ64" cl="74"/>
+<hand seat="S" sp="K74"  he="JT853" di="72" cl="AK8"/>
+</diagram>
+<auction dealer="N">
+<call code="1D"/>
+<call code="P"/>
+<call code="1H"/>
+<call code="P"/>
+
+<call code="2H"/>
+<call code="P"/>
+<call code="4H"/>
+<call code="P"/>
+
+<call code="P"/>
+<call code="P"/>
+</auction>
+<hr/>
+<p>I do not agree with my partner's <call code="2H"/> call - he should
+probably only raise on a bad three-card fit when there is no other decent bid, and 
+certainly <call code="1S"/> is crying out as another option.    My <call code="4H"/>
+call was probably as questionable.</p>
+<p>My LHO made the least comfortable lead - the <diamond card="T"/>.</p>
+<p>So, it looks like I've got a diamond loser and three heart losers -
+was there any way around that?</p>
+<p>If the opponents never led diamonds, I'd have been able to eventually
+pitch my diamond loser on a spade (of course, if they drew trumps, I'd
+be stuck with a club loser...)</p>
+<p>But I did find  one line which gave me a shot.  If spades split 3-3 and
+either player has three hearts to a single honor, I can make by
+running spades.  On the fourth spade, the situation might look like:
+<diagram original="start">
+<hand seat="N" sp="^J" he="964" di="J64" cl="74"/>
+<hand seat="S" sp="" he="JT853" di="^7" cl="AK8"/>
+<hand seat="W" sp="" he="AQ" di="Qxx" cl="QJxx"/>
+<hand seat="E" sp="" he="Kxx" di="Kx" cl="Txxx"/>
+</diagram>
+</p><p>
+Whatever East does, I pitch the diamond.  If East ruffs, they get at most
+three trump tricks, and if West ruffs with a high trump, again they
+only get three trump tricks.
+</p><p>
+As it was, my line not only failed, but cost me a trick when
+West ruffed the third round of spades.  My partner, who had
+left the virtual table to do some household chore, came back
+and asked 'how did you go down two?'
+</p><p>
+Dan Piro notices you can play a little deception on East if he holds
+two spades and any three hearts by varying the order in which you play your
+spades.  Start with a  low spade to the queen, then play the ace and a
+low spade back to your (now bare) king.  If East started with two spades
+he might play you for starting with two small spades and decide to
+not ruff.  Then you ruff a club in dummy and lead a spade to pitch your
+diamond.
+</p>
+</body>
+</article>

@@ -1,0 +1,79 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Variation</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="8" he="AK984" di="AT8" cl="QJ43"/>
+<hand seat="W"  sp="632" he="T3" di="7542" cl="KT87"/>
+<hand seat="E"  sp="QJ75" he="Q652" di="J63" cl="52"/>
+<hand seat="S" sp="AKT94" he="J7" di="KQ9" cl="A96"/>
+</diagram>
+<!--
+             S: 8
+             H: AK984
+             D: AT8
+             C: QJ43
+
+S: 632                     S: QJ75
+H: T3                      H: Q652
+D: 7542                    D: J63
+C: KT87                    C: 52
+
+             S: AKT94
+             H: J7
+             D: KQ9
+             C: A96
+-->
+<p>
+Declarer starts with a mere eight top tricks, but has many prospects
+for more in hearts, spades, and clubs.
+In notrump, declarer can set up two tricks in any of these suits, but
+must lose a trick in the suit in order to do so.  In order to get twelve
+tricks, then, declarer must lose two tricks.  That's not going to be a
+successful approach to twelve tricks.
+</p>
+<p>
+In hearts, declarer has an inevitable heart loser and an inevitable club
+loser.
+</p><p>
+In clubs, declarer can't ruff out the hearts or spades without setting up
+another trump trick for West.
+</p><p>
+The spade contract, however, is another matter.  If South declares
+<contract code="6S"/>, the contract can be made.  
+</p><p>
+Suppose West leads a diamond (the safest defense.) South wins in hand,
+crosses to the <heart card="A"/>, and leads the stiff spade off dummy.
+East split his honors, declarer wins the <spade cards="AK"/> and exits with
+the <spade card="T"/>, leading to this position:
+<diagram original="start">
+<hand seat="N" sp="" he="K984" di="AT" cl="QJ"/>
+<hand seat="W"  sp="" he="T" di="754" cl="KT87"/>
+<hand seat="E"  sp="7" he="Q65" di="J6" cl="52"/>
+<hand seat="S" sp="94" he="J" di="Q9" cl="A96"/>
+</diagram>
+<!--
+             S:  - 
+             H: K984
+             D: AT
+             C: QJ
+
+S:  -                      S: 7
+H: T                       H: Q65
+D: 754                     D: J6
+C: KT87                    C: 52
+
+             S: 94
+             H: J
+             D: Q9
+             C: A96
+-->
+If East exits in a minor, South wins in hand, draws the last trump,
+and takes the ruffing finesse against East in hearts.
+</p><p>
+But what if East leads a low heart?  At first, that seems to kill an
+entry, but that's an illusion. Since East holds the last trump,
+declarer can afford to win the king, and take the ruffing finesse
+immediately.
+</p>
+</body>
+</article>

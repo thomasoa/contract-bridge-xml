@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>The Miracle Combination</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="AKQ963" he="A5" di="Q3" cl="JT2"/>
+<hand seat="W"  sp="872" he="K973" di="K987" cl="AQ"/>
+<hand seat="E"  sp="JT4" he="QT84" di="J54" cl="964"/>
+<hand seat="S" sp="5" he="J62" di="AT62" cl="K8753"/>
+</diagram>
+<p>
+This is the only example of a single suit responsible for
+a double asymmetry.  The heart suit in isolation:
+<diagram id="hearts">
+<hand seat="N" he="A5"/>
+<hand seat="W"  he="K973"/>
+<hand seat="E"  he="QT84"/>
+<hand seat="S" he="J62"/>
+</diagram>
+does not even appear to provide a one-way guard, much
+less a more complicated two-way guard, but we'll find that
+the only way to set <contract code="4S"/> is by a heart lead from
+West, while the only way to set <contract code="3N"/> is by a heart
+lead from East.
+</p>
+<h2>Spades</h2>
+<p>
+It would appear, at first, that East could set a <contract code="4S"/>
+contract with a diamond lead.  Declarer plays a low diamond, West wins
+the <diamond card="K"/> and exits a heart.
+</p><p>
+Declarer can win and draw trumps, but cannot untangle the diamond suit to
+pitch his heart.
+</p><p>
+The solution is for declarer to play low from dummy on the first
+diamond and unblock the <diamond card="Q"/> when West wins the king.
+After winning the heart switch, declarer can draw trumps and finesse
+against East's <diamond card="J"/>, then pitch the heart loser on the
+<diamond card="A"/>.
+</p><p>
+What if East leads a heart?  Then declarer cannot avoid losing
+a heart, but can keep East off lead long enough to set up his
+clubs to pitch his diamond loser.
+</p><p>
+For example, if East leads a low heart, declarer covers it with
+the jack and ducks the trick when West covers with the king.
+East then can never get in to lead diamonds.
+</p><p>
+If East leads the <heart card="Q"/>, declarer wins this trick, and,
+with the <heart card="J"/> in dummy, ensures that East cannot get
+back in lead via the heart suit to lead diamonds.
+</p><p>
+If South declares <contract code="4S"/>, a low heart lead holds him to
+nine tricks. South cannot avoid letting East win a heart trick, and
+then lead  a diamond.  He must eventually lose a diamond, a heart and
+two clubs.
+</p><p>
+Here the nature of the heart guard is not to provide a stopper or 
+a trick, but to keep one opponent off lead.  A "non-material" guard, to
+use the terminology of Kelsey and Ottlik's <em>Adventures in Card Play.</em>
+</p>
+<h2>Notrump</h2>
+<p>East/West have to get active against <contract code="3N"/>, leading
+hearts. The notrump contract starts with eight top tricks.  A ninth
+might be set up by leading the diamond queen to West's king
+and eventually finessing against East's diamond jack.
+</p><p>
+If South declares, and West leads a heart, declarer ducks and East
+wins the <heart card="Q"/>.  Suppose East continues hearts.  Declarer
+wins and runs his spades. ending in this position:
+<diagram original="start">
+<hand seat="N" sp="^3" he="" di="Q3" cl="JT2"/>
+<hand seat="W" sp="" he="K9" di="K9" cl="AQ"/>
+<hand seat="E" sp="" he="T8" di="J5^4" cl="9"/>
+<hand seat="S" sp="" he="J" di="AT" cl="K8^7"/>
+</diagram>
+On the last spade, West can't pitch a diamond.  If he pitches a heart
+he can be endplayed in clubs, getting two clubs and a heart
+but forced to give up in diamonds in the end. 
+</p><p>
+So he must pitch the <club card="Q"/>.
+But now declare plays a low club to the king, and West wins.
+East/West get two more heart tricks, but declarer has the rest - the
+<diamond card="A"/> and a club.
+</p><p>
+East cannot profit by shifting to a diamond or a club, either.
+The diamond lead just sets up declarer's ninth trick, and the club
+lead reduces to almost the same ending as above, only with one
+fewer club for everybody.  Again West is squeezed.
+</p><p>
+West might lead the <heart card="K"/> but then declarer can set up
+his ninth trick in hearts!
+</p><p>
+If North declares, though, East can defeat the contract with a
+low heart lead.  However declarer twists and turns, East will
+remain with the heart queen at the above end position, which means
+West can pitch down to a single small heart.
+</p><p>
+So now the heart suit is a guard from the other direction, and
+again it is a non-material guard.  This time, it forces West to
+hold the <heart card="K"/> at the six-card end-position, and
+therefore causes him to be squeezed in three suits.
+</p><p>
+This heart suit is magic.  Not only would you not believe that
+it provides a guard at all giving the placement of the cards, but
+it provides a guard in two opposite directions, one in a suit
+contract, one in notrump, on exactly the same deal!
+</p>
+<h2>Clubs</h2>
+<p>
+It seems almost anti-climactic to note the pedestrian one-sided guard
+provided by diamonds in a club contract.
+</p><p>
+If South declares <contract code="5C"/>, he cannot be harmed.  On a
+heart lead, he wins and pitches two hearts on spades before attacking
+clubs. Only West can get in, and he cannot profitably lead diamonds. 
+The third round of clubs provides entry to dummy's spade for
+South to pitch his diamond losers.
+</p><p>
+If North declares <contract code="5C"/>, a simply diamond lead by East
+will set declarer. Declarer obviously cannot avoid two club losers,
+and if he tries to run four spade tricks to pitch three diamonds, East
+can ruff, giving the defense either a third club trick or a trick in
+diamonds. 
+</p>
+<h2>Post-mortem</h2>
+<p>
+Here is the heart suit again:
+<diagram src="#hearts"/>
+The biggest advantage for the offense is that West is holding almost all
+of the values.  The heart suit acts to protect declarer's advantage
+in two different ways, depending in the contract.
+</p><p>
+In the notrump contract, it serves to ensure that West holds the heart
+honor at the end position.  It can only do that if West is on opening
+lead.
+</p><p>
+In the spade contract, the heart suit denies East a later entry
+when declared by North.  Declarer can ensure that any heart
+lost will be lost to West.  For timing reason, the
+defense must get their heart trick before attacking diamonds,
+but diamonds can only be profitably attacked by East.
+So the heart suit here works in conjunction with the more traditional
+diamond suit guard.
+</p><p>
+In five clubs, that diamond guard carries the full weight of the
+contract.  It seems perverse that the non-material heart guard
+is necessary to make nine tricks in notrump or ten tricks in spades,
+but that the diamond guard alone is all that is needed to ensure
+eleven tricks in clubs.
+</p>
+</body>
+</article>

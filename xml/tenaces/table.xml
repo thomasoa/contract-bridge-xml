@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<book xmlns="http://www.thomasoandrews.com/xmlns/bridge" dest="tenaces">
+<booktitle>Double Asymmetries</booktitle>
+<author email="bridge@thomasoandrews.com">Thomas Andrews</author>
+<copyright>2000-2009</copyright>
+<article href="menacei"/>
+<article href="menace1"/>
+<article href="menace9" tag="New!"/>
+<article href="menace12" tag="New!"/>
+<article href="menace2"/>
+<article href="menace3"/>
+<article href="menace4"/>
+<article href="menace7"/>
+<article href="menace8"/>
+<article href="menace6"/>
+<article href="menace10" tag="New!"/>
+<article href="menace13" tag="New!"/>
+<article href="menace14" tag="New!"/>
+<article href="menace5"/>
+</book>

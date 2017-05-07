@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Major Pain</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="AQT762" he="Q763" di="AQ" cl="A"/>
+<hand seat="W"  sp="K98" he="K98" di="JT63" cl="J83"/>
+<hand seat="E"  sp="J5" he="J43" di="8752" cl="T762"/>
+<hand seat="S" sp="43" he="AT5" di="K94" cl="KQ954"/>
+</diagram>
+<!--
+          S: AT762
+          H: Q76
+          D: AQ
+          C: -
+ S: K9             S: J
+ H: 98             H: J4
+ D: JT63           D: 8752
+ C: J8             C: T76
+          S: 4
+          H: A5
+          D: K94
+          C: KQ95
+-->
+<!--
+          S: AQT762
+          H: Q763
+          D: AQ
+          C: A
+ S: K98            S: J5
+ H: K98            H: J42
+ D: JT63           D: 8752
+ C: J83            C: T762
+          S: 43
+          H: AT5
+          D: K94
+          C: KQ954
+-->
+<p>Only South can make slam in spades, clubs, and notrump.  If East is on lead against these contracts, then
+a heart lead sets up the heart king, and in each contract, declarer must lose a trick in spades or clubs to make
+the slam, at which point, the defense could take their heart trick.</p>
+<p>On the other hand, the heart slam only makes when declared by North.</p>
+<p>The problem is that South's hand is very shy of entries.</p>
+<p>If South declares <contract code="6H"/>, west leads a spade.  Declarer finesses the queen, cashes dummy's club ace, then leads a trump to the ten.</p>
+<p>West wins the king, and continues spades, and now declarer is tangled up.  He'd like to ruff a small club in dummy, but there is only one entry to his hand.</p>
+<diagram id="start">
+<hand seat="N" sp="T762" he="Q76" di="AQ" cl=""/>
+<hand seat="W" sp="K" he="98" di="JT63" cl="J8"/>
+<hand seat="E" sp="" he="J4" di="8752" cl="T76"/>
+<hand seat="S" sp="" he="A5" di="K94" cl="KQ95"/>
+</diagram>
+<p>But why is this spade lead better than a passive minor lead?</p>
+<p>If West leads a minor, then the position ends up:</p>
+<diagram id="start">
+<hand seat="N" sp="AT762" he="Q76" di="AQ" cl=""/>
+<hand seat="W" sp="K9" he="98" di="JT63" cl="J8"/>
+<hand seat="E" sp="J" he="J4" di="8752" cl="T76"/>
+<hand seat="S" sp="4" he="A5" di="K94" cl="KQ95"/>
+</diagram>
+<p>Now oddly, the additional entry to North's hand makes all the difference.</p>
+<p>Declarer plays the queen and ace of hearts, then ruffs a club in north, plays the ace of diamonds and overtakes the queen and runs clubs leading to this position:</p>
+
+<diagram id="start">
+<hand seat="N" sp="AT^7" he="" di="" cl=""/>
+<hand seat="W" sp="K9" he="" di="J" cl=""/>
+<hand seat="E" sp="J" he="" di="87" cl=""/>
+<hand seat="S" sp="4" he="" di="9" cl="^5"/>
+</diagram>
+<p>West is caught in a positional squeeze.</p>
+<p>Obviously, if North is declaring <contract code="6H"/> the spade lead does not work, because it blows up the suit.</p>
+</body>
+</article>

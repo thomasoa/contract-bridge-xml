@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Untitle IV</title>
+<!--
+#
+# GIB Input
+#
+n A62.KQ982.765.J2
+e 54.A73.KJT94.863
+s 973.J.A832.KQ974
+w KQJT8.T654.Q.AT5
+#
+# iDeal Input
+#
+North A62 KQ982 765 J2
+East 54 A73 KJT94 863
+South 973 J A832 KQ974
+West KQJT8 T654 Q AT5
+-->
+<!-- level 2 - hearts, diamonds -->
+<body>
+<diagram id="start">
+<hand seat="N" sp="A62" he="KQ982" di="765" cl="J2"/>
+<hand seat="W"  sp="KQJT8" he="T654" di="Q" cl="AT5"/>
+<hand seat="E"  sp="54" he="A73" di="KJT94" cl="863"/>
+<hand seat="S" sp="973" he="J" di="A832" cl="KQ974"/>
+</diagram>
+<h2>Notrump</h2>
+<p>If East/West declare notrump, the defense starts with 
+a heart.  If East ducks the heart, North/South set up
+four clubs, and have a heart, a spade, a diamond and four
+clubs.  So East must win.
+</p><p>
+Attacking diamonds is useless, because East has no entry -
+South just wins the first diamond and sets up clubs.
+</p><p>
+So East must attack spades.  North wins the first spade,
+takes a high heart, then attacks clubs.
+West can win and take four spades, but those are his last
+tricks.  North/South get a spade, a heart, a diamond and
+four clubs.
+</p>
+<p>If North/South declare notrump, the defense is much
+the same, with the suits reversed - East/West attack
+diamonds, and South must win, or East/West shift to
+spades, setting up four spade tricks, plus a trick in
+each suit.
+</p><p>
+If South attacks clubs, West wins the second, then shifts
+to the <spade card="K"/>.  If North ducks, West leads
+a heart to East's ace and East takes four diamonds for
+a total of seven tricks.  So North must win the spade, but
+now is stuck with no entry to the good clubs, and the heart
+suit un-established.
+</p><p>
+So, after winning the first trick, South could lead only
+one club, then shift to hearts.  East wins, cashes
+one diamond (West pitching a club) and exits a spade:
+<diagram original="start">
+<hand seat="N" sp="A62" he="KQ98" di="6" cl="2"/>
+<hand seat="W"  sp="^KQJT8" he="T65" di="" cl="A"/>
+<hand seat="E"  sp="^54" he="73" di="JT9" cl="86"/>
+<hand seat="S" sp="97^3" he="" di="83" cl="KQ97"/>
+</diagram>
+If North ducks or wins, it doesn't matter, he has only
+two heart tricks along with his earlier diamond ace
+and club.
+</p>
+<h2>Spades</h2>
+<p>If North/South declare spades, East/West start with
+spades until North wins.  The best North can do is win
+the second spade.
+</p>
+<h2>Hearts</h2>
+<h2>Diamonds</h2>
+<h2>Clubs</h2>
+</body>
+</article>

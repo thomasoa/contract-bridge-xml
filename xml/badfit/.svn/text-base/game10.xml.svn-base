@@ -1,0 +1,46 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Matchpoint Top</title>
+<date>05/18/2008</date>
+<body>
+<diagram id="start">
+<hand seat="N" sp="2" he="AJ32" di="KJ54" cl="AKT2"/>
+<hand seat="W"  sp="AT865" he="6" di="QT97" cl="Q94"/>
+<hand seat="E"  sp="J4" he="KQT75" di="632" cl="J73"/>
+<hand seat="S" sp="KQ973" he="984" di="A8" cl="865"/>
+</diagram>
+<!--
+          S: 2
+          H: AJ32
+          D: KJ54
+          C: AKT2
+ S: AT865          S: J4
+ H: 6              H: KQT75
+ D: QT97           D: 632
+ C: Q94            C: J73
+          S: KQ973
+          H: 984
+          D: A8
+          C: 865
+
+-->
+<p>North/South can make nine tricks in notrump, but their best contract is <contract code="4S"/> by South.</p>
+<p>Say West leads his stiff heart.</p>
+<p>North wins, takes the ace of diamonds, diamond finesse, and the diamond king, pitching a club.  A diamond ruff, overruffing East if necessary, followed by two top clubs and a club ruff.  West remains with only spades, so South leads a heart and West ruffs low leading to this position (assuming East ruffed ahead of you with the <card code="SJ"/> at some point:)</p>
+<diagram>
+<hand seat="N" sp="2" he="J3" di="" cl="T"/>
+<hand seat="W"  sp="AT86" he="" di="" cl=""/>
+<hand seat="E"  sp="4" he="KQT" di="" cl=""/>
+<hand seat="S" sp="K97" he="9" di="" cl=""/>
+</diagram>
+<p>West has to let you score two trump tricks, one now, and one when you lead a heart again.</p>
+<p>That's on top of three diamonds, two clubs, a heart, and two minor suit ruffs.</p>
+<p>If East doesn't ruff the fourth diamond (or third club after pitching on the fourth diamond,) then the end position is:</p>
+<diagram>
+<hand seat="N" sp="2" he="J3" di="" cl="T"/>
+<hand seat="W"  sp="AT86" he="" di="" cl=""/>
+<hand seat="E"  sp="J4" he="KQ" di="" cl=""/>
+<hand seat="S" sp="KQ9" he="9" di="" cl=""/>
+</diagram>
+<p>Again West has to give you two of your three remaining trumps.</p>
+</body>
+</article>

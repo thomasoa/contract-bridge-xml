@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Untitled I</title>
+<!--
+GIB Input
+n KJ96.T6.Q743.AT2
+e A82.J5.AKJ2.K643
+s Q4.AK973.T9.9875
+w T753.Q842.865.QJ
+-->
+<!-- level 2 - spades, clubs -->
+<body>
+<diagram>
+<hand seat="N" sp="KJ96" he="T6" di="Q743" cl="AT2"/>
+<hand seat="W"  sp="T753" he="Q842" di="865" cl="QJ"/>
+<hand seat="E"  sp="A82" he="J5" di="AKJ2" cl="K643"/>
+<hand seat="S" sp="Q4" he="AK973" di="T9" cl="9875"/>
+</diagram>
+<b>INCOMPLETE</b>
+<h2>Notrump</h2>
+<h2>Spades</h2>
+<h2>Hearts</h2>
+<h2>Diamonds</h2>
+<h2>Clubs</h2>
+<p>If North/South are on lead, South cashes two top hearts and leads
+    a third heart, with North ruffing with the <club card="T"/>.  East can't
+    do any good by over-ruffing, so he pitches a spade.  North leads a spade
+    which East ducks, South winning the queen and leads another heart,
+    North ruffing with the <club card="2"/>, and East overruffing.</p>
+</body>
+</article>

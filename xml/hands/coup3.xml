@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Use It or Lose It</title>
+<date>July 13, 1997</date>
+<body>
+<diagram>
+<header>
+<dealer>South</dealer>
+<vul>Both</vul>
+<scoring>Matchpoints</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+<!-- MP-27.423 -->
+</header>
+<hand seat="N" sp="QJT8" he="97" di="AT" cl="KQJ92"/>
+<hand seat="W"  sp="752" he="6" di="KQ9742" cl="864"/>
+<hand seat="E"  sp="943" he="KJT53" di="63" cl="AT5"/>
+<hand seat="S" sp="AK6" he="AQ842" di="J85" cl="73"/>
+</diagram>
+<auction dealer="S">
+<call code="1H"/>
+<call code="3D"/>
+<call code="X"/>
+<call code="P"/>
+
+<call code="3H"/>
+<call code="P"/>
+<call code="4H"/>
+<call code="X"/>
+
+<call code="P"/>
+<call code="P"/>
+<call code="P"/>
+<!--
+South   West    North   East
+1H      3D      Dbl     Pass
+3H      Pass    4H      Double
+All Pass
+-->
+</auction>
+<hr/>
+<p>
+It would be hard not to double with East's hand, given that partner
+has made a vulnerable preempt and East has what looks like three tricks
+in hand.
+</p><p>
+West led the <diamond card="K"/>, and declarer, Jeff Miller (OldProf on
+OKbridge,) won the ace in dummy and led the <heart card="7"/>, ducked
+all around.  The <heart card="9"/> was then lead, again ducked all
+around, West pitching a diamond.  
+</p><p>
+Jeff then led a high club off dummy, and East won. East then led a
+diamond, and ruffed a diamond, leading to:
+<diagram>
+<hand seat="N" sp="QJT8" he="" di="" cl="QJ9"/>
+<hand seat="W"  sp="752" he="" di="97" cl="86"/>
+<hand seat="E"  sp="943" he="KJ" di="" cl="T5"/>
+<hand seat="S" sp="AK6" he="AQ8" di="" cl="7"/>
+</diagram>
+</p><p>
+East exited a spade, and declarer won in hand, played a club to the queen,
+ruffed the <club card="J"/>, and then ran the spades.   East was
+caught in a coup, forced to ruff in front of declarer's ace-queen.
+Somehow, with all those beautiful trumps, she managed to only score
+one of them.
+</p><p>
+East can score two trump tricks by expending a high trump early.  Why?
+Well, notice that when East got her diamond ruff, she was down to
+king-jack-ten in trumps, so she was ruffing with one of the high cards, anyway.
+By covering the <heart card="7"/>, she forces South to use a higher
+trump, and she can ruff the diamond with one of her low trumps.
+</p></body>
+</article>

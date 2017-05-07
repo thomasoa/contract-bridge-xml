@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Trading Options</title>
+<body>
+<diagram>
+<header>
+<dealer>East</dealer>
+<vul>N/S</vul>
+<scoring>Matchpoints</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source> 
+<!-- (MP-25.284, 1996) -->
+</header>
+<hand seat="N" sp="J96" he="A96" di="KT7" cl="AK75"/>
+<hand seat="W"  sp="Q72" he="J85" di="QJ53" cl="T43"/>
+<hand seat="E"  sp="AT853" he="T" di="82" cl="QJ962"/>
+<hand seat="S" sp="K4" he="KQ7432" di="A964" cl="8"/>
+</diagram>
+<hr/>
+<p>
+Some pairs managed to bid these hands up to <contract code="6H"/>, but the pair I watched
+had an auction that got them to <contract code="5H"/>.
+</p><p>
+West led a spade.  East played the ace and switched to a diamond.
+</p><p>
+Declarer won the <diamond card="A"/>, drew trumps, cashed the 
+<club cards="AK"/> pitching a diamond, and ruffed a club.  After
+cashing the <spade card="K"/>, declarer then ran his remaining
+trumps, to this position: 
+<diagram>
+<hand seat="N" sp="J" he="" di="KT" cl=""/>
+<hand seat="W"  sp="Q" he="" di="QJ" cl=""/>
+<hand seat="E"  sp="T85" he="" di="" cl=""/>
+<hand seat="S" sp="" he="^4" di="96" cl=""/>
+</diagram>
+West is squeezed on the last heart.
+</p><p>
+By playing the <spade card="A"/>, East rectified the count for declarer,
+as well as ensuring that his partner had the only spade guard.
+</p><p>
+But if East plays the <spade card="T"/> on the first trick, declarer
+could cash the top clubs, pitching his spade loser, then cash the
+trump king, followed by three rounds of diamonds. Whatever West does,
+he can't keep declarer from ruffing the fourth diamond in dummy, making 6.
+</p><p>
+But that is not necessarily the best play - it might be right for
+declarer to play two rounds of trumps before conceding the diamond -
+in fact, I think that is technically the right play, because it makes
+the contract whenever the hearts are split 2-2 or diamonds are split
+3-3, but also when the diamonds are 4-2 and the doubleton  includes
+an honor.  This better line fails here, with West winning the third
+diamond and continuing a trump.  Declarer cannot now ruff the last
+diamond in dummy.
+</p><p>
+So East's blind play of the <spade card="A"/> left declarer only one
+rather low-probability chance to make the contract, and it worked. 
+The play of the <spade card="T"/> on the first trick would give
+declarer some options, with only the lower-percentage option working.
+</p><p>
+Not that I think I would have played the East hand differently - I
+don't think I could have found this duck.
+</p><p>
+Here are the results on this board:
+<pre>
+(1-6)    6H     N    +6   1430        90.00%
+(7)      6S-X   W    -6   1400        76.00%
+(8-9)    4H     N    +7    710        70.00%
+(10)     4H     N    +6    680        64.00%
+(11)     3NT    S    +5    660        60.00%
+(12-19)  4H     N    +5    650        40.00%
+(20)     5H     N    +5    650        40.00%
+(21-22)  4H     N    +4    620        18.00%
+(23-26)  6H     N    -1   -100         6.00%
+</pre>
+</p>
+</body>
+</article>

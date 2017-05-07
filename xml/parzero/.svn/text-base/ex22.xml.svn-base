@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Sneak Attacks</title>
+<!--
+#
+# GIB Input ( http://www.gibware.com/ )
+#
+n Q4.AQJ32.J953.T5
+e 975.98765.A.AKQ4
+s AKJ86..T84.98763
+w T32.KT4.KQ762.J2
+#
+# iDeal Input ( http://bridge.thomasoandrews.com/iDeal/notes.html )
+#
+north is {Q4 AQJ32 J953 T5}
+east is {975 98765 A AKQ4}
+south is {AKJ86 - T84 98763}
+west is {T32 KT4 KQ762 J2}
+-->
+<!-- level 1 - diamonds -->
+<body>
+<diagram id="base">
+<hand seat="N" sp="Q4" he="AQJ32" di="J953" cl="T5"/>
+<hand seat="W"  sp="T32" he="KT4" di="KQ762" cl="J2"/>
+<hand seat="E"  sp="975" he="98765" di="A" cl="AKQ4"/>
+<hand seat="S" sp="AKJ86" he="" di="T84" cl="98763"/>
+</diagram>
+
+<h2>Notrump</h2>
+<p>
+With East/West on lead, they can unblock the diamond ace, cross to
+the club jack, take two more diamonds, and three more clubs.
+</p><p>
+But North/South can only take six top tricks. How do they stop
+East/West from taking seven tricks? They take the top five spades,
+North pitching two hearts and a club, then South exits a club.
+</p><p>
+This sneak attack in the opponents' club suit forces East/West to
+spend one club entry or another before the diamond ace is unblocked.
+If West plays low, East winning, then East can unblock the diamond
+and cross to the club jack for two more diamonds, but then they
+can't cash the remaining two clubs. If West wins, he has used his
+club entry before East has unblocked the diamond ace.
+</p><p>
+Either way, North/South get two more tricks, either a diamond and a
+heart, or two hearts. 
+</p>
+<h2>Spades</h2>
+
+<p>With East/West on defense, they unblock the diamond ace, cross to
+the club jack, and take two more top diamonds. Now West must shift
+to a spade, another attack in an a strong suit held by the opponents.
+</p><p>South's spades are strong enough that he can afford to ruff a club
+in dummy with the queen for his seventh tricks, but this spade lead
+lets the defense prevent it. North appears to have a diamond trick
+established, but there in no entry to the North hand after drawing
+trumps, and East just ruffs if North plays the diamond before trumps
+are drawn.
+</p><p>
+If East/West get into an unlikely spade contract, North/South just
+defend as they defend against notrump, running five spades and
+exiting in clubs.
+</p>
+<h2>Hearts</h2>
+<p>If North/South declare hearts, the defense starts as usual - diamond
+ace, club to the jack, two more top diamonds. Then West leads a
+club to East, and East leads a third round of the suit, West ruffing
+high, establishing a third trump trick for the defense.
+</p><p>
+If East/West declarer hearts, the defense starts with three top
+spades, North pitching a club. When South leads a fourth spade,
+North pitches his last club:
+</p>
+<diagram original="base">
+<hand seat="N" sp="" he="AQJ32" di="J953" cl="^T"/>
+<hand seat="W"  sp="" he="KT4" di="KQ762" cl="J2"/>
+<hand seat="E"  sp="" he="98765" di="A" cl="AKQ4"/>
+<hand seat="S" sp="^J8" he="" di="T84" cl="98763"/>
+</diagram>
+<p>Pitching the clubs has severed the East/West hands almost completely.
+</p><p>
+If East/West try to avoid giving North two club ruffs with his
+small trumps, they are stuck leading hearts and diamonds. On heart
+leads, declarer gets three natural heart tricks (with the king
+onside) and every time exits in diamond. If East ruffs the fourth
+diamond (which will be good,) that sets up a long heart in the
+North hand.
+</p>
+<h2>Diamonds</h2>
+<p>
+With East/West declaring in diamonds, the defense starts with a
+spade to the queen, <heart card="A"/>, heart ruff, two more top spades,
+North pitching a club, and a fourth spade at this position:
+</p>
+<diagram original="base">
+<hand seat="N" sp="" he="QJ3" di="J953" cl="^T"/>
+<hand seat="W"  sp="" he="K" di="KQ762" cl="J2"/>
+<hand seat="E"  sp="" he="987" di="A" cl="AKQ4"/>
+<hand seat="S" sp="^J8" he="" di="T8" cl="9876"/>
+</diagram>
+<p>North pitches a club whatever East/West do. The defense has taken
+five tricks, and North has a natural trump trick coming, so they
+just need one more trick. If East ruffs the spade with the diamond
+ace, that promotes a second trick for North. Bad plan.  Similarly
+if West ruffs high.  So West must ruff low.
+</p><p>
+West can't lead a heart (it gives South another ruff) or a club
+(North ruffs and gives South a ruff) so he must lead a diamond,
+but then East is stuck leading clubs or hearts, and the defense
+scores its seventh trick.
+</p><p>
+The position above is interesting. If West ruffs low and North
+chooses to overruff, East ruffs with the ace, crosses to the club
+jack (since North still has one), takes two top diamonds and exits
+a diamond, retaining a club entry still left to East and no more
+losers. Only the club pitch works here.
+</p><p>
+If North/South declare diamonds, the defense starts with a diamond
+to the ace, a club back to the jack, two more top diamonds and and
+then more clubs. Whenever North ruffs, West is left with two small
+trumps, and the defense ultimately takes five diamonds and two
+clubs.</p>
+
+<h2>Clubs</h2>
+<p>
+If North/South declare clubs, the defense attacks in its usual
+fashion - diamond ace, club to jack, two top diamonds, and three
+more clubs.</p>
+<p>
+If East/West declare clubs, the defense starts with two top spades,
+a spade ruff, the heart ace, South pitching a diamond, and finally
+the <em>club ten</em>.</p>
+<diagram original="base">
+<hand seat="N" sp="" he="QJ32" di="J953" cl="^T"/>
+<hand seat="W"  sp="" he="KT" di="KQ762" cl="K2"/>
+<hand seat="E"  sp="" he="9876" di="A" cl="AKQ4"/>
+<hand seat="S" sp="J8" he="" di="T8" cl="98763"/>
+</diagram>
+<p>This has the usual affect of forcing East/West to win a club entry early,
+but it seems like East/West should be able to make seven tricks some way.
+How will North/South manufacture three tricks?
+</p><p>
+Say East wins in hand, cashes the diamond ace, and leads a heart.
+South doesn't take the bait, and instead pitches his last diamond
+and West is wins the king to this position:
+</p>
+<diagram original="base">
+<hand seat="N" sp="" he="QJ3" di="J95" cl=""/>
+<hand seat="W"  sp="" he="T" di="KQ76" cl="J"/>
+<hand seat="E"  sp="" he="987" di="" cl="KQ4"/>
+<hand seat="S" sp="J8" he="" di="" cl="9876"/>
+</diagram>
+<p>If West plays a top diamond, South ruffs and exits a club. On a second
+top diamond, South ruffs again and exits a spade, East force to ruff high.
+</p><p>Other lines are similar.</p>
+<h2>Complexity</h2>
+<p>This is another complexity three deal, with only the diamonds suit being
+par-zero on its own.</p>
+</body>
+</article>

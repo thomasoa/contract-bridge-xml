@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Introduction</title>
+<body>
+<p>This set of documents shows what the inputs and outputs look like in my
+XML/XSL/CSS documents.</p>
+<p>
+The XSL processing converts the documents to HTML - this amounts to
+creating tables for hand diagrams and auctions, converting codes like "2H" to
+<call code="2H"/>, deciding whether to put white-spaces in holdings,
+etc.  The resulting HTML generated has plenty of <em>class</em>
+attributes added to the  &lt;div>, &lt;p>, and &lt;span> tags which
+makes additional formatting customization via Cascading Style Sheets
+(CSS) possible.  These documents are using my <link
+rel='onsite' href="/deals/article.css">article.css.</link> Most issues
+like font sizes, colors and backgrounds are left to the CSS.  I could,
+for example, make the diamond and heart symbols black with a simple
+change to the CSS. 
+</p>
+<p> Many of the formatting decisions I've made are based on the 
+recommendations in Richard Pavlicek's 
+<link href="http://www.rpbridge.net/7z69.htm">Bridge Writing Style
+Guide</link>.   The goal is to make the input XML document simple,
+human-writable and readable, and use the XSL to enforce the output
+standard where possible.   So, while the input documents use
+<code>T</code> for the 10-spot,  the XSL writes out "10."  And while
+the input has no spaces between cards in holdings, as in 
+<code>QT654</code>, the XSL prints <holding cards="QT654"/> in
+paragraph contexts - seperating cards with spaces in diagrams ala:
+<diagram>
+<hand seat="N" sp="AKQ" he="JT987" di="65432" cl=""/>
+<hand seat="S" sp="T98" he="AKQ" di="J7" cl="65432"/>
+</diagram>
+</p>
+<p>Other style decisions I made on my own.  For example, when red suit 
+symbols occur in paragraphs, I've chosen to make them slightly darker 
+than the red that occurs in diagrams because I find that the bright
+red in the middle of paragraphs interrupts the "flow" to the eye.
+This can be adjusted in the Cascading Style Sheet easily.  The color
+I've settled on is 20% darker than pure red.
+</p>
+<p>Style sheets for auction tables still do not handle one-sided
+auctions - I'd like the &lt;auction> tag to take an attribute which
+flags the auction as one-sided (not necessarily uncontested, but
+perhaps with only a few bids.)
+</p>
+<p>
+The goal is for the XML to represent possible bridge events, and have the
+XSL do transformations for presentation purposes.  So the writer would
+write three passes rather than "All Pass."  If the XSL formatter finds a 
+situation where "All Pass" is an appropriate substitution, it can make
+the substitution.  <em>Note, not all instances if three passes, or even four
+passes, represent the end of an auction, if there has been a pass out of 
+turn. This makes the XSL somewhat complicated.</em>
+</p>
+<h2>Terms</h2>
+<p>These definitions may seem pedantic, but sometimes the words are
+used less precisely.</p>
+<dl>
+<dt>Seat</dt>
+<dd>One of the seats in an auction or card diagram.  When in an XML
+'seat' attribute, it can be one of 'E', 'W', 'N', or 'S'.  For
+example, <nobr><code>&lt;call seat='W' code='2S'/></code>.</nobr>
+In the middle of an auction with no dealer seat specified, the seat
+can be one of 'dealer', 'LHO', 'partner', or 'RHO.'</dd>
+<dt>Hand</dt>
+<dd>References the cards being held by a particular player.  This can
+be either 13 cards at the start of a deal, or some lesser number,
+representing a later state in the play.</dd>
+<dt>Deal</dt>
+<dd>A deal is distribution of 52 cards to four hands in each seat.</dd>
+<dt>Board</dt>
+<dd>A board is a deal in the context of a competition - information
+like the dealer, vulnerability, partscore (in rubber bridge),
+etc.</dd>
+<dt>Play Record</dt>
+<dd>The details of a played board - might include players, auction,
+contract, cards played.</dd>
+</dl>
+<h2>Download</h2>
+<p>You can <link rel='onsite' href="/xml/BridgeML.zip">download the XML and
+XSL [1.7Mb]</link>
+which is used to generate my bridge articles, including these test documents.
+This zip file includes the Java class files fo Xalan-Java 2. 
+You need Java 1.2 or 1.3 installed to use the XSL scripts.
+</p>
+
+</body>
+</article>

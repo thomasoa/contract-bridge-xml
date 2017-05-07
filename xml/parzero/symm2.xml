@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<article xmlns:html="http://www.w3.org/TR/REC-html40"
+	 xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>More Wastage</title>
+<body>
+<diagram>
+<hand seat="N" sp="AKQ987" he="J654" di="" cl="T32"/>
+<hand seat="W"  sp="T32" he="AKQ987" di="J654" cl=""/>
+<hand seat="E"  sp="J654" he="" di="T32" cl="AKQ987"/>
+<hand seat="S" sp="" he="T32" di="AKQ987" cl="J654"/>
+</diagram>
+<p>
+<h2>Spades</h2>
+Against spades (declared by South) West starts with <heart cards="AKQ"/>,
+then a heart, ruffed by East.  East then cashes his <club cards="AKQ"/>, then
+leads another club, West ruffing with the <spade card="T"/>, which promotes the
+<spade card="J"/> in East's hand, giving the
+defense eight tricks.
+</p><h2>Hearts</h2><p>
+Against hearts, West leads the <heart cards="AKQ"/> then exits
+in hearts to North.  North can take three spades, but has to give
+East an entry, and the defense gets five hearts and three clubs.
+</p><h2>Diamonds</h2><p>
+Against diamonds, West starts with two top hearts, then a heart ruff by East,
+and three top clubs, followed by a club ruff and a fourth heart, ruffed
+by East with the ten - essentially the same promotion as when defending the
+spade contract.
+</p><h2>Clubs</h2><p>
+Against clubs, the defense takes three hearts, East pitching diamonds, then
+a diamond ruff and three top clubs, ensuring East/West score five trumps
+and three hearts.
+</p><h2>Notrump</h2><p>
+Against notrump, West starts with three top hearts, East pitching diamonds,
+West then exits a heart to North, and both North and East have only
+black suits.  East eventually gets three clubs and a spade, for a total
+of six tricks.
+</p>
+</body>
+</article>

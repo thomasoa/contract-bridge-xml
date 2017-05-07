@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A First Look</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="J2" he="AK97" di="AQJ4" cl="J96"/>
+<hand seat="W"  sp="64" he="T653" di="KT975" cl="AQ"/>
+<hand seat="E"  sp="A93" he="QJ42" di="82" cl="8753"/>
+<hand seat="S" sp="KQT875" he="8" di="63" cl="KT42"/>
+</diagram>
+<p>
+In this example of double asymmetry, North/South might consider game in
+either spades or notrump.
+</p>
+<h2>Spades</h2>
+<p>
+If South declares the <contract code="4S"/> contract, all is well - 
+the opponents will get their three black winners and no more.
+</p><p>
+If North declares <contract code="4S"/>, though, the club lead sets it,
+because the defense gets two clubs, the trump ace, and a club ruff.
+</p>
+<h2>Notrump</h2>
+<p>
+South cannot make <contract code="3N"/> on a heart lead
+from West.  Twist and turn as he might, he cannot avoid losing two
+hearts, two clubs, and a spade before he can run his nine apparent
+tricks.
+</p><p>
+On the other hand, if North declares in <contract code="3N"/>, he cannot be set
+by a heart or any other lead.
+</p><p>
+On a low heart lead, North wins West's <heart card="T"/> with the ace, and
+leads the <spade card="J"/>. East has to duck this, to keep declarer
+from running five spades when he gets in next.  North continues with a
+spade and East can safely win this trick, leading to this position:
+<diagram source="start">
+<hand seat="N" sp="" he="K97" di="AQJ4" cl="J96"/>
+<hand seat="W"  sp="" he="653" di="KT975" cl="AQ"/>
+<hand seat="E"  sp="9" he="QJ4" di="82" cl="8753"/>
+<hand seat="S" sp="KQT8" he="" di="63" cl="KT42"/>
+</diagram>
+</p>
+<p>
+East cannot attack hearts himself here, because that would give declarer
+a third stopper. So he has to lead a club to West's queen.
+</p>
+<p> West continues with a heart, ducked to East, and East again cannot lead 
+hearts, holding <holding cards="H:Q4"/> and North holding <holding cards="H:K7"/>.  West gets in one more time
+to lead hearts, but North still has the <heart card="K"/>, and the defense
+fails to collect its five tricks before declarer makes his nine.
+</p>
+</body>
+</article>

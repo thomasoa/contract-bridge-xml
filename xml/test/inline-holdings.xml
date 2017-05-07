@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Cards and Holdings</title>
+<body>
+<test title="Cards - 1">
+<testbody>
+<p>All cards:
+    <spade card="A"/>, <spade card="K"/>, <spade card="Q"/>,
+    <spade card="J"/>, <spade card="T"/>, <spade card="9"/>,
+    <spade card="8"/>, <spade card="7"/>, <spade card="6"/>,
+    <spade card="5"/>, <spade card="4"/>, <spade card="3"/>,
+    <spade card="2"/>,
+    <heart card="A"/>, <heart card="K"/>, <heart card="Q"/>,
+    <heart card="J"/>, <heart card="T"/>, <heart card="9"/>,
+    <heart card="8"/>, <heart card="7"/>, <heart card="6"/>,
+    <heart card="5"/>, <heart card="4"/>, <heart card="3"/>,
+    <heart card="2"/>,
+    <diamond card="A"/>, <diamond card="K"/>, <diamond card="Q"/>,
+    <diamond card="J"/>, <diamond card="T"/>, <diamond card="9"/>,
+    <diamond card="8"/>, <diamond card="7"/>, <diamond card="6"/>,
+    <diamond card="5"/>, <diamond card="4"/>, <diamond card="3"/>,
+    <diamond card="2"/>,
+    <club card="A"/>, <club card="K"/>, <club card="Q"/>,
+    <club card="J"/>, <club card="T"/>, <club card="9"/>,
+    <club card="8"/>, <club card="7"/>, <club card="6"/>,
+    <club card="5"/>, <club card="4"/>, <club card="3"/>,
+    <club card="2"/>.
+</p>
+</testbody>
+<testnote>
+Note, a card is represented by a suit name followed by a space and
+the denomination.  Line breaks should not occur in the middle
+of a card.  Tens are represented as '10' in the output.  There should be no
+space after the card. Also, when your mouse hovers over a card, (most?) browsers will put up a tool tip with the long name of the card (e.g., "spade jack.")
+</testnote>
+</test>
+
+<test title="Cards - 2">
+<testbody>
+Alternatively, you can use the <em>card</em> tag - for
+example
+     <card code="SA"/> or <card code="HT"/>
+- to represent a card.
+</testbody>
+<testnote>
+I'm not sure which is better, but I thought I'd give some
+flexibility.
+</testnote>
+</test>
+
+<test title="Suit Holdings">
+<testbody>
+<p>I held <spade cards="AJT43"/>, which
+is the same as <holding cards="S:AJT43"/>.</p>
+<p>I can also write a holding without a suit,
+such as <holding cards="KJT9642"/>.</p>
+<p>A void is represented as <holding cards=""/>, or,
+when with a suit, <holding cards="S:"/>.  Suit tags
+can be used similarly: <diamond cards=""/>.</p>
+</testbody>
+<testnote>
+There are two seperate ways of writing a holding, with the &lt;holding> tag
+or with one of the suit tags.  Formatted with hyphens between cards, per
+Pavlicek.  With the suit tags, note that the attribute <em>cards</em>
+is plural when representing holdings, even when representing a holding
+of one card or a void.
+</testnote>
+</test>
+</body>
+</article>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Repeated Promotion</title>
+<!--
+#
+# GIB Input ( http://www.gibware.com/ )
+#
+n AKQT.T985.Q3.932
+e J8653.64.9872.K6
+s 9.J73.AKJ65.J754
+w 742.AKQ2.T4.AQT8
+#
+# iDeal Input ( http://bridge.thomasoandrews.com/iDeal/notes.html )
+#
+north is {AKQT T985 Q3 932}
+east is {J8653 64 9872 K6}
+south is {9 J73 AKJ65 J754}
+west is {742 AKQ2 T4 AQT8}
+-->
+<!-- level 1 - spades, hearts, clubs -->
+<body>
+<diagram id="base">
+<hand seat="N" sp="AKQT" he="T985" di="Q3" cl="932"/>
+<hand seat="W"  sp="742" he="AKQ2" di="T4" cl="AQT8"/>
+<hand seat="E"  sp="J8653" he="64" di="9872" cl="K6"/>
+<hand seat="S" sp="9" he="J73" di="AKJ65" cl="J754"/>
+</diagram>
+
+<h2>Notrump</h2>
+<p>Against notrump, North/South have three top spades and five top
+diamonds, while East/West have three hearts and four clubs (finessing
+the jack.)</p> 
+<h2>Spades</h2>
+<p>If East/West are declaring spades, North/South take three top spades then
+four top diamonds.</p>
+<p>If North/South are declaring spades, the defense starts with three hearts,
+and three clubs, East pitching two diamonds.  East gets at least one more
+trick in trumps.</p>
+
+<h2>Hearts</h2>
+<p>If North/South declare hearts, East/West run three top heart, then the 
+<club card="K"/> and a club back, finessing the jack, and two more clubs.
+On the last club, if North ruffs, West's low trump is the outstanding trump.
+If North fails to ruff, that's the defense's seventh trick.</p>
+<p>If East/West declare hearts, North/South cash two diamonds then three
+spades.  Finally, a fourth spade is ruffed high in South, promoting
+a second trump trick for North/South.</p>
+<h2>Diamonds</h2>
+<p>If North/South declare diamonds, the defense starts with three hearts
+and then four clubs.  On the fourth club, if North ruffs low, East
+overruffs, while if North ruffs high, it promotes a trump trick for the
+defense.</p>
+<p>
+If East/West declare diamonds, North/South draws trumps immediately,
+taking three spades and five diamonds total.</p>
+<h2>Clubs</h2>
+<p>If North/South declare clubs, the defense simply draws trumps and takes its
+three heart winners.</p>
+<p>
+If East/West declare clubs, North takes his three top spades, South pitching
+two hearts, and then the defense plays off top diamonds until West ruffs.
+</p>
+<diagram original="base">
+<hand seat="N" sp="T" he="T985" di="" cl="932"/>
+<hand seat="W"  sp="" he="AKQ2" di="" cl="AQT8"/>
+<hand seat="E"  sp="J8" he="64" di="98" cl="K6"/>
+<hand seat="S" sp="" he="J" di="^KJ6" cl="J754"/>
+</diagram>
+<p>
+North/South have taken only five tricks.  East/West appear to have lots of
+tricks - four clubs, three hearts, two spades.  Yet the third diamond crushes
+them.
+</p><p>If West doesn't ruff, another
+diamond lead promotes a seventh trick for the defense.
+</p><p>So West ruffs with the <club card="T"/>, promoting one long trump
+in the South hand. Now West's timing is all crossed up.  If he draws
+three rounds of trumps and then attacks hearts, South ruffs and cashes
+more diamonds.  If West instead attacks hearts immediately, South
+ruffs the second and continues diamonds, promoting a second trump
+trick.</p>
+<p>Whenever South gets in, he will be able to play another high diamond.
+If West has any more trumps, the lead promotes another trump trick for
+South, and if West has no more trumps, the diamonds are good.
+</p>
+<p>
+This deal, in clubs at least, is not really a six-plus-promotion example,
+but rather a five-plus-promotion example.
+</p>
+</body>
+</article>

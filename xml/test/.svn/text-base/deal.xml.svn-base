@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<deals xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<!-- Inputs for the tests -->
+<diagram id="1">
+<hand seat="N" sp="QT9" di="KJ" he="A8765432" cl=""/>
+<hand seat="W" sp="" di="QT9" he="KJ" cl="A8765432"/>
+<hand seat="E" sp="KJ" di="A8765432" he="" cl="QT9"/>
+<hand seat="S" sp="A8765432" di="" he="QT9" cl="KJ"/>
+</diagram>
+<diagram id="2">
+<hand seat="N" sp="Q" di="KJ" he="A8765432" cl=""/>
+<hand seat="W" sp="" di="QT" he="KJ" cl="A876543"/>
+<hand seat="E" sp="K" di="A8765432" he="" cl="T9"/>
+<hand seat="S" sp="A876543" di="" he="QT9" cl="J"/>
+</diagram>
+</deals>

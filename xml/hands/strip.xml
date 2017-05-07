@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Stripped</title>
+<body>
+<diagram>
+<header>
+<dealer>North</dealer>
+<vul>E/W</vul>
+<scoring>Matchpoints</scoring>
+<source href="http://www.accesscom.com/~unit503/">Palo Alto Bridge Club</source>
+</header>
+<hand seat="N" sp="KT74" he="6" di="T832" cl="AK98"/>
+<hand seat="W"  sp="Q862" he="T832" di="J76" cl="43"/>
+<hand seat="E"  sp="AJ5" he="KQ954" di="" cl="QJT65"/>
+<hand seat="S" sp="93" he="AJ7" di="AKQ954" cl="72"/>
+</diagram>
+<auction dealer="N">
+<call code="1C" comment="?"/>
+<call code="1H"/>
+<call code="2D"/>
+<call code="P"/>
+
+<call code="3D"/>
+<call code="P"/>
+<call code="3N"/>
+<call code="P"/>
+
+<call code="P"/>
+<call code="P"/>
+<!--
+North   East    South   West
+1C(?)   1H      2D      Pass
+3D      Pass    3NT     All Pass
+-->
+</auction>
+<hr/>
+<p>
+West led the <heart card="2"/>.  While tabling dummy,  my partner said,
+"You have a right to be mad."
+</p><p>
+What he didn't know was that I was looking at nine top tricks.
+This being a matchpoints event, it was time to start thinking about
+overtricks.
+</p><p>
+East played the <heart card="Q"/>, which I ducked.  East thought for
+a moment, then switched to the <club card="Q"/>.  I ducked again.  East
+continued with the <club card="J"/>, which I won.  I cashed my second high
+club, West showing out, and ran the diamonds.  West started with
+all three diamonds, so East had to find six pitches.
+</p><p>
+Against me, East pitched all of his hearts, perhaps playing his partner
+for the <heart card="J"/> (not unreasonable, given that West led a <em>low</em> heart,
+but then, why didn't East continue hearts after the first trick?)
+</p><p>
+But even if East pitches perfect, I can make the overtrick.  East must
+hold the <spade card="A"/> and two hearts at this end-position:
+<diagram>
+<hand seat="N" sp="KT" he="" di="" cl="9"/>
+<hand seat="E"  sp="A" he="K9" di="" cl=""/>
+<hand seat="S" sp="9" he="AJ" di="" cl=""/>
+</diagram>
+At this point, I lead a low spade from both hands, East's ace wins,
+and he must lead a heart for me to finesse.
+</p><p>
+Of course, I don't know for sure that East has the <spade card="A"/>,
+but when I run the diamonds, East will be forced to hold two hearts, and,
+if he holds the <spade card="A"/>, he with have to pitch away <em>all</em>
+of his clubs. If he doesn't hold the <spade card="A"/>, he will probably pitch away all 
+of his spades, instead.
+</p><p>
+So when East pitches all of his club, I will play him for the <spade card="A"/>,
+and nail him.  And if East was brilliant enough to pitch all of his
+clubs when he didn't hold the <spade card="A"/>, I would congratulate him on
+his fine defense, and move on.
+</p><p>
+In retrospect, I don't think much of my bidding.  Partner might well
+have the <spade card="A"/>, rather than the <spade card="K"/>, and then
+<contract code="6D"/> is cold.  Even as it is, if West has the 
+<spade card="A"/>, 6D is cold, making
+the slam close to 50%.  There is even some chance that we could miss
+an excellent grand slam.  Since partner is well shy of his opening
+bid, and slam is still 50%, I'd have to say I bid my hand timidly.
+</p>
+</body>
+</article>

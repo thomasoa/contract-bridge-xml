@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Untitled VIII</title>
+<!--
+#
+# GIB Input ( http://www.gibware.com/ )
+#
+n 9763.T4.KJ.KJ864
+e A.QJ82.9854.9532
+s JT4.A9763.AQ62.T
+w KQ852.K5.T73.AQ7
+#
+# iDeal Input ( http://bridge.thomasoandrews.com/iDeal/notes.html )
+#
+north is {9763 T4 KJ KJ864}
+east is {A QJ82 9854 9532}
+south is {JT4 A9763 AQ62 T}
+west is {KQ852 K5 T73 AQ7}
+-->
+<!-- level 2 - spades, diamonds -->
+<body>
+<diagram>
+<hand seat="N" sp="9763" he="T4" di="KJ" cl="KJ864"/>
+<hand seat="W"  sp="KQ852" he="K5" di="T73" cl="AQ7"/>
+<hand seat="E"  sp="A" he="QJ82" di="9854" cl="9532"/>
+<hand seat="S" sp="JT4" he="A9763" di="AQ62" cl="T"/>
+</diagram>
+</body>
+</article>
+

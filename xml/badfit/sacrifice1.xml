@@ -1,0 +1,78 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Trump Madness</title>
+<body>
+<diagram id="start">
+<header><vul>N-S</vul></header>
+<hand seat="N" sp="7" he="Q643" di="K2" cl="AKQJ32"/>
+<hand seat="W"  sp="963" he="KT985" di="J874" cl="6"/>
+<hand seat="E"  sp="JT852" he="A2" di="AQ" cl="T985"/>
+<hand seat="S" sp="AKQ4" he="J7" di="T9653" cl="74"/>
+</diagram>
+<p>
+If North declares <contract code="3N"/>, there is no way to set him
+- the defense can only take four red-suit tricks.  [If South was declarer, the
+defense could take a third diamond trick, holding him to eight tricks.]
+</p><p>
+So that seems to be it for the defense.  <contract code="4S"/> is a
+lousy sacrifice; the defense takes the first first three spades, followed
+by four clubs (South pitching two hearts,) and then a heart ruff.
+</p><p>
+<contract code="4H"/> can make six tricks, but again that's not good enough.  The defense
+starts with a diamond lead, and the finesse is taken.  The diamond
+ace is taken, followed by the <heart cards="AK"/> and the <heart card="T"/>
+North wins, and the defense takes their three spade tricks, North
+pitching clubs.  Finally, South leads a high diamond at this position:
+<diagram original="start">
+<hand seat="N" sp="" he="6" di="" cl="AKQJ"/>
+<hand seat="W"  sp="" he="T9" di="J8" cl="6"/>
+<hand seat="E"  sp="JT" he="" di="" cl="T98"/>
+<hand seat="S" sp="4" he="" di="^T96" cl="7"/>
+</diagram>	
+West can't get more than his two trump tricks, for a total of six
+tricks.
+</p><p>
+But East/West got one trick for playing in their seven-card fit rather
+than the eight-card fit, so perhaps the six-card fit will be worth yet
+another trick?
+</p><p>
+Indeed, the only good sacrifice on this deal is <contract code="4D"/>.
+What can North/South do?  Suppose they lead a diamond.
+Declarer wins, and exits a club.  Another diamond, won again
+in the East hand.  Declarer ruffs a club, plays the ace and king
+of hearts, cashes the the diamond jack, reaching this position:
+<diagram original="start">
+<hand seat="N" sp="7" he="Q6" di="" cl="KQJ3"/>
+<hand seat="W"  sp="963" he="T92" di="" cl=""/>
+<hand seat="E"  sp="JT852" he="" di="" cl=""/>
+<hand seat="S" sp="AKQ4" he="" di="T9" cl=""/>
+</diagram>
+Declarer exits with the <spade card="9"/>, and South can take his
+diamonds but eventually must give up a trick to the spade suit.
+South sneaks by with seven tricks for -500.
+</p><p>
+North/South can avoid this endplay by playing off four rounds 
+spades at the outset.  On the fourth round, West pitches
+a heart, and North ruffs and exits the diamond king.
+</p><p>
+Declarer wins and leads a top club, and North wins, but has no
+more trumps.  Say North exits a heart.  East wins, leads a club,
+ruffed, followed by the <heart card="K"/> and a heart ruffed (with
+the queen, and South must underruff!) Finally another club is
+led from East at this position:
+<diagram original="start">
+<hand seat="N" sp="" he="Q" di="" cl="KQ"/>
+<hand seat="W"  sp="" he="9" di="J8" cl=""/>
+<hand seat="E"  sp="J" he="" di="" cl="^T9"/>
+<hand seat="S" sp="" he="" di="T96" cl=""/>
+</diagram>
+If South ruffs with the ten or nine, West's heart is pitched.  If South
+ruffs with the six, West overruffs.  Either way, West scores both
+remaining trumps, yielding seven tricks total: two hearts, and five
+trumps.
+</p><p>
+What if the defense takes three spades then exits a diamond?
+Then declarer just plays a fourth spade, forcing North to ruff,
+and achieving the same position as before.
+</p>
+</body>
+</article>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A One-sided Blockage</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="QJ95" he="K" di="J84" cl="AJT64"/>
+<hand seat="W"  sp="KT42" he="9832" di="Q7653" cl=""/>
+<hand seat="E"  sp="63" he="75" di="AKT9" cl="Q8532"/>
+<hand seat="S" sp="A87" he="AQJT64" di="2" cl="K97"/>
+</diagram>
+<p>In this deal, <contract code="4H"/> and <contract code="4S"/> can only be made declared by South.</p>
+<p>If North declares a major game, East can lead a club, ruffed, win a diamond return, and give West another ruff.  Eventually,
+the defense gets the spade king as well.</p>
+<p>But <contract code="3N"/> can only make when declared by North.</p>
+<p>The secret here is that if West leads diamonds, the defense can successfully unblock the diamond suit.  But if East
+leads diamonds, the suit blocks, and the defense can only take four top tricks.</p>
+</body>
+</article>

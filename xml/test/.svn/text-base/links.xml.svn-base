@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Links</title>
+<body>
+<p>
+These features are not bridge-related, but I've included
+these examples just for completeness. Note that the links
+don't know whether they are opened in the same frame, the top
+frame of the current window, or a new window.  This decision is
+made in the XSL, based in whether the link is internal, part of
+my site, or external.
+</p>
+<test title="Internal Link">
+<testbody>
+<link rel='internal' href="intro">This link</link>
+should take you to the introduction of this book.
+</testbody>
+<testnote>
+The "internal" link basically means that the link is a reference 
+to another page in this same collection.  When generating PDF,
+this is converted to an internal link in the document.  In HTML,
+it loads the page in the current frame (when in a framed document.)
+</testnote>
+</test>
+
+<test title="On-Site Links">
+<testbody>
+This is a gross hack to indicate pages on my site, such as the
+<link rel='onsite' href="/deal/">Deal 3.0 page.</link>
+</testbody>
+<testnote>
+This just lets me move my site more easily - a bit of a hack.
+When generating PDF, the site location gets hard-coded.  In HTML,
+causes the document to be loaded in the top frame.
+</testnote>
+</test>
+
+<test title="External Link">
+<testbody>
+Many of the formatting decisions I've made are based on the
+recommendations in Richard Pavlicek's
+<link href="http://www.rpbridge.net/7z69.htm">Bridge
+Writing Style Guide.</link>
+</testbody>
+<testnote>
+A general link. In HTML, causes the referenced document to be 
+loaded in the top frame.
+</testnote>
+</test>
+</body>
+</article>

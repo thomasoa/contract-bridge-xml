@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Untitled XV</title>
+<!--
+#
+# GIB Input ( http://www.gibware.com/ )
+#
+n QT.9762.J53.9843
+e J762.AJT8.7642.A
+s A543.KQ4.AKQ.T62
+w K98.53.T98.KQJ75
+#
+# iDeal Input ( http://bridge.thomasoandrews.com/iDeal/notes.html )
+#
+north is {QT 9762 J53 9843}
+east is {J762 AJT8 7642 A}
+south is {A543 KQ4 AKQ T62}
+west is {K98 53 T98 KQJ75}
+-->
+<!-- level 2 - spades, clubs -->
+<body>
+<diagram>
+<hand seat="N" sp="QT" he="9762" di="J53" cl="9843"/>
+<hand seat="W"  sp="K98" he="53" di="T98" cl="KQJ75"/>
+<hand seat="E"  sp="J762" he="AJT8" di="7642" cl="A"/>
+<hand seat="S" sp="A543" he="KQ4" di="AKQ" cl="T62"/>
+</diagram>
+<h2>Notrump</h2>
+<p>
+Fundamentally, this is about the timing for the unblock in clubs.
+West's only entry to run his clubs is in spades.  East/West must
+unblock the club ace before the spade king is taken.
+</p><p>
+If North/South are declaring, then, the defense immediately takes
+the club ace, and then East leads a low spade.  If South ducks,
+the defense has five clubs, a spade and the <heart card="A"/>.
+But if South takes the trick, he is no better off.
+</p><p>
+If East/West are declaring, then South wins a diamond and immediately
+leads a low spade to the queen.  If West wins, his hand is finished,
+and declarer leads a spade to dummy's queen, leads a heart which
+East must duck, and then takes all his winners, exiting with the
+fourth spade.  East gets a long diamond, a spade, and the 
+<club card="A"/>, but must eventually lead from the
+<heart card="A"/>, giving South a second heart trick.  So West must
+duck the spade, North wins the queen, and leads a heart.  If East
+flies the ace, that sets up seven tricks for South (three diamonds,
+two spades, and two hearts.)
+</p><p>
+So East must duck.  South takes the rest of his diamonds, then plays ace
+and a spade, again killing West's entry before the clubs are unblocked.
+</p>
+</body>
+</article>

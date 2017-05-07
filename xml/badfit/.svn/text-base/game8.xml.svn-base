@@ -1,0 +1,69 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Wrong-sided III</title>
+<date>05/18/2008</date>
+<body>
+<diagram id="start">
+<header>
+<vul>None</vul>
+</header>
+<hand seat="N" sp="AKJ9" he="J7" di="T853" cl="K83"/>
+<hand seat="W"  sp="8653" he="AQ9832" di="A" cl="A4"/>
+<hand seat="E"  sp="T74" he="T64" di="J64" cl="JT75"/>
+<hand seat="S" sp="Q2" he="K5" di="KQ972" cl="Q962"/>
+</diagram>
+<!--
+None Vul
+          S: AKJ9
+          H: J7
+          D: T853
+          C: K83
+ S: 8653           S: T74
+ H: AQ9832         H: T64
+ D: A              D: J64
+ C: A4             C: JT75
+          S: Q2
+          H: K5
+          D: KQ972
+          C: Q962
+
+-->
+<p>The only game that North/South can make is <contract code="4S"/> declared by South.</p>
+<p>Clearly, no other game can make, since West always gets three aces, so minor games cannot make, and West can start hearts immediately to get 5 heart tricks and two
+aces against either a notrump or heart contract.</p>
+<p>If North declares spades, it is obvious that if East leads hearts, West can win four top tricks.  Somewhat surprisingly, though, North can actually be held to seven tricks in spades. With North declarer,
+East leads a heart, and West takes two hearts before leading a spade.  Say declarer plays low and South is forced to win with the spade queen. Now, if declarer draws trumps before leading a minor, West gets in with a minor ace to take
+his hearts.  So North ducks a diamond to West, and West now leads a heart, and North can't afford to ruff in hand, so must ruff
+in South, leading to this position:</p>
+<diagram id="start">
+<hand seat="N" sp="AKJ" he="" di="T85" cl="K8"/>
+<hand seat="W"  sp="865" he="832" di="" cl="A4"/>
+<hand seat="E"  sp="74" he="" di="J6" cl="JT75"/>
+<hand seat="S" sp="" he="" di="KQ97" cl="Q962"/>
+</diagram>
+<p>Twist and turn as he might, North can not avoid losing control from this position.</p>
+<p>So, why does <contract code="4S"/> make when declared by South?</p>
+<p>The trick is that East never gets into his hand, so the only way to force ruffs of the heart suit is for West to lead hearts.  This not only loses a trick to the <card code="HK"/>, but it also loses a <em>tempo.</em></p>
+<p>Say West leads the <card code='HA'/> and another heart. </p>
+<p>South wins the <card code='HK'/> and leads a low diamond to West's ace.</p>
+<diagram>
+<hand seat="N" sp="AKJ9" he="" di="T85" cl="K83"/>
+<hand seat="W"  sp="8653" he="9832" di="" cl="A4"/>
+<hand seat="E"  sp="T74" he="4" di="J6" cl="JT75"/>
+<hand seat="S" sp="Q2" he="" di="KQ97" cl="Q962"/>
+</diagram>
+<p>What does West lead now?</p>
+<p>On a trump lead, South wins and leads a club from hand, and West wins his ace. (Or declarer wins, draws trumps and scores a total of four trumps, a heart, four diamonds, and a club.)</p>
+<p>On lead now, West can either lead a heart or spade. On a spade, North draws trump and claim.  On a heart, South ruffs with the <card code="S2"/>, crosses to the <card code="CK"/> and claims.</p>
+<p>So maybe West should have led a heart when in with the <card code="DA"/>?</p>
+<p>In that case, South ruffs with <card code="S2"/> and leads a low club.  Again, West must win his <card code="CA"/> or it is all over, leading to this position:</p>
+<diagram>
+<hand seat="N" sp="AKJ9" he="" di="T85" cl="K"/>
+<hand seat="W"  sp="8653" he="832" di="" cl="4"/>
+<hand seat="E"  sp="T74" he="" di="J6" cl="JT7"/>
+<hand seat="S" sp="Q" he="" di="KQ97" cl="Q96"/>
+</diagram>
+<p>If West leads a spade, declarer draw trump and claims.</p>
+<p>If West leads a heart, declarer ruffs in South with the <card code="SQ"/>, crosses to the <card code="CK"/>, draws trumps and claims.</p>
+
+</body>
+</article>

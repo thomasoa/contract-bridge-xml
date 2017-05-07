@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Suit Symbols</title>
+<body>
+<test title="All of them">
+<testbody>
+<p>Spade symbol: <spade/>, heart symbol: <heart/>,
+diamond symbol: <diamond/>, and club symbol: <club/>.</p>
+</testbody>
+<testnote>
+Suit symbols can be included in any text.  These forms are
+rarely used, but can be used in some instances, for example,
+when you need a really brief description of a bid.  When writing
+out a bid, see <link rel='internal' href="inline-calls">Calls</link>.  When
+writing out a card or holding, use 
+<link rel='internal' href="inline-holdings">Cards and Holdings</link>.
+</testnote>
+</test>
+
+<test title="Don't do this">
+<testbody>
+<p>
+You could use suit symbols rather than &lt;call>,
+&lt;holding>, etc., but then the formatter will not
+know to do smart formatting things.  For example, 
+you could write out cards as: <spade/> A, <spade/> K, 
+<spade/> Q, <spade/> J, <spade/> 10, <spade/> 9,
+<spade/> 8, <spade/> 7, <spade/> 6, <spade/> 5, 
+<spade/> 4, <spade/> 3, <spade/> 2, <heart/> A, <heart/> K, 
+<heart/> Q, <heart/> J, <heart/> 10, <heart/> 9,
+<heart/> 8, <heart/> 7, <heart/> 6, <heart/> 5, 
+<heart/> 4, <heart/> 3, <heart/> 2.  But then you might
+see breaks in the middle of cards, obscuring your document.
+</p>
+</testbody>
+<testnote>
+<p>
+Other reasons to avoid this might be issues of "accessability" - you might
+want to generate a version of your document for the blind, in which
+case, you'd want to change &lt;spade card="Q"/> to the words
+"spade queen," so that the user's client could read the words out
+loud.  In XML, as a rule, you do not want to make formatting decisions
+too early, so that if you want to alter some of the overall look of your
+documents, you'd have to change every individual document.
+</p>
+<p>
+In other words, don't do this.
+</p>
+</testnote>
+</test>
+
+</body>
+</article>

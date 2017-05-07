@@ -1,0 +1,77 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Introduction</title>
+<body>
+<p>
+Every week, the oddest things happen at the bridge table.  This collection
+is devoted to exploring a specific sort of oddity - the six-card fit.
+Specifically, it will discuss the cases when the six-card fit is the
+best place to play, double-dummy.
+</p><p>
+For example, in this grand slam:
+<diagram>
+<hand seat="N" sp="KJ5" he="" di="AKJ983" cl="AKJT"/>
+<hand seat="W"  sp="T76" he="Q854" di="62" cl="9842"/>
+<hand seat="E"  sp="8432" he="KT9" di="Q75" cl="765"/>
+<hand seat="S" sp="AQ9" he="AJ7632" di="T4" cl="Q3"/>
+<!--
+             S: KJ5
+             H: -
+             D: AKJ983
+             C: AKJT
+
+S: T76                     S: 8432         
+H: Q854                    H: KT9          
+D: 62                      D: Q75          
+C: 9842                    C: 765          
+
+             S: AQ9
+             H: AJ7632
+             D: T4
+             C: Q3
+-->
+</diagram>
+</p>
+<p>
+North/South have a lot of playing strength, but the only grand slam
+which makes is in clubs.  On a club lead, North wins, cashes
+the <diamond cards="AK"/>, ruffs a diamond with the
+<club card="Q"/>, re-enters North's hand in spades 
+to draw trumps and claim.
+</p><p>
+Most of the examples that follow are significantly more complicated than
+this, of course.
+</p>
+<h2>Finding Deals</h2>
+<p>
+As with my collection of <link rel='onsite' href="/deals/tenaces/">Double
+Asymmetries,</link> this collection used a combination of two programs
+to find interesting examples:
+<ul>
+<li> <link rel='onsite' href="/deal/">Deal</link>,
+my own flexible dealer.</li>
+<li>
+<link rel='external' href="http://www.gibware.com/">GIB</link>,
+a double dummy solver written by Matt Ginsberg.</li>
+<li>More recently (as of May, 2008,) I've added Bo Haglund's double dummy solver to Deal, so I no longer need the GIB double dummy solver.</li>
+</ul>
+Actually, I didn't use GIB directly; instead, I used Ginsberg's library of
+about 720,000 deals, including double dummy results. Ginsberg generated 
+those results using GIB, however.
+</p><p>
+Six-card fits are the double-dummy par result about once out of every
+210 deals - they are not that rare.
+</p><p>
+As with the previous collection, I did a considerable amount of
+sifting by hand, finding the more interesting examples, altering holdings
+to make the examples cleaner.
+</p><p>
+Thanks to Richard Pavlicek for pointing out some oversights on my
+part.  Richard has a <link rel='external' href="http://www.rpbridge.net/7f05.htm">deal
+on his site</link> where the only making game is in an awful 5-card suit.
+</p><p>
+As usual, I encourage feedback, particularly if you find errors in
+analysis, but even if I've left in typos or bad grammar.  I'm a bad
+copy editor :-)
+</p>
+</body>
+</article>

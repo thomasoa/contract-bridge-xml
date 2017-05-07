@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>One Chance</title>
+<body>
+<diagram>
+<header>
+<dealer>East</dealer>
+<vul>None</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+<!-- (IMP-24.65, 1996) -->
+</header>
+<hand seat="N" sp="K96" he="AJT8" di="J85" cl="AQ3"/>
+<hand seat="W"  sp="J543" he="97" di="Q4" cl="KJ542"/>
+<hand seat="E"  sp="Q872" he="42" di="KT632" cl="T8"/>
+<hand seat="S" sp="AT" he="KQ653" di="A97" cl="976"/>
+</diagram>
+<auction dealer="E">
+<call code="P"/>
+<call code="1H"/>
+<call code="P"/>
+<call code="2N"><note>Forcing raise</note></call>
+
+<call code="P"/>
+<call code="3H"/>
+<call code="P"/>
+<call code="4H"/>
+
+<call code="P"/>
+<call code="P"/>
+<call code="P"/>
+<!--
+East    South   West    North
+Pass    1H      Pass    2NT(forcing raise)
+Pass    3H      Pass    4H
+All pass
+-->
+</auction>
+<hr/>
+<p>
+West found a poor low spade lead.  Declarer played low, East
+played the queen, and declarer won in hand.  Declarer 
+drew trumps ending in hand and played the <spade card="T"/>, ducked
+around.  Declarer then played a club to the queen,
+a diamond to the ace, and a club to ace, and pitched a club
+on the <spade card="K"/>.  Declarer ruffed a club, arriving
+at this position:
+<diagram>
+<hand seat="N" sp="" he="T8" di="J8" cl=""/>
+<hand seat="W"  sp="J" he="" di="Q" cl="KJ"/>
+<hand seat="E"  sp="8" he="" di="KT6" cl=""/>
+<hand seat="S" sp="" he="Q6" di="97" cl=""/>
+</diagram>
+Declarer played a diamond from his hand, and West was forced to win the
+queen.  West was caught in a throw-in, and had to give declarer a ruff and discard in one of the black suits.
+</p><p>
+West could have avoided this endplay by dropping the <diamond card="Q"/>
+under the ace.  That was the main reason for taking the <diamond
+card="A"/> before showing the position in the black suits.
+</p><p>
+Only six players who played <contract code="4H"/> got a spade lead.  Of those, only one player,
+Curt Hastings (curt), found this extra overtrick.  It was worth a measly IMP,
+but an IMP is an IMP.
+</p></body>
+</article>

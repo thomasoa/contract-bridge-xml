@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Not So Impure</title>
+<body>
+<diagram id="base">
+<hand seat="S" sp="AK" he="QJ8" di="965432" cl="T7"/>
+<hand seat="W"  sp="QJ8" he="965432" di="T7" cl="AK"/>
+<hand seat="N" sp="965432" he="T7" di="AK" cl="QJ8"/>
+<hand seat="E"  sp="T7" he="AK" di="QJ8" cl="965432"/>
+</diagram>
+<p>
+In most cases where either side has a fit, the opponents make up for
+it by holding the top trumps.  In this case the trumps are not nearly
+as weak. Despite the strength, the defense can always score three
+trumps. 
+</p><p>
+Against spades, the defense starts by cashing the <heart cards="AK"/>,
+then the <club cards="AK"/>, followed by a heart from West at: 
+<diagram original="base">
+<hand seat="S" sp="AK" he="Q" di="965432" cl=""/>
+<hand seat="W"  sp="QJ8" he="965^4" di="T7" cl=""/>
+<hand seat="N" sp="965432" he="" di="AK" cl="Q"/>
+<hand seat="E"  sp="T7" he="" di="QJ8" cl="9654"/>
+</diagram>
+</p>
+<p>
+If North ruffs, East overruffs and leads a club, which gives West
+another trump trick.
+</p>
+<p>
+If North pitches the <club card="Q"/>, East ruffs and still leads a
+club: 
+<diagram original="base">
+<hand seat="S" sp="AK" he="" di="965432" cl=""/>
+<hand seat="W"  sp="QJ8" he="965" di="T7" cl=""/>
+<hand seat="N" sp="965432" he="" di="AK" cl=""/>
+<hand seat="E"  sp="T" he="" di="QJ8" cl="965^4"/>
+</diagram>
+South can't ruff, or it promotes a third trump trick for the defense,
+so South pitches a diamond and West ruffs <em>high.</em>  This is just
+West's natural trump trick, but West then promotes another trump trick
+in his hand by leading a fourth heart: 
+<diagram original="base">
+<hand seat="S" sp="AK" he="" di="96543" cl=""/>
+<hand seat="W"  sp="J8" he="96^5" di="T7" cl=""/>
+<hand seat="N" sp="965432" he="" di="K" cl=""/>
+<hand seat="E"  sp="^T" he="" di="QJ8" cl="965"/>
+</diagram>
+East ruffs with the <spade card="T"/>, promoting a third trump trick
+for the defense. 
+</p>
+</body>
+</article>
+

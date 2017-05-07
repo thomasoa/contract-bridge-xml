@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Untitled XVI</title>
+<body>
+<diagram id="top">
+<hand seat="N" sp="J7" he="A43" di="K8" cl="985432"/>
+<hand seat="W" sp="AT94" he="92" di="T52" cl="KQJ7"/>
+<hand seat="E" sp="863" he="KQJ86" di="A743" cl="T"/>
+<hand seat="S" sp="KQ52" he="T75" di="QJ96" cl="A6"/>
+</diagram>
+<!--
+          S: J7
+          H: A43
+          D: K8
+          C: 985432
+ S: AT94           S: 863
+ H: 92             H: KQJ86
+ D: T52            D: A743
+ C: KQJ7           C: T
+          S: KQ52
+          H: T75
+          D: QJ96
+          C: A6
+-->
+<!--
+north makes 6 in notrump
+east makes 6 in notrump
+south makes 6 in notrump
+west makes 6 in notrump
+north makes 6 in spades
+east makes 6 in spades
+south makes 6 in spades
+west makes 6 in spades
+north makes 6 in hearts
+east makes 6 in hearts
+south makes 6 in hearts
+west makes 6 in hearts
+north makes 6 in diamonds
+east makes 6 in diamonds
+south makes 6 in diamonds
+west makes 6 in diamonds
+north makes 6 in clubs
+east makes 5 in clubs
+south makes 6 in clubs
+west makes 5 in clubs
+-->
+</body>
+</article>

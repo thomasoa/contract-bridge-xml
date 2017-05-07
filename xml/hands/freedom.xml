@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Freedom of Choice</title>
+<date>July 4, 2005</date>
+<body>
+<diagram>
+<header>
+<dealer>East</dealer>
+<vul>Both</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKBridge</source>
+</header>
+<hand seat='N' sp='875' he='A85' di='QT9' cl='J986'/>
+<hand seat='W' sp='QT92' he='K93' di='AJ' cl='AQT4'/>
+<hand seat='E' sp='K643' he='Q74' di='8432' cl='K2'/>
+<hand seat='S' sp='AJ' he='JT62' di='K765' cl='753'/>
+</diagram>
+
+<auction dealer="E">
+<call code="P"/>
+<call code="P"/>
+<call code="1N"/>
+<call code="P"/>
+
+<call code="2C"/>
+<call code="P"/>
+<call code="2S"/>
+<call code="P"/>
+
+<call code="3S"/>
+<call code="P"/>
+<call code="4S"/>
+<call code="P"/>
+
+<call code="P"/>
+<call code="P"/>
+</auction>
+<p>North led a spade to South's jack and West's queen.  Declarer led a
+club to dummy's king, and then led a diamond to the jack and north's
+queen. North continued trumps, South winning.  South shifted to a
+club, won by West's ace. West then lead a heart to dummy's queen, and
+a diamond back to the ace, and then cashes the club
+queen, pitching a heart from dummy.  Declarer then led the club ten at
+this position:
+</p>
+<diagram>
+<hand seat='N' sp='8' he='A8' di='9' cl='J'/>
+<hand seat='W' sp='T9' he='K9' di='' cl='^T'/>
+<hand seat='E' sp='K6' he='7' di='43' cl=''/>
+<hand seat='S' sp='' he='JT6' di='K7' cl=''/>
+</diagram>
+<p>North followed, dummy ruffed, and South pitched a heart. North is
+known to have the ace of hearts and the last trump (or south would have
+overruffed.)  So when declarer calls for the heart off dummy, and
+south plays the ten, declarer can play low, sticking north in this
+position:</p>
+<diagram>
+<hand seat='N' sp='8' he='A8' di='9' cl=''/>
+<hand seat='W' sp='T9' he='K^9' di='' cl=''/>
+<hand seat='E' sp='K' he='^7' di='43' cl=''/>
+<hand seat='S' sp='' he='J^T' di='K7' cl=''/>
+</diagram>
+<p>If South is allowed to win the heart, declarer scores the last
+three tricks on a cross-ruff.  If north overtakes and leads a trump,
+declarer scores two trumps and a heart.</p>
+</body>
+</article>

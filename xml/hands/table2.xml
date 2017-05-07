@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<book xmlns="http://www.thomasoandrews.com/xmlns/bridge" dest="hands">
+<booktitle>Interesting Bridge Hands</booktitle>
+<author email="bridge@thomasoandrews.com">Thomas Andrews</author>
+<copyright>1995-2002</copyright>
+<article href="intro"/>
+<chapter>
+<title>Basic Hands</title>
+<article href="chance"/>
+<article href="endplay8"/>
+<article href="spots"/>
+<article href="givetake"/>
+</chapter>
+<chapter>
+<title>Intermediate Hands</title>
+<article href="finesse"/>
+<article href="coup3"/>
+<article href="assume"/>
+<article href="squeeze5"/>
+<article href="doublesqueeze"/>
+<article href="triple2"/>
+<article href="conceal"/>
+</chapter>
+<chapter>
+<title>Advanced Hands</title>
+<article href="progress"/>
+</chapter>
+</book>

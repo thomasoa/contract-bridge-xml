@@ -1,0 +1,71 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>An Awful Suit</title>
+<body>
+<diagram id="start">
+<header>
+<vul>None</vul>
+</header>
+<hand seat="N" sp="K74" he="AQ2" di="T75" cl="K982"/>
+<hand seat="W"  sp="5" he="KT5" di="A8642" cl="7654"/>
+<hand seat="E"  sp="A9863" he="9876" di="KJ" cl="A3"/>
+<hand seat="S" sp="QJT2" he="J43" di="Q93" cl="QJT"/>
+</diagram>
+<!--
+None vulnerable
+
+             S: K74
+             H: AQ2
+             D: T75
+             C: K982
+
+S: 5                       S: A9863
+H: KT5                     H: 9876
+D: A8642                   D: KJ
+C: 7654                    C: A3
+
+             S: QJT2
+             H: J43
+             D: Q93
+             C: QJT
+-->
+<p>
+South can, with care, make <contract code="2N"/>.  I'll leave that to the reader.
+</p><p>
+Perversely, East/West have a sacrifice in clubs.
+</p><p>
+In <contract code="3C"/> by East/West, the obvious defense is to lead
+a trump.  East wins the <club card="A"/>, plays the <spade
+card="A"/>, ruffs a spade, crosses back to the <diamond card="K"/>,
+ruffs another spade, plays the <diamond card="A"/> and
+another diamond, ruffed with the <club card="3"/>, and finally a
+fourth round of spades, ruffed in West, and overruffed in North,
+reaching this position:
+<diagram original="start">
+<hand seat="N" sp="" he="AQ2" di="" cl="K9"/>
+<hand seat="W"  sp="" he="KT5" di="86" cl=""/>
+<hand seat="E"  sp="9" he="9876" di="" cl=""/>
+<hand seat="S" sp="" he="J43" di="" cl="QJ"/>
+</diagram>
+<!--
+             S: -  
+             H: AQ2
+             D: -  
+             C: K9
+
+S: -                       S: 9
+H: KT5                     H: 9876
+D: 86                      D: -  
+C: -                       C: -  
+
+             S: -  
+             H: J43
+             D: -  
+             C: QJ
+-->
+</p><p>
+Notice, you've stripped North/South of all but hearts and clubs.  They
+get to take their trumps but then have to concede a heart trick at
+the end, giving the defense five tricks, for -100, if doubled.
+</p>
+</body>
+</article>

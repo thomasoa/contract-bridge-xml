@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Down Three is Good Bridge?</title>
+<body>
+<diagram>
+<header>
+<dealer>South</dealer>
+<vul>None</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+<!-- (IMP-39.103, 1995)-->
+</header>
+<hand seat="N" sp="8762" he="" di="JT542" cl="9874"/>
+<hand seat="S" sp="K" he="Q8" di="AKQ973" cl="A532"/>
+</diagram>
+<auction dealer="S">
+<call code="1D"/>
+<call code="1S"/>
+<call code="3D"><note>Weak</note></call>
+<call code="4H"/>
+
+<call code="5C"><note>Lead directing?</note></call>
+<call code="6H"/>
+<call code="7D"/>
+<call code="X"/>
+
+<call code="P"/>
+<call code="P"/>
+<call code="P"/>
+<!--
+South   West    North   East
+1D      1S      3D(a)   4H        (a) Preemptive
+5C(b)   6H      7D      X         (b) Lead directing(?)
+All Pass
+-->
+</auction>
+<hr/>
+<p>
+West led a low heart, ruffed in dummy.  What is the best line for declarer?
+</p><p>
+Declarer's goal is to go down as little as possible.  If clubs split 3-2,
+declarer loses a spade and two clubs.  What if they split 4-1?  Declarer
+has a chance to endplay whoever holds the stiff, if that stiff is not the
+six.
+</p><p>
+Declarer should immediately lose a spade to West.  If West
+finds the club continuation, all is lost, but he is unlikely to
+find it ; if he holds something like <club cards="KQJ6"/> or
+<club cards="QJT6"/>, he'd have to find the lead of the 
+<club card="6"/> to still get
+three tricks in the suit, and if he holds the stiff, he will be 
+hard-pressed to lead  into your presumed club strength.
+</p><p>
+So, assume that West exits a heart.  Ruff in dummy, ruff a spade high,
+lead a diamond to the ten, ruff another spade high, a diamond
+to the jack and ruff another spade high.  Now lead a low club from hand
+at this position:
+<diagram>
+<hand seat="N" sp="" he="" di="5" cl="9874"/>
+<hand seat="S" sp="" he="" di="9" cl="A53^2"/>
+</diagram>
+</p><p>
+If one of the defenders holds a stiff club other than the 6, he will be endplayed, forced
+to concede a ruff-and-sluff.  And if his partner overtakes the club, declarer
+can duck a club continuation and, if clubs were 4-1, the defender on lead again
+has to yield either a ruff-and-discard or lead a club from, say, 
+<club cards="K6"/>, while declarer still has <club cards="A5"/>
+opposite <club cards="98"/>.
+</p><p>
+This line, protecting against most 4-1 breaks, allows declarer to be down only
+3, for -500.  This is still not likely to be a great results, as many pairs
+will not likely find the heart slam (diamonds are 0-2, with West
+holding the <spade card="A"/>, so the slam makes.) Still -500 would
+have been worth about 6 IMPs more than -800, against the +480 at the
+other table.
+</p>
+</body>
+</article>

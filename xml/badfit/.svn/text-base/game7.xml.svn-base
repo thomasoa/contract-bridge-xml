@@ -1,0 +1,49 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Good Break</title>
+<date>05/17/2008</date>
+<body>
+<diagram id="start">
+<header>
+<vul>None</vul>
+</header>
+<hand seat="N" sp="AQJ74" he="" di="J542" cl="AKT8"/>
+<hand seat="W"  sp="952" he="K976542" di="6" cl="95"/>
+<hand seat="E"  sp="KT86" he="" di="KQT73" cl="QJ32"/>
+<hand seat="S" sp="3" he="AQJT83" di="A98" cl="764"/>
+</diagram>
+<!--
+None Vul
+          S: AQJ74
+          H: 
+          D: J542
+          C: AKT8
+ S: 952            S: KT86
+ H: K976542        H: 
+ D: 6              D: KQT73
+ C: 95             C: QJ32
+          S: 3
+          H: AQJT83
+          D: A98
+          C: 764 
+
+-->
+<p>The only game that North/South can make is <contract code="4H"/>.</p>
+<p>Say West leads a diamond, South winning the ace.  South crosses to the spade ace, ruffs a spade, crosses with the club ace, then ruffs another spade, and cashes the club king, leading to this position.</p>
+<diagram id="start">
+<hand seat="N" sp="QJ" he="" di="J54" cl="T8"/>
+<hand seat="W"  sp="" he="K976542" di="" cl=""/>
+<hand seat="S" sp="" he="AQJT" di="98" cl="7"/>
+</diagram>
+<p>Since West is trump-tight, East is irrelevant.  North leads a minor, and West is forced to lead a trump from the king. South wins and leads another minor, and West is again forced to lead from the trump king.  South wins and leads yet another minor, and he gets to score all four of the <heart cards="AQJT"/>, getting all six trumps, a spade, a diamond, and two clubs.</p>
+<p>Thanks to Richard Pavlicek for pointing out that you don't need to take the ruffing finesse.</p>
+<p>Bill Shutts notes in a <a href="http://groups.google.com/group/rec.games.bridge/msg/3db2b496f5c07f95">rec.games.bridge posting</a> that there is a <a href="http://www.amazon.com/s/ref=nb_ss_gw?url=search-alias%3Dstripbooks&amp;field-keywords=Victor+Mollo">Victor Mollo</a> hand of the same sort:</p>
+<diagram>
+<hand seat="N" sp="8765432" he="" di="AKQ" cl="AKQ"/>
+<hand seat="W"  sp="" he="K987654" di="JT9" cl="JT9"/>
+<hand seat="E"  sp="AKQJT" he="32" di="876" cl="876"/>
+<hand seat="S" sp="9" he="AQJT" di="5432" cl="5432"/>
+</diagram>
+<p>In this hand, the only making game is <contract code="4H"/> by South, who was the Rabbit, of course.</p>
+
+</body>
+</article>

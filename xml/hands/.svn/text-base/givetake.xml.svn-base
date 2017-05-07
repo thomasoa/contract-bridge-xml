@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Give and Take</title>
+<date>July 27, 1997</date>
+<body>
+<diagram id="start">
+<header>
+<dealer>South</dealer>
+<vul>None</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+<!--, IMP-29.113-->
+</header>
+<hand seat="N" sp="AT4" he="AQ543" di="Q5" cl="AQ4"/>
+<hand seat="W"  sp="KJ9762" he="T982" di="83" cl="7"/>
+<hand seat="E"  sp="Q" he="KJ6" di="K2" cl="KT98532"/>
+<hand seat="S" sp="853" he="7" di="AJT9765" cl="J6"/>
+</diagram>
+<!--
+             S: AT4
+             H: AQ543
+             D: Q5
+             C: AQ4
+
+S: KJ9762                     S: Q
+H: T982                       H: KJ6
+D: 83                         D: K2
+C: 7                          C: KT98532
+
+             S: 853
+             H: 7
+             D: AJT9764
+             C: J6
+-->
+<auction dealer="S">
+<call code="3D"/>
+<call code="P"/>
+<call code="4NT"/>
+<call code="5C"/>
+
+<call code="5D"/>
+<call code="P"/>
+<call code="6D"/>
+<call code="P"/>
+
+<call code="P"/>
+<call code="P"/>
+<!--
+South   West    North   East
+3D      Pass    4NT     5C
+5D      Pass    6D
+-->
+</auction>
+<hr/>
+<p>
+West heeded his partner's overcall, and led his stiff club.
+</p><p>
+Reading the writing on the wall, declarer flew up with the ace,
+led a low diamond to the jack, crossed to the <heart card="A"/> and
+ruffed a heart.  Declarer then cashed another diamond, glad for
+the good break, crossed to the <spade card="A"/>, and ruffed another heart,
+felling East's king, at this position:
+<diagram>
+<hand seat="N" sp="T4" he="Q5" di="" cl="Q4"/>
+<hand seat="W"  sp="KJ976" he="T" di="" cl=""/>
+<hand seat="E"  sp="" he="" di="" cl="KT9853"/>
+<hand seat="S" sp="85" he="" di="T97" cl="J"/>
+</diagram></p>
+<p>With the lead in hand, declarer lead the <club card="J"/>.  Upon winning
+this trick, East would have to give entry to dummy's two queens,
+allowing declarer to pitch his spades.
+</p>
+<p>
+But our East was cleverer - she simply let declarer win the 
+<club card="J"/>.  A simple play, but one which entirely destroyed
+declarer. By giving up the only trick in her hand, she also kept declarer
+from reaching dummy, and West 
+scored two spade tricks.</p>
+</body>
+</article>

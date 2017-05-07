@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Worth the Effort</title>
+<date>July 2, 1996</date>
+<body>
+<diagram>
+<header>
+<dealer>West</dealer>
+<vul>None</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+</header>
+<hand seat="N" sp="Q982" he="AKQ84" di="KQ" cl="62"/>
+<hand seat="S" sp="KJT" he="T2" di="AJT" cl="T7543"/>
+</diagram>
+<auction dealer="W">
+<call code="P"/>
+<call code="1H"/>
+<call code="P"/>
+<call code="1N"/>
+
+<call code="P"/>
+<call code="2N"/>
+<call code="P"/>
+<call code="3N"/>
+
+<call code="P"/>
+<call code="P"/>
+<call code="P"/>
+<!--
+West    North    East    South
+Pass    1H       Pass    1NT
+Pass    2NT      Pass    3NT
+Pass    Pass     Pass
+-->
+</auction>
+<hr/><p>
+North was a little light for his <call code="2N"/> rebid, which
+usually shows at least 17-18.  Still, I sympathize somewhat.  He does
+not have enough to reverse to <call code="2S"/>, and a 
+<call code="2H"/> bid sounds weak.  <call code="2C"/> and 
+<call code="2D"/> are unpleasant options. 
+</p><p>
+West led the <club card="K"/>, East overtook with the ace and continued
+with the <club card="J"/>.  This held, and East shifted to a low spade.
+West won the ace and continued the spade.
+</p><p>
+The contract is in the bag, and you don't want to waste too much time
+hunting for an overtrick at imps.  If hearts are 3-3, you have an overtrick,
+but what if hearts are 4-2?  If West holds the length with his presumed
+<club card="Q"/>, you can squeeze him.
+</p><p>
+So you win the spade, and run two more spades, pitching a club, then you
+run three diamond tricks, pitching a heart, to this end position:
+</p><p>
+<diagram>
+<hand seat="N" sp="" he="AKQ8" di="" cl=""/>
+<hand seat="S" sp="" he="T2" di="" cl="T7"/>
+</diagram>
+West can no longer hold four hearts and the <club card="Q"/>.
+</p><p>
+While this squeeze is inconsequential - the overtrick amounts to only
+half an imp here - it is such a basic squeeze that it should
+be found.  This is like failing to take a risk-free finesse for an
+overtrick, and it requires only slight timing considerations - namely,
+taking the spades before the diamonds, so that you end up in your hand
+at the four-card end position above.
+</p><p>
+Here is the complete deal:
+<diagram>
+<hand seat="N" sp="Q982" he="AKQ84" di="KQ" cl="62"/>
+<hand seat="S" sp="KJT" he="T2" di="AJT" cl="T7543"/>
+<hand seat="W"  sp="A6" he="J976" di="964" cl="KQ98"/>
+<hand seat="E"  sp="7543" he="53" di="87532" cl="AJ"/>
+</diagram>
+Those Wests who found a low club lead set this contract - East wins
+the first two clubs, then shifts to a spade, and West cashes out,
+for down 1.
+</p></body>
+</article>

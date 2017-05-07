@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Hope Springs Eternal</title>
+<date>July 13, 1997</date>
+<body>
+<diagram>
+<header>
+<dealer>North</dealer>
+<vul>Both</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+</header>
+<hand seat="N" sp="AQ83" he="Q9654" di="J4" cl="Q5"/>
+<hand seat="S" sp="K5" he="JT3" di="AKQ85" cl="AKJ"/>
+</diagram>
+<!--
+             S: AQ82
+             H: Q9654
+             D: J4
+             C: Q5
+
+
+             S: K5
+             H: JT3
+             D: AKQ85
+             C: AKJ
+-->
+<auction dealer="N">
+<call code="P"/>
+<call code="P"/>
+<call code="2C"/>
+<call code="P"/>
+
+<call code="2H"/>
+<call code="P"/>
+<call code="2N"/>
+<call code="P"/>
+
+<call code="3C"/>
+<call code="P"/>
+<call code="3D"/>
+<call code="P"/>
+
+<call code="3S"/>
+<call code="P"/>
+<call code="3N"/>
+<call code="P"/>
+
+<call code="4N"/>
+<call code="P"/>
+<call code="6N"/>
+<call code="P"/>
+
+<call code="P"/>
+<call code="P"/>
+
+<!--
+          North   South
+          Pass    2C
+          2H      2NT
+          3C      3D
+          3S      3NT
+          4NT     6NT
+-->
+</auction>
+<hr/>
+<p>
+I am not sure I follow this auction to <contract code="6N"/>, but it is
+obviously a less-than-perfect contract.
+</p><p>
+It would appear the only chance for a twelfth trick is if one defender
+has the <holding cards="S:JT9"/>, allowing declarer to set up the
+<spade card="8"/>.
+</p><p>
+Brian Storey (CDundee on okbridge) found a solution which took
+into account that the defense was not looking at his hand.  He knew
+he had two heart losers, but the defense did not.
+</p><p>
+Brian got a neutral club lead, which he won in hand and imediately
+led a heart to the queen.  West played low and East won the king.  East
+chose to exit a low diamond, and declarer was able to make his slam.  West
+had started with:
+<hand sp="T963" he="A72" di="72" cl="T642"/>.
+On the run of Brian's winners, West was squeezed in spades and hearts.
+The end position was:
+<diagram>
+<hand seat="N" sp="AQ82" he="^9" di="" cl=""/>
+<hand seat="W"  sp="T963" he="A" cl="" di=""/>
+<hand seat="E"  sp="J74" he="8" cl="^9" di=""/>
+<hand seat="S" sp="K5" he="JT" di="^5" cl=""/>
+</diagram>
+<!--
+             S: AQ82
+             H: *9*
+             D: -
+             C: -
+
+S: T963                       S: J74
+H: A                          H: -
+D: -                          D: -
+C: -                          C: x
+
+             S: K5
+             H: JT
+             D: *5*
+             C: -
+-->
+</p><p>
+On the last diamond, West had to keep the <heart card="A"/>, so he must
+pitch a spade, and Brian gets four spades.
+</p><p>
+In this case, the rather clumsy auction probably helped declarer - West
+can avoid the squeeze by flying the ace and exiting in any suit, but
+West was probably nervous that declarer might be leading low from 
+<holding cards="Kx"/> - playing the ace might give declarer a running heart
+suit.
+</p><p>
+From Brian's point of view, it was likely that the heart honors were
+split. West would certainly double and lead the
+suit if he held them both, and, since dummy's first bid
+suit was hearts, East could have doubled to
+request a heart lead.  So the only real danger
+for Brian is that one of the opponents wins the
+heart and leads another heart.  That's a difficult play to find
+in this instance.
+</p>
+</body>
+</article>

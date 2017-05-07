@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Trump Magic</title>
+<!--
+#
+# GIB Input
+#
+n J93.AKT973.976.9
+e AKQ54.Q4.A42.T63
+s T872.J8.JT3.AKQJ
+w 6.652.KQ85.87542
+#
+# iDeal Input
+#
+north is J93 AKT973 976 9
+east is AKQ54 Q4 A42 T63
+south is T872 J8 JT3 AKQJ
+west is 6 652 KQ85 87542
+-->
+<!-- level 3 - spades, diamonds, clubs -->
+<body>
+<diagram id="base">
+<hand seat="N" sp="J93" he="AKT973" di="976" cl="9"/>
+<hand seat="E"  sp="AKQ54" he="Q4" di="A42" cl="T63"/>
+<hand seat="S" sp="T872" he="J8" di="JT3" cl="AKQJ"/>
+<hand seat="W"  sp="6" he="652" di="KQ85" cl="87542"/>
+</diagram>
+<p>
+This is the first non-symmetric example with a six-card suit, and also
+the first with eight-card fits.
+</p>
+<h2>Notrump</h2>
+<p>
+East/West have three spades and four diamonds off the top.
+North/South have four clubs and six hearts.
+</p>
+<h2>Spades</h2>
+<p>
+With East/West declaring spades, North/South start with two top hearts
+followed by four clubs, North ruffing the fourth round high.  East can't
+avoid two trump losers.
+</p><p>
+With North/South declaring, the defense starts with three spades, then runs
+four diamonds, East pitching a heart.  South can take his trump trick now or
+later, but the defense still gets eight tricks.
+</p>
+<h2>Hearts</h2>
+<p>
+Against hearts by North/South, the defense starts with three spades
+then four diamond, promoting East's <heart card="Q"/>.
+</p><p>
+East/West declaring is clearly pointless.
+</p>
+<h2>Diamonds</h2>
+<p>
+If North/South declare diamonds, East/West just take their four trumps and
+three spades.  
+</p><p>
+If East/West declare diamonds, the defense starts with three top
+clubs, North pitching two spades, then two top hearts followed by
+a third high heart. 
+</p><p>If East pitches, South also pitches and North just
+continues hearts, promoting a trump trick for the defense.
+So East must ruff. 
+</p><p>If East ruffs low, South overruffs and leads
+a spade, East winning, reaching this position:
+</p>
+<diagram original="base">
+<hand seat="N" sp="" he="973" di="976" cl=""/>
+<hand seat="W"  sp="" he="" di="KQ85" cl="87"/>
+<hand seat="E"  sp="KQ54" he="" di="A2" cl=""/>
+<hand seat="S" sp="T87" he="" di="J3" cl="J"/>
+</diagram>
+<p>
+East is on lead.  If he draws trumps, he can't get back to his
+spades.  If he tries to cash a spade to pitch a club now, North
+ruffs. There is no way of keeping East/West from scoring a seventh
+trick.
+</p><p>
+So perhaps East should have ruffed the third heart high. South pitches
+a spade, arriving at this position:
+</p>
+<diagram original="base">
+<hand seat="N" sp="J" he="973" di="976" cl=""/>
+<hand seat="W"  sp="6" he="" di="KQ85" cl="87"/>
+<hand seat="E"  sp="AKQ54" he="" di="42" cl=""/>
+<hand seat="S" sp="T87" he="" di="JT3" cl="J"/>
+</diagram>
+<p>
+North/South have promoted a natural trump trick, and West again needs to
+get rid of his clubs, but can't attack spades.  Nor can he pull one round
+of diamonds and ruff a club, because North can ruff ahead of him without
+costing the natural trump trick.  There is, in fact, no way for West to
+avoid losing two more tricks.
+</p>
+<h2>Clubs</h2>
+<p>
+If North/South declare clubs, the defense starts with three spades
+(West pitching hearts) followed by three diamonds.  West is destined
+to get a long trump, as well.  
+</p><p>
+If East/West declare clubs, the defense runs four clubs then three
+hearts.  East is out of hearts, and West must follow, for seven tricks.
+</p>
+<h2>Post Mortem</h2>
+<p>
+This deal, perhaps, does not belong in this section - for example,
+North/South don't have six top tricks against diamonds.  Still, the
+basic pattern "take a bunch of top tricks then score your trumps by
+promotion" is followed.  We're on a cusp of a more complex type of
+Par Zero Deals.
+</p><p>
+The end position in the diamond contract is interesting.  Here is
+a simpler version of it:
+</p>
+<diagram>
+<hand seat="N" sp="J" he="T98" di="97" cl=""/>
+<hand seat="W"  sp="6" he="2" di="Q85" cl="7"/>
+<hand seat="E"  sp="AK52" he="" di="A4" cl=""/>
+<hand seat="S" sp="T83" he="" di="JT" cl="J"/>
+</diagram>
+<p>
+North to lead, diamonds trumps, North/South need two tricks.  The only
+lead to score two tricks is a heart lead.
+</p>
+</body>
+</article>

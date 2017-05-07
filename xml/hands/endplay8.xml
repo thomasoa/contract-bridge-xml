@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Mirror, Mirror</title>
+<date>August 10, 1997</date>
+<body>
+<diagram id="start">
+<header>
+<dealer>West</dealer>
+<vul>None</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+</header>
+<hand seat="N" sp="J87" he="542" di="AJ2" cl="AKT8"/>
+<hand seat="S" sp="962" he="AQ6" di="T75" cl="J753"/>
+</diagram>
+<auction dealer="W">
+<call code="1S"/>
+<call code="P"/>
+<call code="1N"/>
+<call code="P"/>
+
+<call code="P"/>
+<call code="X"/>
+<call code="P"/>
+<call code="2C"/>
+
+<call code="P"/>
+<call code="P"/>
+<call code="X"/>
+<call code="P"/>
+
+<call code="P"/>
+<call code="P"/>
+<!--
+West    North   East    South
+1S      Pass    1NT     Pass
+Pass    Double  Pass    2C
+Pass    Pass    Double  All Pass
+-->
+</auction>
+<hr/>
+<p>
+West led the <heart card="J"/> against this contract, and declarer won
+the <heart card="Q"/>.   Declarer cashed the <club cards="AK"/>,
+and East's <club card="Q"/> fell, so
+declarer finished pulling trumps with the <club card="J"/>.  That was fortunate.
+</p><p>
+It looks like declarer must lose a heart, three spades, and likely two
+diamonds.  Declarer, however, found another way.  He cashed the 
+<heart card="A"/> and exited a heart.  The opponents could take their 
+major tricks, arriving at this position:
+</p>
+<diagram original="start">
+<hand seat="N" sp="" he="" di="AJ2" cl="T"/>
+<hand seat="S" sp="" he="" di="T75" cl="7"/>
+<!--
+             S: -
+             H: -
+             D: AJ2
+             C: T
+
+
+             S: -
+             H: -
+             D: T75
+             C: 7
+-->
+</diagram>
+<p>
+With the defenders on lead, it is difficult to keep declarer from
+scoring three of the last four tricks.  If they lead diamonds, declarer
+can assure himself only one diamond loser, and if they lead a major,
+declarer can pitch a diamond from one hand while ruffing the other
+in dummy.
+</p><p>
+The defense can avoid this only if East has both diamond honors
+and West leads diamonds twice before he is out of entries in the
+majors.
+</p><p>
+This is a perfect example of how to play "mirror distributions."
+Since the shapes of the North and South hands are exactly the same,
+declarer has no way to score his last two trumps seperately.  The
+answer in this sort of hand is to engineer a throw-in.
+</p></body>
+</article>

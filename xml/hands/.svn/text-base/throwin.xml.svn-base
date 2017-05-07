@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>An Even Break</title>
+<date>Dec 20, 1996</date>
+<body>
+<diagram id="start">
+<header>
+<dealer>North</dealer>
+<vul>None</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+</header>
+<hand seat="N" sp="AQJ83" he="KJ6" di="6" cl="AQJ5"/>
+<hand seat="W"  sp="T6542" he="AT" di="QT762" cl="4"/>
+<hand seat="E"  sp="9" he="974" di="A983" cl="K9732"/>
+<hand seat="S" sp="K7" he="Q8532" di="KJ4" cl="T86"/>
+</diagram>
+<!--
+             S: AQJ83
+             H: KJ6
+             D: 5
+             C: AQJ5
+
+S: T6542                S: 9
+H: AT                   H: 974
+D: QT762                D: A983
+C: 4                    C: K9732
+
+             S: K7
+             H: Q8532
+             D: KJ4
+             C: T86
+-->
+<auction dealer="N">
+<call code="1S"/>
+<call code="P"/>
+<call code="1N"/>
+<call code="P"/>
+
+<call code="3C"/>
+<call code="P"/>
+<call code="3N"/>
+<call code="P"/>
+
+<call code="P"/>
+<call code="P"/>
+<!--
+North   East    South   West
+1S      Pass    1NT     Pass
+3C      Pass    3NT     All Pass
+-->
+</auction>
+<hr/>
+<p>West led the <diamond card="2"/>, East won the ace and continued
+with the <diamond card="9"/>.  Declarer played the jack, West won the
+queen, and inexplicably shifted to a club.  Perhaps West thought that
+partner had started with <holding cards="D:A93"/>.
+</p><p>
+Declarer lost the club finesses, and East continued with another diamond,
+which declarer won.  (Declarer pitched two hearts from dummy on the
+diamonds.)
+</p><p>
+Declarer played the <spade card="K"/> and <spade card="A"/>, and found
+out about the bad spade split.  If spades had split remotely kindly,
+<contract code="3N"/> would have been in the bag, with five spade
+tricks, three clubs, and a diamond. 
+</p><p>
+Our declarer was still able to make his contract.  Running the clubs,
+declarer came down to the following position:
+<diagram original="start">
+<hand seat="N" sp="QJ8" he="K" di="" cl="^J"/>
+<hand seat="W"  sp="T65" he="A" di="T" cl=""/>
+<hand seat="E"  sp="" he="97" di="8" cl="7^6"/>
+<hand seat="S" sp="" he="Q853^2" di="" cl=""/>
+</diagram>
+</p><p>
+West can safely pitch a heart and a diamond of the first two clubs, but
+now is stuck.  Obviously, he must keep the <heart card="A"/>, and just as
+obviously, he must keep three spades. Therefore the only card to part
+with is the <diamond card="T"/>.  Now declarer exits with the 
+<heart card="K"/>, and West is forced to win and lead away from the
+<spade card="T"/>. 
+</p><p>
+West's club switch was awful, and declarer was able to use it to
+his advantage.  Remember, never give a sucker an even break.
+</p>
+<p>Larry Cohen noted that it is far better for declarer to not take the club finesse when West switched to clubs.  Then declarer can make if spades are 4-2 or better or hearts are 3-2 or a couple of other friendly instances such as west holding stiff ten or nine of hearts.</p>
+</body>
+</article>

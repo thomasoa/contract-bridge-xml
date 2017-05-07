@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Trashing Entries</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="Q954" he="AQJ73" di="63" cl="AQ"/>
+<hand seat="W"  sp="K86" he="9542" di="AJ" cl="9752"/>
+<hand seat="E"  sp="JT73" he="K86" di="T4" cl="KT43"/>
+<hand seat="S" sp="A2" he="T" di="KQ98752" cl="J86"/>
+</diagram>
+<p>
+This is our first Double Asymmetry where immediate shortness
+and ruffing does not obviously contribute to some of the asymmetry.
+</p>
+<h2>Three Notrump, by North</h2>
+<p>
+North, declaring <contract code="3N"/>, cannot make against best defense.
+East leads a low spade, and declarer ducks.  West wins the king and
+continues spades.  This puts North in a quandary - he has lost his
+only entry to dummy before the diamonds are set up.
+</p><p>
+Still, he has what appears to be two club tricks, two spade tricks,
+four heart tricks, and a diamond, if he can get them in time.
+</p><p>
+So declarer leads the <heart card="T"/>, finessing, and East ducks.
+</p><p>
+Declarer then finesses in clubs, and East wins.  At this position:
+<diagram original="start">
+<hand seat="N" sp="Q9" he="AQJ7" di="63" cl="A"/>
+<hand seat="W"  sp="8" he="954" di="AJ" cl="975"/>
+<hand seat="E"  sp="JT" he="K8" di="T4" cl="T43"/>
+<hand seat="S" sp="" he="" di="KQ98752" cl="J8"/>
+</diagram>
+East can set declarer by leading a spade; the defense eventually getting
+a total of two spades, a club, a heart, and a diamond.
+</p>
+<h2> Three Notrump, by South </h2>
+<p>
+The spade lead from East served two functions - first, it
+killed South's entry to the long diamonds, and second, it did so
+without providing declarer a second entry to North's hand.
+</p><p>
+If South declares, on the other hand, West can kill the diamond suit
+by leading the <spade card="K"/>, but this give South two things in return.
+The first is the immediate tempo advantage of having his second spade
+trick set up right away. The second is that the spade suit
+provides an interesting threat to East at the end position.
+</p><p>
+After the <spade card="K"/> lead, South wins the <spade card="A"/>,
+and the play proceeds much as above.  Declarer leads the <heart card="T"/>,
+ducked all around. Declarer then takes the club finesse.  East wins at
+this position:
+<diagram original="start">
+<hand seat="N" sp="Q95" he="AQJ7" di="63" cl="A"/>
+<hand seat="W"  sp="86" he="954" di="AJ" cl="975"/>
+<hand seat="E"  sp="JT7" he="K8" di="T4" cl="T43"/>
+<hand seat="S" sp="2" he="" di="KQ98752" cl="J8"/>
+</diagram>
+</p>
+<p>
+East naturally leads the <spade card="J"/>, West unblocks the eight and
+declarer's queen wins.  Declarer then unblocks the <club card="A"/>, and leads
+a diamond to the king.  West must duck the first diamond.  If he wins
+and shifts to spades, his side gets two spades, the <diamond card="A"/>,
+and the <club card="K"/>, but then the diamonds are good.
+</p><p>
+Declarer then strands himself completely by continuing diamonds.
+West wins at this position:
+<diagram  original="start">
+<hand seat="N" sp="95" he="AQJ7" di="" cl=""/>
+<hand seat="W"  sp="6" he="954" di="" cl="97"/>
+<hand seat="E"  sp="T7" he="K8" di="" cl="T4"/>
+<hand seat="S" sp="" he="" di="Q9875" cl="J"/>
+</diagram>
+</p>
+<p>West obviously cannot lead a club, or South's hand is good.</p>
+<p>If West leads a spade, East gets his two spade tricks, but then must surrender the rest of the tricks by leading a heart (setting up North) or a club
+(to the good South hand.)</p>
+<p>If West leads a heart, South hops up with the <heart card="A"/>
+and continues hearts, and again East is thrown in, this time with the
+<spade card="9"/> a threat in dummy.</p>
+<p>Whatever West leads, his side can only get two more tricks.</p>
+<p>Perhaps East should not have exited a spade when in with the 
+<club card="K"/>? It does not matter;  declarer can reach a
+substantially similar end-position:
+<diagram  original="start">
+<hand seat="N" sp="Q95" he="AQJ7" di="" cl=""/>
+<hand seat="W"  sp="86" he="954" di="" cl="97"/>
+<hand seat="E"  sp="JT7" he="K8" di="" cl="T4"/>
+<hand seat="S" sp="2" he="" di="Q9875" cl="J"/>
+</diagram>
+West again on lead with the <diamond card="A"/>, and again the
+defense cannot take more than two tricks.  This time, if West leads a
+heart, declarer wins the ace, exits a heart, and then must duck the
+first spade to finish the endplay.
+</p><p>So, <contract code="3N"/> makes only if declared by South on
+the above hand.</p> 
+<h2> Five Diamonds, by South </h2>
+<diagram copyid="start"/>
+<p>
+Now, what about the <contract code="5D"/> contract?
+</p><p>
+West leads a club, and the finesse is taken.  East continues a club.
+Declarer then leads the <heart card="A"/> and <hear card="Q"/>,
+forcing East to cover. Declarer ruffs low, and must ruff his good 
+<club card="J"/> in dummy to pitch his spade loser on the 
+<heart card="J"/>.  Declarer is now at this position:
+<diagram  original="start">
+<hand seat="N" sp="Q954" he="73" di="6" cl=""/>
+<hand seat="W"  sp="K86" he="9" di="AJ" cl="9"/>
+<hand seat="E"  sp="JT73" he="" di="T4" cl="T"/>
+<hand seat="S" sp="A" he="" di="KQ9875" cl=""/>
+</diagram>
+Declarer cannot avoid a second diamond loser.  If he leads a
+diamond to the king, West wins the ace and continues with the
+<heart card="9"/>.  East ruffs with the <diamond card="T"/>,
+and West's <diamond card="J"/> is promoted.
+</p>
+<p>The attack of the club suit killed a vital entry.  Without that
+lead, declarer could afford to pitch the spade loser after the trumps
+are drawn.
+</p>
+<h2>Five Diamonds, by North</h2>
+<p>So maybe <contract code="5D"/> can make if North declares?  Indeed,
+it can.  It may appear that East can lead a spade to set the contract,
+but that is an illusion.</p>
+<p>North calls for the <spade card="A"/>, then plays the 
+<heart card="A"/> and <heart card="Q"/> immediately.
+East must cover, and declarer ruffs.  Declarer then leads
+the <diamond card="K"/>, West winning at this position:
+<diagram  original="start">
+<hand seat="N" sp="Q95" he="J73" di="6" cl="AQ"/>
+<hand seat="W" sp="K8" he="95" di="J" cl="9752"/>
+<hand seat="E" sp="JT7" he="8" di="T" cl="KT43"/>
+<hand seat="S" sp="2" he="" di="Q9875" cl="J86"/>
+</diagram>
+</p><p>
+West is caught in something like "Morton's Fork."  If he cashes
+the <spade card="K"/>, declarer can pitch two clubs on major-suit
+winners in hand. And if West does not cash the <spade card="K"/>,
+the spade winner vanished on the <heart card="J"/>.  In either case,
+declarer is able to get rid of one of his black suit losers.
+</p>
+<h2>Post-mortem</h2>
+<p>
+This is a rather astounding deal.
+<ul>
+<li>    <contract code="3N"/> <em>fails</em> declared by North because a vital spade entry can be
+        killed immediately.</li>
+
+<li>    <contract code="3N"/> <em>makes</em> declared by South because
+        the cost of killing the spade entry is too high, leading to a
+        stunning endplay, with declarer deliberately destroying all of
+        his entries.</li>
+
+<li>    <contract code="5D"/> <em>fails</em> declared by South,
+        because a natural club entry is killed, forcing South to ruff
+        a winner to pitch a loser, which in turn forces South to delay
+        pulling trumps until after pitching is loser, which lets
+        East/West score a second trump on a trump promotion.</li>
+
+<li>    <contract code="5D"/> <em>makes</em> declared by North,
+	because the club entry is preserved, allowing North to
+	lead trumps.  West is caught in a Morton's Fork, having to
+	choose which black suit loser he wants to let declarer
+	pitch.</li> 
+</ul>
+</p>
+<p>
+Okay, I warned you these would be complicated.</p>
+<p>
+The two black suit holdings are providing subtle protection, even though
+they look like traditional guards.  In both cases, the ace of the
+suit is providing a vital entry, and in both cases, that entry can
+be knocked out safely from only one side.
+</p>
+</body>
+</article>

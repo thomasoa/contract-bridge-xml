@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Considered Duck</title>
+<date>July 18, 1996</date>
+<body>
+<diagram>
+<header>
+<dealer>North</dealer>
+<vul>None</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+</header>
+<hand seat="N" sp="8" he="J432" di="Q986" cl="QJ43"/>
+<hand seat="E" sp="74" he="T986" di="AK4" cl="K986"/>
+</diagram>
+<auction dealer="N">
+<call code="P"/>
+<call code="P"/>
+<call code="2S"/>
+<call code="P"/>
+
+<call code="P"/>
+<call code="X"/>
+<call code="P"/>
+<call code="P"/>
+
+<call code="P"/>
+
+<!--
+North   East    South   West
+Pass    Pass    2S      Pass
+Pass    Double  Pass    Pass
+Pass
+-->
+</auction>
+<hr/>
+<p>
+Partner led the <heart card="K"/>, and I contributed the ten, declarer the queen.
+</p><p>
+Partner then switched to the <diamond card="J"/>, and we took three diamond tricks, declarer following.
+</p><p>
+On lead at trick five, I shifted to a trump.  Declarer ducked, and my
+partner won the jack.  Partner exited with the <club card="T"/>, and
+declarer covered in dummy. 
+</p><p>
+What to do?  I know declarer started with one heart, unless that was a crafty
+falsecard.  Declarer also started with three diamonds and five or six
+spades.  Therefore, declarer has at least three clubs.  Partner, thus,
+has at most two clubs, and would not have lead the ten from the
+ace and ten.  Declarer has the ace.
+</p><p>
+So it might be right to duck this trick.  Why?  Consider this position:
+<diagram>
+<hand seat="N" sp="" he="J43" di="9" cl="^QJ43"/>
+<hand seat="W"  sp="KQ5" he="A75" di="" cl="^T3"/>
+<hand seat="E"  sp="7" he="986" di="" cl="K986"/>
+<hand seat="S" sp="AT963" he="" di="" cl="A75"/>
+</diagram>
+The crucial card is the <diamond card="9"/> in dummy.  If I cover this club
+trick, declarer wins the ace, cashes the <spade card="A"/> (pulling my
+last trump), then crosses to the <club card="J"/>.  When declarer leads the
+<diamond card="9"/> off dummy, she pitches her last club.
+Partner will ruff, but with one of his high trumps.
+Declarer gets off for down two.
+</p><p>
+At the table, I ducked this club trick.  This play neutralized
+the <diamond card="9"/> - declarer is forced to take her entry before
+my last trump has been drawn.  If she leads the <diamond card="9"/> off 
+dummy, I can still ruff, and declarer is just exchanging one loser for another
+if she pitches a club.
+</p><p>
+Down three (-500) was worth 4.75 IMPs, while down two (-300) was worth close
+to zero IMPs, since we could make four hearts our way.
+</p>
+<p>Koen Grauwels notes that, after my duck of the club, declarer can still
+ensure down 2 if he endplays West twice.</p>
+<p>After winning the <club card="Q"/>, declarer crosses to the <club card="A"/>, stripping partner's last club, and then exits to West with the <spade card="T"/>, leading to this position:</p>
+<diagram>
+<hand seat="N" sp="" he="J4" di="9" cl="J4"/>
+<hand seat="W"  sp="K5" he="A75" di="" cl=""/>
+<hand seat="E"  sp="" he="986" di="" cl="K9"/>
+<hand seat="S" sp="A963" he="" di="" cl="7"/>
+</diagram>
+<p>West must lead the <heart card="A"/>, which South ruffs.  South then
+plays the <spade card="A"/> and another spade to West, and West must concede
+a heart trick to dummy.</p>
+</body>
+</article>

@@ -1,0 +1,125 @@
+PROJECT
+
+    BridgeML - the Bridge Markup Language
+    Version 0.6-pre
+
+GOAL
+
+    To work towards a standard XML format for bridge
+    documents of all varieties.
+
+COPYRIGHT
+
+        Copyright 2002-2008, Thomas Andrews.
+        bridge@thomasoandrews.com
+
+LICENSE
+
+       BridgeML is licensed under the GNU General Public License
+    
+HOW-TO
+
+    You need a recent version of xsltproc on your system.
+
+FILE NOTES
+
+  Top Level XSL Files
+
+  There is no bridge logic in these files, which are all about
+  processing articles, either one at a time, or as a "book."
+
+    article.xsl  - file for handling a single article
+    articles.xsl - file for handling article sets;
+                   create a framed view of the articles,
+                   with "Next" and "Prev" links and a table
+                   of contents
+
+    shared.xsl        - Common includes, used by the above
+
+
+  XSL Library Files: Bridge Tags
+
+    auction.xsl       - code for handling auctions
+    diagram.xsl       - code for handling hand diagrams
+    hands.xsl         - code for handling hands
+    inline.xsl        - code for handling inlines and
+                        other "small" sections
+
+
+  XSL Library Files: Other Tags
+
+    link.xsl          - code to handle <link> tag
+    default.xsl       - code for handling unhandled tags
+    test.xsl          - code for the test pages 
+
+  Cascading Style Sheet
+
+    html/article.css - style sheet used by the generated
+                        HTML.  Modifying this can change
+                        the look of the articles without
+                        regenerating them.
+
+  XML Inputs
+
+    xml/everybody.xml     - An independent bridge article
+    xml/test/table.xml    - A description of the test articles 
+    xml/test/deal.xml     - A source of diagrams for external
+                            references, used in xml/test/diagram.xml
+    xml/test/*.xml        - Other .xml files in xml/test are
+                            articles.
+    
+    xml/badfit
+    xml/hands
+    xml/parzero
+    xml/tenaces           - Other article collections
+
+  Translation File
+
+    translations.xml  - A set of "constants," some of which
+                         can be customized.
+
+NAMESPACES
+
+  I've used a couple of personal namespaces here:
+
+     xmlns:bridge="http://www.thomasoandrews.com/xmlns/bridge"
+
+           Used inside the XML articles.
+
+     xmlns:translation="http://www.thomasoandrews.com/xmlns/bridge/trans"
+
+           Used in translation.xml.
+
+     xmlns:check="http://www.thomasoandrews.com/xmlns/checklink"
+
+           Used for testing links (see xml/test/checklink.xml )
+
+     xmlns:redirect="org.apache.xalan.lib.Redirect"
+
+           Namespace for Xalan's redirect feature.  Used in
+           articles.xsl .
+
+     xmlns:xalan="http://xml.apache.org/xalan"
+
+           Namespace for Xalan's extension functions - used to
+           call xalan:nodeset().  Used in auctions.xsl, for 
+           handling auctions.  Will also be required for card play,
+           when I implement that.
+
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+
+           The standard XSL namespace.
+
+  These namespaces are not meant to be permanent.  Also, namespace
+  URNs are not meant to be followed - they are just unique 
+  identifiers.
+
+  A public BridgeML standard would probably use a URN with a
+  reference to the WBF.
+
+DTDS AND/OR SCHEMAS
+
+  I have done no work on these, yet.  My firm belief is that
+  you define these things only after you know what you want
+  the XML to look like.
+

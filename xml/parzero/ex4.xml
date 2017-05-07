@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A First Example</title>
+<!--
+GIB Input
+n KQT3.K963.975.J2
+e 9852.JT.T632.Q65
+w A64.AQ84.QJ.AT87
+s J7.752.AK84.K943
+-->
+<!-- level 1 - spades -->
+<body>
+<diagram id="base">
+<hand seat="N" sp="KQT3" he="K963" di="975" cl="J2"/>
+<hand seat="W" sp="A64" he="AQ84" di="QJ" cl="AT87"/>
+<hand seat="E" sp="9852" he="JT" di="T632" cl="Q65"/>
+<hand seat="S" sp="J7" he="752" di="AK84" cl="K943"/>
+</diagram>
+
+<h2>Notrump</h2>
+<p>If North/South declare notrump, the defense starts with hearts,
+killing the entry to the North hand before the spades are established.
+South gets one spade, one heart, three diamonds and, with care, a
+club.
+</p><p>If East/West declare notrump, the defense starts with spades, which
+establishes three spade tricks before the heart entry to North is
+killed.  North/South get three spades, a heart, two diamonds and
+either another diamond or a club.
+</p>
+<h2>Spades</h2>
+<p>
+If East/West declare spades, the defense starts with trumps.  West
+can duck the <spade card="A"/> as many times as he wants, he still
+cannot get to East's hand before North gets in again to finish pulling
+trumps. North/South get three spades, a heart, two diamonds, and an
+eventual club.
+</p><p>
+If North/South declare spades, West leads a low heart and East gets
+to ruff a heart when West wins the second round of trumps.
+</p><p>
+<h2>Hearts</h2>
+If North/South declare hearts, a heart lead keeps them from scoring
+any extra trumps, and they are left with three spades, one trump,
+and two diamonds.
+</p><p>
+If East/West declare in hearts, the defenders start by attacking
+spades while North still has a heart entry. When North gets in with
+a heart, North runs spades and West is forced to overruff South on
+the fourth round, and North gets another heart, for two spades, two
+hearts two diamonds and, eventually, a club.
+</p>
+<h2>Diamonds</h2>
+<p>
+If declared by North/South, the defense starts with (low) heart leads.
+This allows the defense to get two heart tricks and killing declarer's
+entry to the long spades.  That means that North/South
+loses a diamond, two hearts, a spade, two clubs and either a third
+heart or, when South ruffs the third heart, a second diamond.
+</p><p>
+If declared by East/West, South takes two top diamonds before
+attacking spades.  West wins the second one, and plays ace and a
+heart, the king winning in dummy.   Another two spades are led,
+pitching a heart and a club.  Then the club jack is led.  East has
+to cover, South plays the king, and West wins the ace and is caught
+in an endplay:
+</p>
+<diagram original="base">
+<hand seat="N" sp="" he="96" di="9" cl="2"/>
+<hand seat="W" sp="" he="Q8" di="" cl="T8"/>
+<hand seat="E" sp="" he="" di="T6" cl="65"/>
+<hand seat="S" sp="" he="" di="84" cl="94"/>
+</diagram>
+<p>
+There is no way to prevent North/South from scoring two tricks.
+</p><p>
+If West leads a high heart, and East pitches a club, South ruffs low and
+exits in clubs to West's hand.  West, force to exit in clubs or hearts,
+must allow South to ruff with the nine in dummy or eight in hand,
+respectively, unless East ruffs high.  Either way, North/South must score
+one of their two remaining trumps. Twist and turn as they might, East/West
+can't keep North/South from scoring two more tricks, for two spades, the
+heart king, two top diamonds and two more tricks.
+</p>
+
+<h2>Clubs</h2>
+<p>If declared by East/West in clubs, the defense starts with spades.
+Eventually, South gets to pitch a losing heart on a spade.  South then
+takes two top diamonds and exits in diamonds to this situation:
+</p>
+<diagram original="base">
+<hand seat="N" sp="K" he="96" di="" cl="J2"/>
+<hand seat="W"  sp="" he="Q" di="" cl="AT87"/>
+<hand seat="E"  sp="9" he="" di="6" cl="Q65"/>
+<hand seat="S" sp="" he="" di="8" cl="K943"/>
+</diagram>
+<p>
+East, stuck on lead, can't avoid two more losers.  Say they lead a club
+to the ace, and a club back to the jack, queen, and king.  South simply
+continues with a high diamond, and West is forced to ruff and South scores
+a long trump.
+</p><p>
+If declared by North/South, the defense starts with low hearts, which has
+the usual entry-killing effect. North wins the first heart, then attacks
+spades.  West wins the second spade, leads a low heart to East, who then
+leads a club to West's ace and a club.  West cashes a heart and leads
+a low club to the jack, queen and king.</p>
+<diagram original="base">
+<hand seat="N" sp="KQ" he="9" di="975" cl=""/>
+<hand seat="W"  sp="4" he="Q" di="QJ" cl="T8"/>
+<hand seat="E"  sp="9" he="" di="T632" cl="6"/>
+<hand seat="S" sp="" he="" di="AK84" cl="94"/>
+</diagram>
+<p>
+East/West have taken two hearts, a spade and a club, and they will
+get a diamond and two more clubs.
+</p>
+<h2>Complexity</h2>
+<p>
+This is a rare par-zero deal of complexity three.  The spade suit is the only par-zero suit:
+</p>
+<diagram>
+<hand seat="N" sp="KQT3" he="9852" di="J7" cl="A64"/>
+<hand seat="W" sp="A64" he="KQT3" di="9852" cl="J7"/>
+<hand seat="E" sp="9852" he="J7" di="A64" cl="KQT3"/>
+<hand seat="S" sp="J7" he="A64" di="KQT3" cl="9852"/>
+</diagram>
+<p>
+South can make exactly six tricks in any contract.
+</p>
+</body>
+</article>

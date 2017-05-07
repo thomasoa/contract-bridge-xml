@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>An Intriguing Trump Squeeze</title>
+<body>
+<diagram id="start">
+<header>
+<dealer>North</dealer>
+<vul>Both</vul>
+<scoring>Matchpoints</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+<!-- (MP-38.38, 1995) -->
+</header>
+<hand seat="N" sp="KQ64" he="A53" di="AQ98" cl="K8"/>
+<hand seat="W"  sp="" he="KJ876" di="K74" cl="AJ763"/>
+<hand seat="E"  sp="J983" he="4" di="T52" cl="QT542"/>
+<hand seat="S" sp="AT752" he="QT92" di="J63" cl="9"/>
+</diagram>
+<auction dealer="N">
+<call code="1C"><note>Precision</note></call>
+<call code="P"/>
+<call code="1S"/>
+<call code="2H"/>
+
+<call code="3H"/>
+<call code="P"/>
+<call code="3N"/>
+<call code="P"/>
+
+<call code="4D"/>
+<call code="P"/>
+<call code="4S"/>
+<call code="P"/>
+
+<call code="P"/>
+<call code="P"/>
+<!--
+North   East    South   West
+1C(*)	Pass	1S      2H           (*) Precision
+3H      Pass    3NT     Pass
+4D      Pass    4S      All pass
+-->
+</auction>
+<hr/>
+<p>
+From the start, it looked like declarer should be able to make an
+overtrick, but Ruoyo Fan (FrANcis on okbridge) found an imaginative
+line to make two overtricks after a favorable diamond lead.
+</p><p>
+You can't really blame West for leading a diamond - with South bidding
+notrump, a heart lead seems unappetizing, and a club lead looks riskier
+than the diamond lead.
+</p><p>
+Fan won the diamond lead in hand with the jack (East playing the ten.)
+When he led a low trump to the queen, West showed out.  Fan then drew
+trumps (finessing against East's jack), and West pitched three clubs and a
+diamond.  Fan led a diamond, dropping West's now stiff diamond,
+and Fan played two more top diamonds, allowing him to pitch his club.
+</p><p>
+Here is the position on the last diamond from North:
+<diagram original="start">
+<hand seat="N" sp="" he="A53" di="^9" cl="K8"/>
+<hand seat="W"  sp="" he="KJ87" di="" cl="AJ"/>
+<hand seat="E"  sp="" he="4" di="" cl="QT54^2"/>
+<hand seat="S" sp="7" he="QT92" di="" cl="^9"/>
+</diagram>
+If West pitched a club, Fan would ruff a club, establishing the 
+<club card="K"/>,
+then lead the <heart card="Q"/>, forcing West to cover.  Whatever he
+West did, West would get only one trick.
+</p><p>
+So West must pitch a heart.
+</p><p>
+Fan now led a low heart to the nine and jack, and West was stuck.
+Here is the situation West was confronted with:
+<diagram original="start">
+<hand seat="N" sp="" he="A5" di="" cl="K8"/>
+<hand seat="W"  sp="" he="K7" di="" cl="AJ"/>
+<hand seat="E"  sp="" he="" di="" cl="QT54"/>
+<hand seat="S" sp="7" he="QT2" di="" cl=""/>
+</diagram>
+If West led the <club card="A"/>, Fan would ruff, and lead the 
+<heart card="Q"/>.
+Whether West covered or not, declarer would have two hearts and the 
+<club card="K"/> left.  If he led a low heart, Fan would let it ride to the
+<heart card="Q"/>, play a heart to the ace, dropping the king, and ruff a club
+to get back to the long heart.  The <heart card="K"/> is obviously
+a poor choice of exits - declarer's hand becomes good on that lead.
+If West led a low club, Fan would win in dummy, pitching a heart,
+ruff a club, and take the heart finesse for the rest of the tricks.
+</p><p>
+West can't afford to duck the heart lead, either, because then Fan
+just plays ace and another heart, setting up the fourth heart with the
+trump left as an entry.
+</p><p> 
+This is some netherworld trump squeeze throw-in.  The <spade card="7"/> 
+serves three functions.  First, it forces West to pitch down to three hearts
+on the last diamond, to protect against his <club card="A"/> being ruffed out.  Then, 
+after he is forced to win a heart, it is protection against West
+playing the <club card="A"/>. Lastly it provides a much-needed entry, either
+to the long heart or to take the heart finesse, depending on how West chooses
+to exit.
+</p><p>
+Making six was worth 88%, while making five would have been worth 63%.
+</p><p>
+So, we get back to my pet peeve.  Why is West bidding?  NS almost
+certainly have a spade fit, and they have surely just found it.
+The <call code="1S"/> bid (light this time) forces the precision
+players to game;
+the last thing West wants to do is steer them towards a 3NT game
+when they have only a modest fit - the trump break could kill them
+in 4S.  And if partner is on lead against 3NT, it is far from clear
+that West wants a heart lead.
+</p><p>
+I can certainly see the temptation of bidding on this hand, but I have
+learned to also see the temptation of passing.  Like a person who is
+cutting back on salt, I have learned the subtle flavor of passing can
+often be far more satisfying than the salty flavor of bidding.
+</p>
+</body>
+</article>

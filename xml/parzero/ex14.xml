@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Untitled VI</title>
+<!--
+#
+# GIB Input
+#
+n T93.A853.AKT98.3
+e AQJ72.K.J765.T54
+s 854.JT7.Q4.KQJ96
+w K6.Q9642.32.A872
+#
+# iDeal Input
+#
+north is {T93 A853 AKT98 3}
+east is {AQJ72 K J765 T54}
+south is {854 JT7 Q4 KQJ96}
+west is {K6 Q9642 32 A872}
+-->
+<!-- level 2 - hearts, clubs -->
+<body>
+<diagram>
+<hand seat="N" sp="T93" he="A853" di="AKT98" cl="3"/>
+<hand seat="W"  sp="K6" he="Q9642" di="32" cl="A872"/>
+<hand seat="E"  sp="AQJ72" he="K" di="J765" cl="T54"/>
+<hand seat="S" sp="854" he="JT7" di="Q4" cl="KQJ96"/>
+</diagram>
+</body>
+</article>

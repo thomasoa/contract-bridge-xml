@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Double Strip</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="92" he="964" di="AK97" cl="AJ63"/>
+<hand seat="W"  sp="T853" he="QJ7" di="Q82" cl="QT5"/>
+<hand seat="E"  sp="AQ6" he="KT852" di="T64" cl="97"/>
+<hand seat="S" sp="KJ74" he="A3" di="J53" cl="K842"/>
+</diagram>
+<!--
+             S: 92
+             H: 964
+             D: AK97
+             C: AJ63
+
+S: T853                    S: AQ6          
+H: QJ7                     H: KT852        
+D: Q82                     D: T64          
+C: QT5                     C: 97           
+
+             S: KJ74
+             H: A3
+             D: J53
+             C: K842
+-->
+<p>
+Can North/South make any game?
+</p><p>
+North/South cannot make <contract code="3N"/> on heart leads.
+Does <contract code="5C"/> or <contract code="5D"/> make?  No - 
+there is no way for declarer to avoid losing a diamond, a heart, and a spade.
+</p><p>
+No, the only game which can make (double dummy) is <contract code="4S"/>.
+</p><p>
+Suppose West leads a heart.  Declarer ducks the first heart, wins the
+second, and crosses with a diamond to lead a spade.  East plays low,
+and declarer plays the jack, West following low.  A club to the
+jack, and another spade off dummy.  This time, East should win,
+and continue hearts, declarer ruffs leading to this position:
+<diagram original="start">
+<hand seat="N" sp="" he="" di="K97" cl="A63"/>
+<hand seat="W"  sp="T8" he="" di="Q8" cl="QT"/>
+<hand seat="E"  sp="Q" he="T5" di="T6" cl="9"/>
+<hand seat="S" sp="K" he="" di="J5" cl="K84"/>
+</diagram>
+<!--
+             S: -
+             H: -
+             D: K97
+             C: A63
+
+S: T8                      S: Q
+H: -                       H: T5
+D: Q8                      D: T6
+C: QT                      C: 9
+
+             S: K
+             H: -
+             D: J5
+             C: K84
+-->
+</p><p>
+Declarer draws East's last trump, pitching a club from dummy, then runs
+his clubs, West getting caught on the last club:
+<diagram original="start">
+<hand seat="N" sp="" he="" di="K9^7" cl=""/>
+<hand seat="W"  sp="T" he="" di="Q8" cl=""/>
+<hand seat="E"  sp="" he="^T" di="T6" cl=""/>
+<hand seat="S" sp="" he="" di="J5" cl="^8"/>
+</diagram>
+<!--
+             S: -
+             H: -
+             D: K9*7*
+             C: -
+
+S: T                       S: -
+H: -                       H: *T*
+D: Q8                      D: T6
+C: -                       C: -
+
+             S: -
+             H: -
+             D: J5
+             C: *8*
+-->
+If West ruffs, he is endplayed, and if he pitches, he only gets
+his spade trick.</p>
+<p>  This is fundamentally the same end position as
+in our first example.
+The difference here is that declarer's trump suit was bad enough that
+West always had a natural trump trick, so maybe it was wrong to force
+declarer to ruff a heart?  What if, instead, the defense adopts a
+passive defense, leading clubs at every opportunity?
+</p><p>
+Declarer wins the first club in dummy, and leads a spade.
+East ducks, declarer wins the jack, and crosses with a diamond
+and leads another spade.
+</p><p>
+East flies the ace and continues clubs.  Declarer wins in hand,
+cashes the spade king, and exits a spade to West.
+</p><p>
+West can safely exit in hearts or clubs.  Declarer wins and runs
+all his non-diamond winners.  On the last club, the situation is:
+<diagram original="start">
+<hand seat="N" sp="" he="9" di="K9" cl="^3"/>
+<hand seat="W"  sp="" he="QJ" di="Q8" cl=""/>
+<hand seat="E"  sp="" he="KT" di="T6" cl=""/>
+<hand seat="S" sp="" he="3" di="J5" cl="^8"/>
+</diagram>
+<!--
+             S: -
+             H: 9
+             D: K9
+             C: *3*
+
+S: -                       S: -
+H: QJ                      H: KT
+D: Q8                      D: T6
+C: -                       C: -
+
+             S: -
+             H: 3
+             D: J5
+             C: *8*
+-->
+West cannot pitch a diamond, so he must pitch a heart.
+</p><p>
+Likewise, East cannot pitch a diamond (or declarer can pin the ten by
+leading the jack.)  So East must pitch a heart.  Now declarer exits
+in hearts and the defense is forced to break the diamond suit, giving
+declarer an extra trick in the suit.
+</p><p>
+In fact, declarer can engineer one of these two end-positions whatever
+the defenders do.
+</p><p>
+<em>[ Special thanks to David DesJardin, for this analysis, and
+Richard Pavlicek for pointing out that my original analysis
+was wrong. ]</em>
+</p>
+</body>
+</article>

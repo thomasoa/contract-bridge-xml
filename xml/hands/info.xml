@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Taking Care</title>
+<date>July 14, 1996</date>
+<body>
+<diagram>
+<header>
+<dealer>East</dealer>
+<vul>E/W</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+<!--IMP-28.5-->
+</header>
+<hand seat="N" sp="KQ62" he="K2" di="K86" cl="KQ95"/>
+<hand seat="S" sp="AJ84" he="A6" di="A93" cl="AT43"/>
+</diagram>
+<hr/>
+<p>
+North and South bid up to <contract code="6S"/> on this hand.
+</p><p>
+This slam looks pretty easy, if thing break nicely.  Whenever that's
+the case, it is worth looking for safety plays.
+</p><p>
+West led the <diamond card="Q"/>, which declarer, Guss Ginsburg, won in hand.
+His intention was to draw trumps in three rounds, cash the rest of
+the red suit winners, and exit with the third round of diamonds.
+Whichever opponent won would have to break the club suit or concede
+a ruff and discard to Guss. 
+</p><p>
+Unfortunately, East pitched a heart on the second spade.  The
+plan was going to have to change. Guss played out the rest of his trumps, 
+and East continued to pitch hearts.  Guss then ducked a diamond.
+West won and exited a heart, won in dummy.  Guss then cashed the
+rest of his diamonds and hearts.  On the <diamond card="K"/>, East
+pitched a heart.
+</p><p>
+So, Guss can count out West's hand somewhat.  West started with five
+diamonds, four spades and at least two hearts.  Therefore, West started with
+at most two clubs.  Guss played off the <club cards="KQ"/>, and when
+West showed out, Guss claimed, taking the marked finesse.
+</p><p>
+The diamond duck is a fairly basic play, but not many people found it at
+the table.  Even without it, most who played this hand guessed East
+for the club length.
+</p></body>
+</article>

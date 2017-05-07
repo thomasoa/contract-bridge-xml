@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+         xmlns:check="http://www.thomasoandrews.com/xmlns/checklink">
+<title>Test All Links</title>
+<body>
+<p>These are all the links from my articles.  This is a cool feature of
+XML - the ability to extract all objects by type.  Here, I can
+test all my links from my article sets on this one page, rather than
+checking them on their original context.  It would be even better
+if XSL could just check for the link rot...</p>
+<check:article file="everybody"/>
+<check:articles dir="test"/>
+<check:articles dir="badfit"/>
+<check:articles dir="hands"/>
+<check:articles dir="parzero"/>
+<check:articles dir="tenaces"/>
+</body>
+</article>

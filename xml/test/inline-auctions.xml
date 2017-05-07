@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Inline Auctions</title>
+<body>
+
+<test title="Simple Auction">
+<testbody>
+<auction type="inline">
+    <call code="P"/> 
+       <call code="1S"/> 
+       <call code="2H"/>  
+       <call code="3C"/>
+
+    <call code="4D"/> 
+       <call code="X"/> 
+       <call code="XX"/> 
+       <call code="4N"/>
+
+    <call code="P"/> 
+       <call code="P"/> 
+       <call code="P"/>
+</auction>
+</testbody>
+<testnote>
+Notice that the XSL has dropped the last three passes from the auction,
+but included the pass at the start of the auction.  Dropping the last
+three passes matches Pavlicek's recommendations for inline auctions.
+</testnote>
+</test>
+
+<test title="Inline with a comment">
+<testbody>
+<p>At the other table, the auction was:
+<auction type="inline">
+<call code="P"/>
+<call code="1N" comment="?"/>
+<call code="P"/>
+<call code="P"/>
+<call code="P"/>
+</auction>.
+West's <call code="1N"/> was a bit off-shape.
+</p>
+</testbody>
+<testnote>
+A comment can be added to a call.  Comments should be restricted
+to "!" or "?".
+</testnote>
+</test>
+
+<test title="Inline comment in last three passes">
+<testbody>
+<p>At the other table, the auction was
+<auction type="inline">
+<call code="P"/>
+<call code="1N"/>
+<call code="P"/>
+<call code="P" comment="?"/>
+<call code="P"/>
+</auction>.  East was not able to explain
+his pass.
+</p>
+</testbody>
+<testnote>
+A comment on one of the last three passes should cause the last
+three calls to be show.
+</testnote>
+</test>
+
+<test title="Simple Auction Hiding A Pass">
+<testbody>
+<auction type="inline" hands="EW" dealer="E">
+    <call code="1H"/>
+    <call code="2C"/>
+    <call code="2H"/>
+    <call code="P"/> 
+
+    <call code="4H"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/> 
+</auction>
+</testbody>
+<testnote>
+The optional <em>hands</em> attribute can be either "EW" or "NS", 
+which indicates that we want an abbreviated auction concentrating on the
+named pair.  Non-passes by the other side are included inside parenthesis,
+but passes by the other side are ignored (except when the first call in the
+auction to remind the reader of which side dealt.) If you use the 
+<em>hands</em> attribute, you need to include the <em>dealer</em>, as well.
+</testnote>
+</test>
+
+<test title="Uncontested auction">
+<testbody>
+<auction type="inline" hands="EW" dealer="E">
+    <call code="1H"/> <call code="P"/> <call code="2H"/> <call code="P"/>
+    <call code="4H"/><call code="P"/> <call code="P"/> <call code="P"/> 
+</auction>
+</testbody>
+<testnote>
+A simple inline uncontested auction.
+</testnote>
+</test>
+
+<test title="Uncontested auction - one pass start">
+<testbody>
+<auction type="inline" hands="EW" dealer="N">
+    <call code="P"/> <call code="1H"/> <call code="P"/> <call code="2H"/>
+    <call code="P"/> <call code="4H"/><call code="P"/> <call code="P"/>
+    <call code="P"/> 
+</auction>
+</testbody>
+<testnote>
+This was an aesthetic decision - to show the initial pass by the opponent or
+not? I chose to show it, because it reminds the reader who the dealer is.
+</testnote>
+</test>
+
+<test title="Uncontested auction - starting with two passes">
+<testbody>
+<auction type="inline" hands="EW" dealer="W">
+    <call code="P"/>
+    <call code="P"/> <call code="1H"/> <call code="P"/> <call code="2H"/>
+    <call code="P"/> <call code="4H"/><call code="P"/> <call code="P"/>
+    <call code="P"/> 
+</auction>
+</testbody>
+</test>
+
+<test title="Uncontested auction - starting with three passes">
+<testbody>
+<auction type="inline" hands="EW" dealer="S">
+    <call code="P"/>
+    <call code="P"/>
+    <call code="P"/>
+    <call code="1H"/> <call code="P"/> <call code="2H"/> <call code="P"/> 
+    <call code="4H"/> <call code="P"/> <call code="P"/> <call code="P"/> 
+</auction>
+</testbody>
+</test>
+
+<test title="Contested Auction - starting with one pass">
+<testbody>
+<auction type="inline" hands="EW" dealer="N">
+    <call code="P"/> <call code="1H"/> <call code="2C"/> <call code="2H"/>
+    <call code="P"/> <call code="4H"/><call code="P"/> <call code="P"/> 
+    <call code="P"/> 
+</auction>
+</testbody>
+</test>
+
+<test title="Contested auction - starting with two passes">
+<testbody>
+<auction type="inline" hands="EW" dealer="W">
+    <call code="P"/> <call code="P"/> <call code="1H"/> <call code="2C"/>
+    <call code="2H"/> <call code="P"/> <call code="4H"/> <call code="P"/> 
+    <call code="P"/> <call code="P"/> 
+</auction>
+</testbody>
+</test>
+
+<test title="Contested auction - starting with three passes">
+<testbody>
+<auction type="inline" hands="EW" dealer="S">
+    <call code="P"/> <call code="P"/> <call code="P"/> <call code="1H"/> 
+    <call code="2C"/> <call code="2H"/> <call code="P"/> <call code="4H"/>
+    <call code="P"/> <call code="P"/> <call code="P"/> 
+</auction>
+</testbody>
+</test>
+
+</body>
+</article>

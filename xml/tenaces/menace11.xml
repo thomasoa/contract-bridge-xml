@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>XXX?</title>
+<body>
+<diagram id="start">
+<hand seat="W" sp="976" he="QT64" di="KT8" cl="Q93"/>
+<hand seat="S"  sp="KJ2" he="AJ3" di="AJ9653" cl="5"/>
+<hand seat="N"  sp="AQ5" he="K85" di="Q2" cl="KT642"/>
+<hand seat="E" sp="T843" he="972" di="74" cl="AJ87"/>
+</diagram>
+<!--
+          S: 976
+          H: QT64
+          D: KT8
+          C: Q93
+ S: KJ2            S: AQ5
+ H: AJ3            H: K85
+ D: AJ9653         D: Q2
+ C: 5              C: KT642
+          S: T843
+          H: 972
+          D: 74
+          C: AJ87
+-->
+<p>Only North can make <contract code="3N"/>.</p>
+<p>If South declares <contract code="3N"/>, then a <card code="CQ"/> lead sets the contract.  When West gets in with the diamond king, he can continue
+clubs, the defense taking four clubs and a diamond.</p>
+<p>But the <contract code="5D"/> contract makes only when declared by West.</p>
+</body>
+</article>

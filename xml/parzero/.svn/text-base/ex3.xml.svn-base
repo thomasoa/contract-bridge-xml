@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Two <em>en passant</em> Coups</title>
+<body>
+<diagram id="base">
+<hand seat="N" sp="AKQ5" he="K2" di="QT87" cl="643"/>
+<hand seat="W"  sp="J872" he="T97" di="K5" cl="AKQ9"/>
+<hand seat="E"  sp="964" he="Q84" di="AJ63" cl="T72"/>
+<hand seat="S" sp="T3" he="AJ653" di="942" cl="J85"/>
+</diagram>
+<h2>Notrump, Hearts, and Clubs</h2>
+<p>
+Any heart, club or notrump contract fails easily, with simple promotions necessary in some of the suit contracts.
+</p>
+<h2>Spades</h2>
+<p>
+If East/West declare spades, the defense starts with
+three spades, then three hearts.  The fourth heart is led at this position:
+</p>
+<diagram original="base">
+<hand seat="N" sp="5" he="" di="QT87" cl="64"/>
+<hand seat="W"  sp="J" he="" di="K5" cl="AKQ9"/>
+<hand seat="E"  sp="" he="" di="AJ63" cl="T72"/>
+<hand seat="S" sp="" he="6^5" di="94" cl="J85"/>
+</diagram>
+<p>
+North's <spade card="5"/> scores <em>en passant.</em>
+</p><p>
+If North/South declare spades, East/West start with three clubs and three
+diamonds, West pitching a heart.  On the fourth diamond, West overruffs
+South for the seventh trick.
+</p>
+<h2>Diamonds</h2>
+<p>
+If North/South declare diamonds, East/West start with three diamonds, then
+three clubs. West's <club card="9"/> is led at this position:
+</p>
+<diagram original="base">
+<hand seat="N" sp="AKQ5" he="K2" di="Q" cl=""/>
+<hand seat="W"  sp="J872" he="T97" di="" cl="^9"/>
+<hand seat="E"  sp="964" he="Q84" di="6" cl=""/>
+<hand seat="S" sp="T3" he="AJ653" di="" cl=""/>
+</diagram>
+<p>
+East scores the <diamond card="6"/> "en passant" again.
+</p><p>
+If East/West declare diamonds, the defense starts with three hearts, then
+three spades.  When North leads his <spade card="5"/> at this position:
+<diagram original="base">
+<hand seat="N" sp="^5" he="" di="QT87" cl="64"/>
+<hand seat="W"  sp="J" he="" di="K5" cl="AKQ9"/>
+<hand seat="E"  sp="" he="" di="AJ63" cl="T72"/>
+<hand seat="S" sp="" he="65" di="942" cl="J8"/>
+</diagram>
+East must ruff with the <diamond card="J"/> to prevent South from scoring the
+<diamond card="9"/>, and that promotes a second diamond trick in the North hand.
+</p>
+<h2>Post mortem</h2>
+<p>
+The <em>en passant</em> coup is a minimalist trump promotion - where
+our side has only one trump and it is not a natural winner. 
+</p>
+</body>
+</article>

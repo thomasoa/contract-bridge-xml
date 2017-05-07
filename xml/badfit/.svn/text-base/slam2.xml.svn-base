@@ -1,0 +1,43 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Another Basic Slam</title>
+<body>
+<diagram>
+<hand seat="N" sp="AT432" he="KJ83" di="J2" cl="97"/>
+<hand seat="W"  sp="K97" he="T52" di="9653" cl="Q43"/>
+<hand seat="E"  sp="J65" he="Q94" di="T74" cl="T865"/>
+<hand seat="S" sp="Q8" he="A76" di="AKQ8" cl="AKJ2"/>
+</diagram>
+<!--
+             S: AT432
+             H: KJ83
+             D: J2
+             C: 97
+
+S: K97                     S: J65
+H: T52                     H: Q94
+D: 9653                    D: T74
+C: Q43                     C: T865
+
+             S: Q8
+             H: A76
+             D: AKQ8
+             C: AKJ2
+-->
+<p>
+A <contract code="6H"/> contract fails because North/South must lose a heart to the defense, and
+can't time that loss so that the defense must break the spade suit.
+<contract code="6N"/> fails because there are nine top tricks and the situation in
+the spade suit means that suit cannot be set up for extra tricks
+without losing two spades, while there is only one extra trick
+in each of hearts and clubs.
+</p><p>
+Indeed, the only slam to make on this deal is <contract code="6D"/>.
+</p><p>
+Say the defense leads a diamond.  Declarer wins the <diamond card="J"/> and plays the <club cards="AK"/> and ruffs a club, crosses to the <heart card="A"/>, draws trumps, and ducks a heart.  Declarer gets three hearts, a spade, four diamonds, three clubs, and a club ruff.
+</p><p>
+<em>
+My original line was more complex - thanks to Richard Pavlicek
+for pointing out this far simpler line.
+</em></p>
+</body>
+</article>

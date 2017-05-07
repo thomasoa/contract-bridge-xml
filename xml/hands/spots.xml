@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Seeing Spots</title>
+<date>July 28, 1997</date>
+<body>
+<diagram id="start">
+<header>
+<dealer>South</dealer>
+<vul>E/W</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+<!-- IMP-29.386 -->
+</header>
+<hand seat="N" sp="863" he="T954" di="7" cl="K9754"/>
+<hand seat="W"  sp="97" he="AQ73" di="Q5" cl="QJT32"/>
+<hand seat="E"  sp="KT54" he="J6" di="AJ842" cl="86"/>
+<hand seat="S" sp="AQJ2" he="K82" di="KT963" cl="A"/>
+</diagram>
+<auction dealer="S">
+<call code="1N"/>
+<call code="P"/>
+<call code="P"/>
+<call code="P"/>
+<!--
+South   West    North   East
+1NT     Pass    Pass    Pass
+-->
+</auction>
+<hr/>
+<p>
+Our declarer today is <link rel='external' href="http://www.gibware.com/">Matt Ginsberg's "GIB"</link> program.  GIB has some strange ideas about bidding,
+including a tendency to open <call code="1N"/> rather often. <em>[ This was as of 1997 - GIB's bidding has improved since.]</em>
+</p><p>
+West led the <club card="Q"/>, and GIB could do no better or worse
+than the average human, winning in hand.
+</p><p>
+Short of entries, GIB exited its hand with the <diamond card="T"/>,
+which West won with the queen. East signaled, mysteriously,
+with the <diamond card="8"/>. East's signal was going to prove costly under
+the eagle eye of GIB.
+</p><p>
+West continued the <club card="J"/>, which GIB won in dummy, pitching a
+small heart from hand.  GIB then took the spade finesse, which
+won, and exited with the <diamond card="K"/>, pitching a spade from dummy.
+</p><p>
+East won and led the <heart card="J"/>, GIB covered and West won
+the <heart card="A"/>.  West exited with the <spade card="9"/>, on which
+East contributed his king, and GIB won the ace.  GIB was at this position:
+</p><p>
+<diagram original="start">
+<hand seat="N" sp="" he="T95" di="" cl="975"/>
+<hand seat="W"  sp="" he="Q73" di="" cl="Q32"/>
+<hand seat="E"  sp="T5" he="6" di="J42" cl=""/>
+<hand seat="S" sp="J2" he="8" di="T63" cl=""/>
+</diagram>
+GIB led the <heart card="8"/>, and West very smoothly ducked.  If West had
+won the heart, he'd have to conceded four of the remaining tricks to dummy.
+</p><p>
+GIB then played <diamond card="T"/>, which East won.
+</p><p>
+East exited a spade,  and GIB won the jack.  When West failed to follow,
+GIB "knew" exactly what East's remaining cards were,
+found the endplay for the overtrick, throwing in East in with the
+last spade.
+</p><p>
+East was forced to lead from his <diamond cards="42"/> into GIB's 
+<diamond cards="63"/>, giving GIB
+an overtrick.
+</p><p>
+If East had ducked the <diamond card="T"/>, GIB was still going to make its
+overtrick, by immediately playing the <spade cards="J2"/>, forcing
+East to lead from <diamond cards="J4"/> into <diamond cards="63"/>.
+</p>
+</body>
+</article>

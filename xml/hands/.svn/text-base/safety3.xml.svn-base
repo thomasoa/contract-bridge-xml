@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Safer Than Sorry</title>
+<date>July 11, 1996</date>
+<body>
+<diagram>
+<header>
+<dealer>East</dealer>
+<vul>N/S</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+</header>
+<hand seat="N" sp="K4" he="QT64" di="AQ874" cl="43"/>
+<hand seat="S" sp="AQ98" he="A5" di="JT92" cl="K87"/>
+</diagram>
+<auction dealer="S">
+<call code="1D"/>
+<call code="P"/>
+<call code="1H"/>
+<call code="P"/>
+
+<call code="1S"/>
+<call code="2C"/>
+<call code="3D"/>
+<call code="P"/>
+
+<call code="3N"/>
+<call code="P"/>
+<call code="P"/>
+<call code="P"/>
+
+<!--
+South   West    North   East
+1D      Pass    1H      Pass
+1S      2C      3D      Pass
+3NT     All pass
+-->
+</auction>
+<hr/>
+<p>
+West led the <club card="Q"/>, and East played the <club card="J"/>, declarer ducking.
+</p><p>
+West then shifted to the <heart card="J"/>.  This was covered in dummy
+by the <heart card="Q"/>, East played the <heart card="K"/> and
+declarer won the <heart card="A"/>.
+</p><p>
+Declarer (geno on OKbridge) now appeared to have nine tricks; three spades,
+four or five diamonds, and two hearts.  But if East got in before the tricks
+could be run, he would be able to lead a club through declarer's king.
+</p><p>
+Declarer therefore took a basic safety play, playing a diamond to the
+ace.  He was rewarded when East dropped the <diamond card="K"/>.  Had 
+declarer taken the finesse, he would have been down 3, and if West had
+the king, when he won it, he couldn't safely attack clubs.
+</p><p>
+The full deal was:
+<diagram>
+<hand seat="N" sp="K4" he="QT64" di="AQ874" cl="43"/>
+<hand seat="W"  sp="T72" he="J" di="653" cl="AQT962"/>
+<hand seat="S" sp="AQ98" he="A5" di="JT92" cl="K87"/>
+<hand seat="E"  sp="J653" he="K98732" di="K" cl="J5"/>
+<!--
+             S: K4
+             H: QT64
+             D: AQ874
+             C: 43
+
+S: T72                         S: J653
+H: J                           H: K98732
+D: 653                         D: K
+C: AQT962                      C: J5
+
+             S: AQ98
+             H: A5
+             D: JT92
+             C: K87
+
+-->
+</diagram>
+</p><p>
+West might set this contract by initially leading a low club to East's jack.
+Declarer would have to win.  Then it is no longer "safe" for declarer
+to take the <diamond card="A"/> first.  Still, would West have passed South's
+<call code="1D"/> opening bid with a good club suit <em>and</em> the 
+<diamond card="K"/> at
+favorable vulnerability?  An argument can be made to play for the drop still,
+depending on West's overcalling style.
+</p>
+</body>
+</article>

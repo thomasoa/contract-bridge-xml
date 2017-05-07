@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Subtle Promotion</title>
+<!--
+s AK.A8742.T84.T72
+e 832.QT3.AKQ72.96
+s JT954.KJ.J95.K43
+w Q76.965.63.AQJ85
+-->
+<!-- level 2 - diamonds, clubs -->
+<body>
+<diagram id="base">
+<hand seat="N" sp="AK" he="A8742" di="T84" cl="T72"/>
+<hand seat="W"  sp="Q76" he="965" di="63" cl="AQJ85"/>
+<hand seat="E"  sp="832" he="QT3" di="AKQ72" cl="96"/>
+<hand seat="S" sp="JT954" he="KJ" di="J95" cl="K43"/>
+</diagram>
+<h2>Notrump</h2>
+<p>
+In notrump, each side can run at least seven top tricks. East/West can
+take 10 tricks by leading a diamond to the ace, club finesse, run four
+diamonds, then finesse clubs again and run clubs.  North/South get seven
+tricks by leading a spade to the king, heart finesse, heart king, another
+spade, and then running three good hearts.
+</p>
+<h2>Spades</h2>
+<p>
+Against a spade contract, East/West must get a spade, so they simply
+take their six top tricks in the minors.
+</p>
+<h2>Hearts</h2>
+<p>
+Against a heart contract, East/West start the same way - diamond, club
+finesse, two diamonds, club finesse, club ace, then a fourth club.  East
+ruffs high with the queen (or 10) and this promotes West's <heart card="9"/>.
+</p>
+<h2>Diamonds</h2>
+<p>
+If East/West declare in diamonds, the defense takes two top spades, finesses
+in hearts, cashes the <heart card="K"/>, ruffs a spade, cashes the <heart card="A"/>,
+and finishes up with a fourth round of hearts, promoting South's <diamond card="J"/>.
+</p>
+<h2>Clubs</h2><p>
+The trickiest case is when East/West declare clubs.
+</p><p>
+North/South take their two spades, three hearts, and a spade ruff as before.
+On the third round of hearts, South pitches a diamond, and, when North
+leads a fourth round of hearts, South pitches a diamond again at this
+position:
+</p>
+<diagram id="endposition" original="base">
+<hand seat="N" sp="" he="^87" di="T84" cl="T7"/>
+<hand seat="E"  sp="" he="" di="AKQ72" cl="96"/>
+<hand seat="W"  sp="" he="" di="63" cl="AQJ85"/>
+<hand seat="S" sp="JT" he="" di="J^9" cl="K42"/>
+</diagram>
+<p>
+What should East/West do?  If they ruff in East, they can only finesse
+once in trumps.  But if East pitches a diamond and ruff with the West
+hand, they only have one entry to dummy, since South can ruff a
+second diamond entry, so again they can only finesse in clubs once.
+</p>
+</body>
+</article>

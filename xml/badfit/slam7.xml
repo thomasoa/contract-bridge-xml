@@ -1,0 +1,79 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Morton's Fork</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="A86" he="Q43" di="AKJT2" cl="Q4"/>
+<hand seat="W"  sp="T94" he="K8765" di="963" cl="98"/>
+<hand seat="E"  sp="Q53" he="92" di="8754" cl="AJT3"/>
+<hand seat="S" sp="KJ72" he="AJT" di="Q" cl="K7652"/>
+</diagram>
+<!--
+             S: A86
+             H: Q43
+             D: AKJT2
+             C: Q4
+
+S: T94                     S: Q53
+H: K8765                   H: 92
+D: 963                     D: 8754
+C: 98                      C: AJT3
+
+             S: KJ72
+             H: AJT
+             D: Q
+             C: K7652
+-->
+<p>
+It looks like East/West always have two defensive tricks, but looks can
+be deceiving. If North declares any slam, of course, East can lead a heart
+and no more than 11 tricks can be taken. But what if South declares?
+</p><p>
+In clubs, there are obvious trump losers.
+</p><p>
+In hearts, there's the eventual trump loser(s) as well as the 
+<club card="A"/>.
+</p><p>
+Against a spade contract, West leads a diamond.   Declarer can finesse
+the spade, then play the king and <spade card="A"/> then run diamonds, pitching
+from hand, but what?  Nothing he pitches avoids two losers in clubs or a club
+loser and a heart loser.
+</p><p>
+In fact, only <contract code="6D"/> makes.
+</p><p>
+Say West takes a passive diamond lead, won in dummy.  Declarer draws four
+rounds of trumps, then leads a low club off dummy and East is caught:
+<diagram original="start">
+<hand seat="N" sp="A86" he="Q43" di="2" cl="Q^4"/>
+<hand seat="W"  sp="T94" he="K876" di="" cl="98"/>
+<hand seat="E"  sp="Q53" he="92" di="" cl="AJT3"/>
+<hand seat="S" sp="KJ72" he="AJ" di="" cl="K72"/>
+</diagram>
+<!--
+             S: A86
+             H: Q43
+             D: 2
+             C: Q*4*
+
+S: T94                     S: Q53
+H: K876                    H: 92
+D:  -                      D:  - 
+C: 98                      C: AJT3
+
+             S: KJ72
+             H: AJ
+             D:  - 
+             C: K72
+-->
+
+If East plays the ace, South wins the return, unblocks the clubs then
+pitches two hearts from dummy on the long spade and the club king.
+</p><p>
+If East ducks, South wins and runs the spades, pitching the club queen
+from dummy.  He then plays <heart card="A"/> and <heart card="J"/>, West getting the king,
+but East never getting the ace.
+</p><p>
+This an example of what is called "Morton's Fork" - East is damned if
+he takes the ace, and damned if he doesn't.
+</p>
+</body>
+</article>

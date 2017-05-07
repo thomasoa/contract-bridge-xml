@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Taking a Chance</title>
+<date>July 14, 1996</date>
+<body>
+<diagram>
+<header>
+<dealer>East</dealer>
+<vul>E/W</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+</header>
+<hand seat="N" sp="QJ864" he="63" di="Q652" cl="K4"/>
+<hand seat="S" sp="T7" he="AKJT" di="AKT9" cl="J92"/>
+<!--
+             S: QJ864
+             H: 63
+             D: Q652
+             C: K4
+
+
+             S: T7
+             H: AKJT
+             D: AKT9
+             C: J92
+-->
+</diagram>
+<auction dealer="E">
+<call code="P"/>
+<call code="1N"/>
+<call code="P"/>
+<call code="2H"><note>Transfer</note></call>
+
+<call code="P"/>
+<call code="2S"/>
+<call code="P"/>
+<call code="3N"/>
+
+<call code="P"/>
+<call code="P"/>
+<call code="P"/>
+<!--
+East    South   West    North
+Pass    1NT     Pass    2H
+Pass    2S      Pass    3NT
+Pass    Pass    Pass
+-->
+</auction>
+<hr/>
+<p>
+West leads the <club card="6"/> against three notrump.  How can we make
+this contract?
+</p><p>
+We clearly can't attack spades, because the opponents will likely
+take two spades and three clubs before we can set up tricks.
+</p><p>
+That means we will have to rely on the heart finesse.  We can get a club
+trick, four diamond tricks (assuming that suit behaves), and four
+heart tricks.
+</p><p>
+The only problem with this plan is that we can only take the heart finesse
+once.  That works okay if East has only three hearts to the queen, but
+West's <club card="6"/> is probably from a five-card suit.
+</p><p>
+When this was played out at an OKbridge tournament, many declarers ducked
+the club.  A few made the inspired play of the <club card="K"/>.  Those who did
+were rewarded with this full deal:
+<diagram>
+<hand seat="N" sp="QJ864" he="63" di="Q652" cl="K4"/>
+<hand seat="W"  sp="953" he="972" di="J" cl="AQ7653"/>
+<hand seat="E"  sp="AK2" he="Q854" di="8743" cl="T8"/>
+<hand seat="S" sp="T7" he="AKJT" di="AKT9" cl="J92"/>
+</diagram>
+</p><p>
+There is certainly a danger in playing the <club card="K"/> to the first
+trick - you could go down a lot that way.  Still, I think that is the better
+plan.</p>
+</body>
+</article>

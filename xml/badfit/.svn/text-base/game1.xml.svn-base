@@ -1,0 +1,57 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Basic Example</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="T98" he="Q6" di="Q54" cl="AJ874"/>
+<hand seat="W"  sp="J76432" he="A43" di="A8" cl="94"/>
+<hand seat="E"  sp="K5" he="9872" di="J972" cl="QT5"/>
+<hand seat="S" sp="AQ" he="KJT5" di="KT63" cl="K62"/>
+</diagram>
+<p>
+In <contract code="3N"/>, spade leads and West's two aces hold declarer to 
+seven tricks.
+</p><p>
+In <contract code="5C"/>, the defense gets a club, a heart, and a diamond.
+</p><p>
+Can <contract code="4H"/> make?  If the defense tries to force declarer to lose
+control, by leading spades, declarer wins the <spade card="Q"/> on the
+first round, leads trumps until West wins, and wins a second spade.
+Declarer draws a third round of trumps, leaving East with a trump, then leads
+a diamond.  West should duck, declarer wins the <diamond card="Q"/>, then
+ducks a diamond to West.  West can now force declarer to ruff a spade at
+this position:
+<diagram original="start">
+<hand seat="N" sp="" he="" di="4" cl="AJ87^3"/>
+<hand seat="W"  sp="^J762" he="" di="" cl="94"/>
+<hand seat="E"  sp="" he="9" di="J9" cl="QT5"/>
+<hand seat="S" sp="" he="^T" di="KT" cl="K63"/>
+</diagram>
+</p><p>
+What should East pitch?  If East pitches a club, declarer  ruffs, cashes two
+clubs and leads the diamond off dummy, finessing with the <diamond card="T"/>.  East gets the last trick with the outstanding trump.
+</p><p>
+If, instead, East ruffs the spade, South overruffs and only has a club loser
+remaining, again taking the diamond finesse.
+</p><p>
+So, East must pitch a diamond, leading to this position:
+<diagram original="start">
+<hand seat="N" sp="" he="" di="4" cl="AJ87"/>
+<hand seat="W"  sp="762" he="" di="" cl="94"/>
+<hand seat="E"  sp="" he="9" di="J" cl="QT5"/>
+<hand seat="S" sp="" he="" di="KT" cl="K63"/>
+</diagram>
+</p><p>
+Declarer now plays two top diamonds.  If East ruffs, he is forced
+to lead from his clubs, while if East pitches a club, East only
+gets his trump trick at the end.
+</p><p>
+Any defense which does not force in spades will allow declarer to
+lose just the two red aces and a club.
+</p><p>
+The five-card end position above is quite common in 4-2 fits in the collection.
+It's an odd sort of trump strip-squeeze, almost.  East is endplayed
+if he ruffs, but he loses his "natural" club trick if he pitches a
+club.
+</p>
+</body>
+</article>

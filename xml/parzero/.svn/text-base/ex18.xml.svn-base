@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Untitled X</title>
+<!--
+#
+# GIB Input ( http://www.gibware.com/ )
+#
+n JT4.532.32.KJT53
+e 953.6.7654.Q9642
+s K76.T984.AKQT.A7
+w AQ82.AKQJ7.J98.8
+#
+# iDeal Input ( http://bridge.thomasoandrews.com/iDeal/notes.html )
+#
+north is {JT4 532 32 KJT53}
+east is {953 6 7654 Q9642}
+south is {K76 T984 AKQT A7}
+west is {AQ82 AKQJ7 J98 8}
+-->
+<!-- level 2 - hearts, diamonds -->
+<body>
+<diagram>
+<hand seat="N" sp="JT4" he="532" di="32" cl="KJT53"/>
+<hand seat="W"  sp="AQ82" he="AKQJ7" di="J98" cl="8"/>
+<hand seat="E"  sp="953" he="6" di="7654" cl="Q9642"/>
+<hand seat="S" sp="K76" he="T984" di="AKQT" cl="A7"/>
+</diagram>
+</body>
+</article>

@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>More Trump Magic</title>
+<!--
+GIB description
+n KQ64.Q8.9842.954
+e T982.952.AKJ7.62
+s A3.KJT3.T63.AT87
+w J75.A764.Q5.KQJ3
+-->
+<!-- level 4 - spades, hearts, diamonds, clubs -->
+<body>
+<diagram id="base">
+<hand seat="N" sp="KQ64" he="Q8" di="9842" cl="954"/>
+<hand seat="W"  sp="J75" he="A764" di="Q5" cl="KQJ3"/>
+<hand seat="E"  sp="T982" he="952" di="AKJ7" cl="62"/>
+<hand seat="S" sp="A3" he="KJT3" di="T63" cl="AT87"/>
+</diagram>
+
+<h2>Notrump</h2>
+<p>
+    If East/West are on lead, they can set up two clubs, and have
+    four diamonds, two clubs, and the <heart card="A"/>.
+</p><p>
+    If North/South are on lead, they can set up three hearts, and
+    have three spades, three hearts, and a club.
+</p>
+<h2>Spades</h2>
+<p>
+    If East/West are on lead, they can take three top diamonds
+    (West pitching a heart) and on the fourth diamond promotes a
+    trump trick.  If South ruffs low, West overruffs and sets up
+    a pair of club tricks. So South must ruff high, and West pitches
+    a heart.  When West attacks hearts, West wins the second round
+    and exits a high club to this position:
+<diagram original="base">
+<hand seat="N" sp="KQ64" he="" di="" cl="95"/>
+<hand seat="W"  sp="J75" he="" di="" cl="QJ3"/>
+<hand seat="E"  sp="T982" he="9" di="" cl="6"/>
+<hand seat="S" sp="3" he="KJ" di="" cl="T87"/>
+</diagram>
+    Now if South tries to pitch a club loser from dummy
+    on a heart, West ruffs high without costing the defense a trump
+    trick.
+</p><p>
+    And declarer can't afford to draw two rounds of trumps before
+    attacking hearts for the same reason. And if declarer plays
+    two top spades and exits a spade, the defense gets to attack
+    clubs before the heart ace is knocked out.
+</p><p>
+    The play of the fourth diamond is similar to the end position
+    from <a href="ex8.html">Trump Magic.</a>  The lead functions
+    as both a trump promotion and an entry killer.
+</p><p>
+    If North/South are on lead against spades, they draw three rounds
+    of spades immediately and then set up hearts.  North/South have the
+    club ace, three hearts, and three spades.  (If East ruffs the third
+    heart winner, then North simply gets another trump.)
+</p>
+<h2>Hearts</h2>
+<p>
+    If North/South are on lead, they attack trumps immediately.
+    When West wins and they take four top diamonds, South pitches
+    a club.  North/South eventually get three hearts, three spades,
+    and a club.
+</p><p>
+    If East/West are on lead, they take three diamonds (West pitching
+    a spade) and then attack clubs.
+</p>
+<h2>Diamonds</h2>
+<p>
+    If East/West are on lead, they draw trumps, then lead clubs.
+    They score two clubs, four diamonds and a heart.
+</p><p>
+    If North/South are on lead, the defense starts with three spades
+    (South pitching a club) followed by the <heart card="Q"/> lead.
+    This kills an entry to the West hand for setting up clubs two
+    club tricks.  To preserve his other entry, the diamond queen,
+    the defense cannot draw trumps.  West must win the second heart
+    lead, and start with high clubs.  South wins the first one,
+    and plays two rounds of high hearts, North pitching clubs.
+    North/South have taken three spades, two hearts and a club, so
+    East must ruff the fourth round of hearts, at which point North 
+    must score a long trump.
+</p>
+<h2>Clubs</h2>
+<p>
+If North/South are on lead against clubs, they take three top spades, South
+pitching a diamond.  At this point, North can lead anything and the contract
+is set, but the direct route is hearts, starting the queen.  West wins the
+second heart and the defense runs two diamonds getting to this position:
+</p>
+<diagram original="base">
+<hand seat="N" sp="6" he="" di="98" cl="954"/>
+<hand seat="W"  sp="" he="76" di="" cl="KQJ3"/>
+<hand seat="E"  sp="T" he="9" di="KJ" cl="62"/>
+<hand seat="S" sp="" he="JT" di="" cl="AT87"/>
+</diagram>
+<p>
+Declarer has taken three spades, and one heart.  He has an obvious club
+and additional heart, but he can also always score a second club with
+a heart ruff high in dummy - East's weak doubleton can't overruff the
+club nine.
+</p><p>
+If East/West are on defense, they start with four diamonds (West pitching
+a spade on the third round.)  South can't pitch on the fourth diamond,
+because the defense has two clubs and a heart absolutely, so South has
+to ruff low, West pitching a second spade, leading to:
+</p>
+<diagram original="base">
+<hand seat="N" sp="KQ64" he="Q8" di="" cl="954"/>
+<hand seat="W"  sp="J" he="A764" di="" cl="KQJ3"/>
+<hand seat="E"  sp="T982" he="952" di="" cl="62"/>
+<hand seat="S" sp="A3" he="KJT3" di="" cl="AT8"/>
+</diagram>
+<p>
+Nothing declarer does here can keep West from scoring three club tricks -
+he cannot be endplayed, and if he ever ruffs a spade with the
+<club card="3"/> it's all obvious.
+</p>
+</body>
+</article>

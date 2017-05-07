@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Take Care What You Ask For...</title>
+<body>
+<diagram>
+<header>
+<dealer>South</dealer>
+<vul>E/W</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source> 
+<!-- (IMP-7.178, 1996) -->
+</header>
+<hand seat="N" sp="2" he="AQ8" di="532" cl="AKQT65"/>
+<hand seat="W"  sp="T6" he="J43" di="T64" cl="J9743"/>
+<hand seat="E"  sp="QJ754" he="765" di="QJ87" cl="2"/>
+<hand seat="S" sp="AK983" he="KT92" di="AK9" cl="8"/>
+</diagram>
+<auction dealer="S">
+<call code="1S"/>
+<call code="P"/>
+<call code="3C"/>
+<call code="P"/>
+
+<call code="3H"/>
+<call code="P"/>
+<call code="4C"/>
+<call code="P"/>
+
+<call code="6N"/>
+<call code="P"/>
+<call code="P"/>
+<call code="P"/>
+
+<!--
+South   West    North   East
+1S      Pass    3C      Pass
+3H      Pass    4C      Pass
+6NT     All pass
+-->
+</auction>
+<hr/>
+<p>
+West led a low diamond, East contributed the jack, and declare
+won the king.  As he led a low club, declarer said, "I sure hope
+the clubs don't split, because if they do we've missed a cold
+grand slam."  He played the <club card="A"/> and <club card="K"/>, East
+showing out, and declarer was in a bind.  No matter how he twisted,  he
+had to give up at least two tricks.
+</p><p>
+This is a common mistake.  Declarer was thinking about the contract
+he might have been in, rather than the contract he was in.  Declarer
+only needs five club tricks, and a simple safety play can greatly
+increase his chances - all he needs to do is play the a club to
+the ten at the second trick.  This safety play still assures
+you of five tricks in the club suit on any
+even or near-even split.  The 5-1 and 6-0 splits are the problems.
+</p><p>
+Eddie Grove has suggested to me that running the <club card="8"/> is
+an even better play.  The only time it loses over my play is when East
+has the stiff <club card="9"/>.  It has chances to win when West started with
+six clubs, or when East has any stiff jack.  
+</p><p>
+But does it win when West has six clubs? It wasn't clear to me
+that you could successfully make if clubs split so badly, but you
+can.
+</p><p>
+We will play West for holding and fewer than four spades and fewer than
+four hearts.   Trick three, we duck a spade.   The defense must exit
+in spades, diamonds, or clubs.
+</p><p>
+We win in hand (if a club exit, win in dummy and cross with the 
+<diamond card="K"/>)
+cash the rest of our diamond and spade winners (pitching two clubs from
+dummy), then play the <heart card="A"/> and <heart card="Q"/> and run
+your top clubs. The position on the last club trick is:
+<diagram>
+<hand seat="N" sp="" he="8" di="5" cl="^Q"/>
+<hand seat="W"  sp="" he="?" di="?" cl="J9"/>
+<hand seat="E"  sp="Q" he="?" di="?" cl=""/>
+<hand seat="S" sp="9" he="KT" di="" cl=""/>
+</diagram>
+East is caught in a classic showup squeeze, forced to pitch a spade
+or else he will be down to a singleton heart.
+</p><p>
+By keeping the <diamond card="5"/> in dummy, this line also works when West
+has four spades.  Any time West has a void or singleton heart, you
+can take the marked finesse against East's <heart card="J"/>.  If West has
+two or more hearts, along with six clubs and four spades, West will have
+at most one diamond.  Once you've cashed the second diamond, this
+will become known to you, and you carefully watch to see if East is
+forced to part with the diamond guard, rather than the spade guard.
+A similar showup squeeze as above occurs.
+</p><p>
+But this line seems to work however I play the clubs at the second trick,
+so I am still not convinced, one way or the other, that playing the
+ten is wrong at trick two.
+</p>
+</body>
+</article>

@@ -1,0 +1,59 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Basic Squeeze</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="AT" he="QJ953" di="QT872" cl="2"/>
+<hand seat="W"  sp="732" he="K7642" di="3" cl="T764"/>
+<hand seat="E"  sp="Q954" he="AT" di="J965" cl="853"/>
+<hand seat="S" sp="KJ86" he="8" di="AK4" cl="AKQJ9"/>
+</diagram>
+<!--
+             S: AT
+             H: QJ953
+             D: QT872
+             C: 2
+
+S: 732                     S: Q954
+H: K7642                   H: AT
+D: 3                       D: J965
+C: T764                    C: 853
+
+             S: KJ86
+             H: 8
+             D: AK4
+             C: AKQJ9
+-->
+<p>
+Clearly, <contract code="6N"/> is off the top two hearts. A
+<contract code="6D"/> contract loses a heart and a diamond if the defense forces South to ruff a heart
+at trick two.
+</p><p>
+But <contract code="6C"/> makes.  For example, if the defense forces South to
+ruff in hearts on the second trick, declarer can simply draw trumps, which squeezes East:
+<diagram original="start">
+<hand seat="N" sp="AT" he="Q" di="QT87^2" cl=""/>
+<hand seat="W"  sp="732" he="K76" di="3" cl="^T"/>
+<hand seat="E"  sp="Q954" he="" di="J965" cl=""/>
+<hand seat="S" sp="KJ86" he="" di="AK4" cl="^J"/>
+</diagram>
+<!--
+             S: AT
+             H: Q
+             D: QT87*2*
+             C:  - 
+
+S: 732                     S: Q954
+H: K76                     H:  - 
+D: 3                       D: J965
+C: *T*                     C:  - 
+
+             S: KJ86
+             H:  - 
+             D: AK4
+             C: *J*
+-->
+East, to play to the fourth round of trumps, has to keep four
+spades and four diamonds, an impossibility.
+</p>
+</body>
+</article>

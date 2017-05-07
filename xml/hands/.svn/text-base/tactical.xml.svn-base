@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Tactical Squeeze</title>
+<body>
+<diagram>
+<header>
+<dealer>East</dealer>
+<scoring>Matchpoints</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+</header>
+<hand seat="N" sp="J753" he="8542" di="Q8" cl="JT7"/>
+<hand seat="W"  sp="94" he="K9" di="AT5" cl="Q98432"/>
+<hand seat="E"  sp="Q82" he="JT763" di="J9632" cl=""/>
+<hand seat="S" sp="AKT6" he="AQ" di="K74" cl="AK65"/>
+</diagram>
+<!--
+             S: J753
+             H: 8542
+             D: Q8
+             C: JT7
+                              
+S: 94                         S: Q82
+H: K9                         H: JT763
+D: AT5                        D: J9632
+C: Q98432                     C: -  
+
+             S: AKT6
+             H: AQ
+             D: K74
+             C: AK65
+-->
+<auction dealer="E">
+<call code="P"/>
+<call code="2C"/>
+<call code="P"/>
+<call code="2D"/>
+
+<call code="P"/>
+<call code="2N"/>
+<call code="P"/>
+<call code="3N"/>
+
+<call code="P"/>
+<call code="P"/>
+<call code="P"/>
+<!--
+South     North
+2C	  2D
+2NT       3NT
+Pass
+-->
+</auction>
+<hr/>
+<p>
+West's opening led was a club, won in dummy with the jack,
+East pitching a diamond.  A spade was led from dummy, finessing the ten,
+and two more spades were played, West pitching a club.  
+A diamond was led toward the queen, West ducked, leading to this position:
+<diagram>
+<hand seat="N" sp="J" he="8542" di="8" cl="T7"/>
+<hand seat="W"  sp="" he="K9" di="AT" cl="Q984"/>
+<hand seat="E"  sp="" he="JT763" di="J96" cl=""/>
+<hand seat="S" sp="6" he="AQ" di="K7" cl="AK6"/>
+</diagram>
+<!--
+             S: J
+             H: 8542
+             D: 8
+             C: T7
+                              
+S: -                          S: -  
+H: K9                         H: JT763
+D: AT                         D: J96
+C: Q984                       C: -  
+
+             S: 6
+             H: AQ
+             D: K7
+             C: AK6
+-->
+At this point, declare could count nine tricks: four spades, one heart,
+one diamond, and three clubs.  If declarer could read through the backs
+of cards, he could have found an overtrick by playing the <heart cards="AQ"/>,
+forcing West to concede an extra trick in whichever minor he exited.
+</p><p>
+But South didn't need psychic skills - on the lead of the spade, West was
+tactically squeezed.
+</p><p>
+Pitching the <diamond card="T"/> would give up two overtricks tricks;
+declarer could duck a diamond to West's ace, and West would be
+endplayed in clubs and hearts.
+</p><p>
+If West pitched the <diamond card="A"/>, declare could still get a
+second overtrick by taking the top clubs and the diamond, and endplaying
+West in clubs.  West gets two club tricks but must lead a heart.
+</p><p>
+A heart pitch also allows declarer two tricks.  Declarer simply plays
+the <heart cards="AQ"/>, and West is again squeezed, in clubs and
+diamonds - he is endplayed in which ever suit he pitches.
+</p><p>
+If West parted with a club, declarer could play the top clubs, and
+endplay West with the last club, forcing West to give up a single overtrick
+in one of the red suits.
+</p><p>
+Okay, this isn't a proper squeeze - technically, the heart endplay was there
+initially - but it felt like a squeeze to West.  It was, of course, difficult
+for South to read the position until West started sweating on the fourth
+round of spades.  West eventually pitched his fourth club, and South promptly
+found the endplay.  If West had been able to make a smooth diamond pitch,
+declarer still might find the overtrick by taking the top clubs and endplaying
+West in clubs:
+<diagram>
+<hand seat="N" sp="" he="854" di="8" cl=""/>
+<hand seat="W"  sp="" he="K9" di="A" cl="9"/>
+<hand seat="E"  sp="" he="JT" di="J9" cl=""/>
+<hand seat="S" sp="" he="AQ" di="K7" cl=""/>
+</diagram>
+<!--
+             S: -  
+             H: 854
+             D: 8
+             C: -  
+
+S: -                          S: -  
+H: K9                         H: JT763
+D: A                          D: J96
+C: 9                          C: -  
+
+             S: -  
+             H: AQ
+             D: K7
+             C: -  
+
+-->
+On the last club, South must pitch a diamond.  West gets his diamond
+ace but then must lead a heart.
+</p><p>
+If West pitches a heart on the last spade, declarer should find the
+right play of the <heart card="A"/>.  West started with at most two hearts,
+and was probably 2-2-3-6 shape (if West was 2-3-2-6, his duck of the
+diamond was dangerous.)
+Declarer would play the <heart card="A"/>, not to drop the king, but to
+strip West of a heart exit card before endplaying him in clubs.  When he
+actually drops the <heart card="K"/>, declarer will see the writing on the wall
+and find second overtrick by squeezing West with the <heart card="Q"/>.
+</p><p>
+Indeed, given that South had West's count in clubs and spades, and
+could anticipate that West had at least three diamonds, including
+the ace, perhaps declarer can find most of his options even if
+West managed to play smoothly to the last spade.
+</p><p>
+Why do I call this a "tactical squeeze?"  Because, double-dummy,
+declarer could have made the overtrick without the squeeze.
+What the squeeze did was "show up" West for an endplay.  The term
+"show up" squeeze is most often used for the following situation:
+<diagram>
+<hand seat="N" sp="A" he="xx" di="" cl=""/>
+<hand seat="W"  sp="x" he="9" di="" cl="A"/>
+<hand seat="E"  sp="" he="Kx" di="A" cl=""/>
+<hand seat="S" sp="" he="AQ" di="K" cl=""/>
+</diagram>
+<!--
+             S: ^A
+             H: xx
+             D: -  
+             C: -  
+                              
+  S: x                         S: -  
+  H: x                         H: Kx
+  D: -                         D: A
+  C: A                         C: -  
+
+             S: -  
+             H: AQ
+             D: K
+             C: -  
+-->
+
+Declarer, in dummy, plays the <spade card="A"/>, and East is caught in a typical showup squeeze.
+Double-dummy, a heart pitch does not give declarer anything he did not
+already have.  Declarer could always have finessed for the third trick.  
+Most declarers do not play double dummy.
+</p><p>
+Similarly, the club pitch above didn't give declarer anything he did not
+have, double dummy, but it showed up the situation for the endplay.
+</p></body>
+</article>

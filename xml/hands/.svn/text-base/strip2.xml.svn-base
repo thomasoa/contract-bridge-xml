@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Subtle Pinch</title>
+<body>
+<diagram>
+<header>
+<dealer>South</dealer>
+<vul>None</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source> 
+<!--(IMP-26.81) -->
+</header>
+<hand seat="N" sp="AK62" he="AJ6" di="QJ42" cl="92"/>
+<hand seat="W"  sp="T974" he="KQT3" di="6" cl="KJT8"/>
+<hand seat="E"  sp="J8" he="9742" di="K93" cl="A743"/>
+<hand seat="S" sp="Q53" he="85" di="AT875" cl="Q65"/>
+</diagram>
+<auction dealer="S">
+<call code="P"/>
+<call code="P"/>
+<call code="1D"/>
+<call code="P"/>
+
+<call code="1N"/>
+<call code="P"/>
+<call code="P"/>
+<call code="P"/>
+<!--
+South   West    North   East
+Pass    Pass    1D      Pass
+1NT     All Pass
+-->
+</auction>
+<hr/>
+<p>
+West led an unfortunate <heart card="Q"/>, which declarer won in dummy.
+Declarer then finessed in diamonds, and ran diamonds.  West had to find
+four pitches.  The first three were two hearts and a club.  But on the
+last diamond, West is stuck:
+<diagram>
+<hand seat="N" sp="AK62" he="J6" di="" cl="92"/>
+<hand seat="W"  sp="T974" he="Q" di="" cl="KJT"/>
+<hand seat="E"  sp="J8" he="97" di="" cl="A743"/>
+<hand seat="S" sp="Q53" he="8" di="^7" cl="Q65"/>
+</diagram>
+West cannot part with a spade, or the <heart card="Q"/>, so he must
+part with another club.  Declarer can now lead a heart towards the
+jack, and East/West can only take two club tricks before conceding the
+rest. 
+</p><p>
+Of course, this line fails when the spades were 3-3, but then West
+might pitch a spade.  When West pitches the <club card="T"/>
+or <club card="J"/>, declarer might figure the hand out.
+</p>
+</body>
+</article>

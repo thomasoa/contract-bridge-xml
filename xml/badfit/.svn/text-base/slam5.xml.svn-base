@@ -1,0 +1,91 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Wrong-sided</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="T932" he="A2" di="AT84" cl="AK3"/>
+<hand seat="W"  sp="KJ865" he="86" di="Q976" cl="T7"/>
+<hand seat="E"  sp="4" he="JT93" di="532" cl="J9842"/>
+<hand seat="S" sp="AQ7" he="KQ754" di="KJ" cl="Q65"/>
+</diagram>
+<!--
+             S: T932
+             H: A2
+             D: AT84
+             C: AK3
+
+S: KJ865                   S: 4
+H: 86                      H: JT93
+D: Q976                    D: 532
+C: T7                      C: J9842
+
+             S: AQ7
+             H: KQ754
+             D: KJ
+             C: Q65
+-->
+<p>
+I'll leave it to the reader to determine why <contract code="6H"/>,
+<contract code="6S"/>, and <contract code="6N"/> fail.
+</p><p>
+It's rather surprising that <contract code="6D"/> makes on this deal,
+if declared by South.  West should lead a heart or club, won in the
+North hand. Declarer plays <diamond card="K"/> and <diamond
+card="J"/>, and, whether West covers or not, is left with a tenace
+over West in the trump suit.  Declarer then takes dummy's club and heart
+winners, and crosses with a small heart to hand:
+<diagram original="start">
+<hand seat="N" sp="T932" he="" di="AT" cl="3"/>
+<hand seat="W"  sp="KJ865" he="" di="Q9" cl=""/>
+<hand seat="E"  sp="4" he="JT" di="5" cl="J98"/>
+<hand seat="S" sp="AQ7" he="Q75" di="" cl="Q"/>
+</diagram>
+<!--
+             S: T932
+             H:  - 
+             D: AT
+             C: 3
+
+S: KJ865                   S: 4
+H:  -                      H: JT
+D: Q9                      D: 5
+C:  -                      C: J98
+
+             S: AQ7
+             H: Q75
+             D:  - 
+             C: Q
+-->
+</p><p>
+On a low heart from the South hand, West cannot profit
+from ruffing, so West pitches a spade.  Declarer ruffs and plays the
+diamond ace, pitching a spade.  Finally, declarer leads a club off dummy,
+and West is caught:
+<diagram original="start">
+<hand seat="N" sp="T932" he="" di="" cl="^3"/>
+<hand seat="W"  sp="KJ86" he="" di="Q" cl=""/>
+<hand seat="E"  sp="4" he="J" di="" cl="J9^8"/>
+<hand seat="S" sp="AQ" he="Q7" di="" cl="^Q"/>
+</diagram>
+<!--
+             S: T932
+             H:  - 
+             D:  - 
+             C: *3*
+
+S: KJ86                    S: 4
+H:  -                      H: J
+D: Q                       D:  - 
+C:  -                      C: J9*8*
+
+             S: AQ
+             H: Q7
+             D:  - 
+             C: *Q*
+-->
+This is essentially the end position we've seen twice before.
+If West ruffs, he is forced to lead from the spades.  If he pitches,
+declarer just runs his hearts, and West is still forced to pitch spades.
+In the end, all West scores is his one trump trick.
+</p>
+</body>
+</article>

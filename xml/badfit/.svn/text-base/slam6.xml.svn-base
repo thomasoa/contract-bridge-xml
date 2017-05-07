@@ -1,0 +1,43 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Wrong-sided II</title>
+<body>
+<p>Another similar example is:
+<diagram>
+<hand seat="N" sp="AQJT3" he="82" di="QJ83" cl="A5"/>
+<hand seat="W"  sp="876" he="AT5" di="K4" cl="T7632"/>
+<hand seat="E"  sp="9542" he="Q76" di="T92" cl="J84"/>
+<hand seat="S" sp="K" he="KJ943" di="A765" cl="KQ9"/>
+</diagram>
+<!--
+             S: AQJT3
+             H: 82
+             D: QJ83
+             C: A5
+
+S: 876                     S: 9542
+H: AT5                     H: Q76
+D: K4                      D: T92
+C: T7632                   C: J84
+
+             S: K
+             H: KJ943
+             D: A765
+             C: KQ9
+
+-->
+</p><p>
+Can North/South make <contract code="6N"/>?  No, the timing is all
+wrong - the defense must get a heart and either a diamond or a second
+heart. 
+</p><p>
+Obviously, <contract code="6D"/> is not going to work, losing the
+<heart card="A"/> and a trump. 
+</p><p>
+Does <contract code="6S"/> make?  Not if, as is likely, it is declared by North - a diamond
+lead kills it.  But what if it is, improbably, declared by South?
+</p><p>
+Indeed, <contract code="6S"/> by South does indeed make - all declarer needs is a single heart ruff
+and then he can pitch North's diamond losers on two long hearts and a club.
+</p>
+</body>
+</article>

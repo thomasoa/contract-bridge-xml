@@ -1,0 +1,39 @@
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Basic Slam</title>
+<body>
+<diagram>
+<hand seat="N" sp="T86" he="K6" di="A95" cl="KQJ53"/>
+<hand seat="W"  sp="9542" he="J93" di="63" cl="A972"/>
+<hand seat="E"  sp="QJ73" he="Q52" di="QJ7" cl="864"/>
+<hand seat="S" sp="AK" he="AT874" di="KT842" cl="T"/>
+</diagram>
+<!--
+             S: T86
+             H: K6
+             D: A95
+             C: KQJ53
+
+S: 9542                    S: QJ73
+H: J93                     H: Q52
+D: 63                      D: QJ7
+C: A972                    C: 864
+
+             S: AK
+             H: AT874
+             D: KT842
+             C: T
+-->
+<p>
+Notrump makes at most 10 tricks with repeated spade leads.
+Declarer has four club tricks, and two tricks in each other suit.
+</p><p>
+In hearts or diamonds, it is impossible to avoid a trump loser,
+so if the defense takes its ace off the top, declarer is stuck
+at 11 tricks.
+</p><p>
+The <contract code="6C"/> contract, however, is cold. 
+It is not hard at all to ruff out the hearts, draw trumps,
+and take your twelve tricks.
+</p>
+</body>
+</article>

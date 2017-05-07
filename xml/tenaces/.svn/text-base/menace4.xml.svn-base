@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Another Three-way Example</title>
+<body>
+<diagram id="start">
+<hand seat="N" sp="9" he="AQT7" di="Q7" cl="AQJ973"/>
+<hand seat="W"  sp="J43" he="J985" di="85432" cl="2"/>
+<hand seat="E"  sp="AQ652" he="4" di="KJT" cl="K854"/>
+<hand seat="S" sp="KT87" he="K632" di="A96" cl="T6"/>
+</diagram>
+<p>
+Another deal with three potential strains.  Game can be made in notrump,
+hearts, or clubs from one side or the other.
+</p>
+<h2>Notrump</h2>
+<p>
+If North is declarer in <contract code="3N"/>, East can set it with a
+spade lead.
+</p><p>
+Declarer cannot play the <spade card="K"/>, because he will
+eventually have to take the club finesses, and will then lose four
+spades and a club.  So declarer must duck, West winning the
+<spade card="J"/>.
+</p><p>
+Having grabbed a spade trick, West can shift to a diamond, and
+East/West eventually get two spades, two diamonds, and a club.
+</p><p>
+Declared by South, though, <contract code="3N"/> makes.  There is no
+way to put West in to lead diamonds.
+</p>
+<h2>Hearts</h2>
+<p>If South declares <contract code="4H"/>, he will have trouble after
+a diamond lead.  We know, for instance, that if South draws trumps, he
+can come up with at most nine tricks, since it reverts to the notrump
+situation discussed above - East gets two diamonds, a spade, and a club.
+</p><p>
+So South has to score an extra trump trick.  Ruffing clubs in hand
+is fruitless - he would be ruffing winners.  So South wins the first
+diamond, leads a heart to the ten and leads a spade.  East flies the
+ace and continues with two diamonds, forcing the ruff to occur in
+the diamond suit.  The situation is:
+<diagram original="start">
+<hand seat="N" sp="" he="AQ" di="" cl="AQJ973"/>
+<hand seat="W" sp="J4" he="J98" di="85" cl="2"/>
+<hand seat="E" sp="Q652" he="" di="" cl="K854"/>
+<hand seat="S" sp="KT8" he="K63" di="" cl="T6"/>
+</diagram>
+Stuck in dummy, South cannot get back to his hand to finish off the
+trumps.</p>
+<p>The diamond lead kills the entry to the South hand.</p>
+<p>If North is declaring <contract code="4H"/>, however, East cannot
+take more than three tricks.  If he leads the diamond king to kill the
+entry to trumps, he has just given up a trick, and declarer can simply
+allow West to win a trump.  All other leads sacrifice either
+tricks or tempo.
+</p>
+<h2> Clubs </h2>
+<p>
+The <contract code="5C"/> contracts are the easiest to follow.
+</p><p>
+With West on lead against a club game, a diamond lead immediately
+sets up a third defensive trick.
+</p><p>
+Any lead from East gives North time to set up a spade to pitch his
+diamond loser.
+</p>
+</body>
+</article>

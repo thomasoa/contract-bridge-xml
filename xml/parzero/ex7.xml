@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Heart Blockage</title>
+<!--
+GIB Input
+n 743.8732.J5.K642
+e Q862.K.T72.AJT98
+s AJ95.A64.KQ93.Q3
+w KT.QJT95.A864.75
+-->
+<!-- level 3 - spades, hearts, diamonds -->
+<body>
+<diagram id="base">
+<hand seat="N" sp="743" he="8732" di="J5" cl="K642"/>
+<hand seat="W"  sp="KT" he="QJT95" di="A864" cl="75"/>
+<hand seat="E"  sp="Q862" he="K" di="T72" cl="AJT98"/>
+<hand seat="S" sp="AJ95" he="A64" di="KQ93" cl="Q3"/>
+</diagram>
+<h2>Notrump</h2>
+<p>
+East/West have a lot of potential tricks, but the blockage in hearts
+is their downfall as declarer.  On a diamond or spade opening lead, 
+North/South kill one entry, and, when West wins and leads a heart to the king,
+South ducks.  To set up the hearts, then, West needs two more entries,
+entries he doesn't have.  East/West then get a heart, two spades, and
+a diamond.  Can East get three club tricks?  No matter how hard he
+tries, he cannot do so without losing two clubs first, which gives
+the defense three diamonds, a spade, a heart, and two clubs.
+</p><p>
+If North/South declare notrump, though, West's two entries are enough.
+A heart to the king is led, and South should duck.  East leads a low spade,
+South wins the ace and can kill one entry but not the other.  West wins
+at the first opportunity and sets up hearts, and gets a diamond,
+at least one spade, a club and four hearts. (The only way to keep East's
+<spade card="Q"/> from scoring actually lets East score a second club
+instead, so the defense actually has eight tricks.)
+</p>
+<h2>Spades</h2>
+<p>
+If North/South declare spades, the defense starts with hearts.  South does
+not good to duck, so he wins and attacks diamonds.  Too late, West wins the
+ace, pitches two diamonds on hearts, and leads a fourth round of hearts,
+pitching a club.  Sout to play at:
+</p>
+<diagram original="base">
+<hand seat="N" sp="743" he="^8" di="J" cl="K642"/>
+<hand seat="W"  sp="KT" he="^T9" di="864" cl="75"/>
+<hand seat="E"  sp="Q862" he="" di="" cl="AJT9^8"/>
+<hand seat="S" sp="AJ95" he="" di="KQ9" cl="Q3"/>
+</diagram>
+<p>East/West have scored three tricks already, and they have two natural tricks
+in trumps left, as well as the <club card="A"/>.  If South ruffs, the defenders
+get a third spade trick.  If he doesn't ruff, then he gets the 
+<club card="A"/>, two spades or a heart.
+</p><p>
+If East/West declare spades, the defense starts with diamonds and East doesn't
+get to pitch any diamonds. The defense ultimately gets two diamonds, two
+spades, a heart and two clubs.
+</p>
+<h2>Hearts</h2>
+<p>
+It is somewhat difficult to believe that East/West can be held to
+six tricks in hearts.  They have what appears to be four heart
+tricks and a trick in each other suit.  But the spade trick is the
+most vulernable, and it vanishes in a puff of smoke.
+</p><p>
+The defense starts with diamonds, West either holding up one round
+or not. What does West do, now that he's in?  The only vulnerable trick
+he has is spades, so he'd better set it up.  South wins the spade king lead
+with the ace, cashes the heart ace, and then cashes his diamond, West
+forced to follow and North pitching his two remaining spades.  South
+then gives North a ruff in spades and leads a club at this position:
+</p>
+<diagram original="base">
+<hand seat="N" sp="" he="87" di="" cl="K64^2"/>
+<hand seat="W"  sp="" he="QJT9" di="" cl="75"/>
+<hand seat="E"  sp="Q8" he="" di="" cl="AJT9"/>
+<hand seat="S" sp="J9" he="64" di="" cl="Q3"/>
+</diagram>
+<p>
+East/West need the rest, but the club lead forces them to take the entry
+before the trumps are drawn, so that the spade queen can't be cashed.
+</p><p>
+Of course, if North/South were declaring hearts, they can attack spades
+right away, and North won't have time to pitch his spade losers.
+</p>
+<h2>Diamonds</h2>
+<p>
+If North/South declare, the defense leads to the heart king.  South
+wins and attack trumps, but too late.  West wins the second trump
+and starts cashing hearts, East pitching spades.  If South ruffs the
+fourth round of hearts, that promotes a trump trick for West.
+</p><p>
+If East/West declare, the defense starts with diamonds, and West wins
+the second round.  He leads a heart to the king, and South ducks.
+Now East is on lead at this position:
+</p>
+<diagram original="base">
+<hand seat="N" sp="743" he="873" di="" cl="K642"/>
+<hand seat="W"  sp="KT" he="QJT9" di="86" cl="75"/>
+<hand seat="E"  sp="Q862" he="" di="T" cl="AJT98"/>
+<hand seat="S" sp="AJ95" he="A6" di="KQ" cl="Q3"/>
+</diagram>
+<p>Whatever East leads, South gets an entry to draw trumps and play ace and
+another spade.  That kills the West hand completely, and the defense still
+gets two clubs, and the heart ace.</p>
+<h2>Clubs</h2>
+<p>If East/West declare clubs, the defense attacks diamonds and West
+wins the first or second.
+</p><p>
+If he attacks hearts, South wins and plays the rest of his diamonds, North
+pitching two small spades.  If East doesn't ruff the fourth diamond,
+the defense gets three diamonds, a heart, a spade, a spade ruff and
+a club.  So East must ruff, and we're at this end position:
+</p>
+<diagram original="base">
+<hand seat="N" sp="7" he="873" di="" cl="K642"/>
+<hand seat="W"  sp="KT" he="QJT9" di="" cl="75"/>
+<hand seat="E"  sp="Q862" he="" di="" cl="AJT9"/>
+<hand seat="S" sp="AJ95" he="64" di="" cl="Q3"/>
+</diagram>
+<p>East is on lead, but what does he lead?  If he leads a spade, South wins the
+ace, continues a spade, North ruffs.  North then leads a club, and, if East
+finesses, North gets another spade ruff, while if East plays the ace,
+the defense gets two clubs directly.  Even then, there is the eventual
+spade loser.  Basically, East can't avoid lots of losers.
+</p><p>
+If North/South are declaring in clubs, East starts with the <heart card="K"/>,
+and South should duck.  East then leads a spade and South wins the ace and
+starts diamond, but it is too late - West wins the ace and leads a high
+heart and East pitches a diamond, and the defense is restricted to two diamond.
+Now South has to win.  He cashes one diamond, but East can ruff the third
+round, cross with a spade to West and leads high hearts, pitching two spades.
+South can ruff, but he's ruffing with a natural trump.
+</p><p>North/South get only five tricks.</p>
+</body>
+</article>

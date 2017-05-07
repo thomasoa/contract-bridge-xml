@@ -1,0 +1,27 @@
+Version - 0.6-pre
+
+    Changed Namespace URNs to use thomasoandrews.com, rather than thomaso.com
+
+Version 0.5
+
+    The Makefile now uses xsltproc, which requires you to install libxml2 and
+    libxslt. These can be found at:
+
+        http://www.xmlsoft.org/downloads.html (libxml2)
+        http://xmlsoft.org/XSLT/downloads.html (libxslt)
+
+Version 0.4
+
+    Added two articles.
+
+    Added the non-framed DHTML version.
+
+Version 0.3
+
+    Added pre-fetch and shortcut icons to the HTML headers.
+
+    Some basic text improvements to the xml files.
+
+Version 0.2
+
+    Changed to version 2.4 of Xalan.

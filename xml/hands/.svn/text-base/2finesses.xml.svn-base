@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Which Finesse?</title>
+<body>
+<diagram>
+<header>
+<dealer>East</dealer>
+<vul>None</vul>
+<scoring>Matchpoints</scoring>
+<source>San Mateo Bridge Center</source>
+<!-- SET00135, hand 8 -->
+</header>
+<hand seat="N" sp="KT7432" he="J9" di="KJ2" cl="Q3"/>
+<hand seat="S" sp="AJ65" he="AQ" di="876" cl="KJ54"/>
+</diagram>
+<auction dealer="E">
+<call code="P"/> <call code="1N"/> <call code="P"/> <call code="2H"><note>Transfer</note></call>
+<call code="P"/> <call code="2S"/> <call code="P"/> <call code="4S"/>
+<call code="P"/> <call code="P"/> <call code="P"/>
+</auction>
+<hr/>
+<p>
+West leads the <diamond card="A"/> and his partner contributes the
+four. West shifts to a trump, and you draw trumps in two rounds ending
+in hand, then lead a club to the queen.  East wins the ace and leads a
+heart.  Should you take the heart finesse at this position?
+<diagram>
+<hand seat="N" sp="T743" he="J9" di="KJ" cl="3"/>
+<hand seat="S" sp="J6" he="AQ" di="87" cl="KJ5"/>
+</diagram>
+</p><p>
+The contract is in the bag. The question is, how can you make
+the overtrick?  You have two clubs, a diamond, a heart, and four
+spade tricks.  East has cruelly made me make the red-suit decision
+now, it seems.
+</p><p>
+The heart finesse would be 50%, but it is slightly better than 50% that the
+<heart card="K"/> and the <diamond card="Q"/> were in different hands.
+You play the <heart card="A"/>, cash the <diamond card="K"/> and run
+the spades, pitching a diamond and the <heart card="Q"/>.  You reach
+this position:
+<diagram>
+<hand seat="N" sp="" he="J" di="J" cl="3"/>
+<hand seat="S" sp="" he="" di="" cl="KJ5"/>
+</diagram>
+If the red suit honors were split among your opponents, then neither could
+hold three clubs at this end position.  Even if they weren't split, if
+the person with both honors also held four or more clubs at the beginning,
+you'd still have that person squeezed.  This makes this line much better
+than 50%.
+</p><p>
+Sometimes, when presented with a choice of two finesses, you should choose
+neither.
+</p><p>
+Technically, this isn't a double squeeze, in that only one person is guarding
+clubs.  Still, it operates like a double squeeze.
+</p><p>
+Incidentally, I found this play at the table, but when I cashed the
+<diamond card="K"/>, East's queen dropped.  East also held the
+<heart card="K"/> and long clubs, so anything I did, short of taking
+the diamond finesse, would have given me the overtrick.  The full deal was:
+<diagram>
+<hand seat="N" sp="KT7432" he="J9" di="KJ2" cl="Q3"/>
+<hand seat="W" sp="9" he="8653" di="AT953" cl="T76"/>
+<hand seat="E" sp="Q8" he="KT742" di="Q4" cl="A982"/>
+<hand seat="S" sp="AJ65" he="AQ" di="876" cl="KJ54"/>
+</diagram>
+West could put pressure on me by continuing diamonds at trick two. 
+If he had, I had already decided to fly the king, to avoid losing
+four tricks on the hand.
+</p><p>
+What happens if, after winning the <club card="A"/>, East exits a club?
+That then kills the entry for the squeeze above.  Instead, you win
+the club return, cash the other top club, the <diamond card="K"/> and
+run the spades.  The end position is:
+<diagram>
+<hand seat="N" sp="3" he="J" di="J" cl=""/>
+<hand seat="S" sp="" he="AQ" di="" cl="5"/>
+</diagram>
+On the last spade, if East doesn't pitch a club, you pitch the club from
+hand.  If neither opponent pitches the <diamond card="K"/>, you play the
+heart to the ace, hoping that one of the opponents was forced to bare the king.
+</p><p>
+This line fails whenever West has the long club and exactly one of the
+<diamond card="Q"/> and the <heart card="K"/>, or if he holds the
+<heart card="K"/> and no other control.  If either opponent has the
+<diamond card="Q"/> and the <heart card="K"/> there is an automatic
+squeeze.  If East holds the <heart card="K"/> and the long club,
+there is a positional squeeze.
+</p><p>
+I think this all adds up to more than 50%, but it's difficult to tell
+given all the different pieces of information you have so far - for
+instance, if East has the <diamond card="Q"/>, why didn't he signal a clear
+encouragement?  Tough to figure that kind of thing into probabilistic
+analysis.
+</p><p>
+What happens when West hold the <club card="A"/> and wins the second club?
+Obviously, he'll want to exit in clubs or diamonds.  If he exits
+with a diamond, you play the <diamond card="K"/>, cross with the 
+trump ten, cash the <club card="J"/>, pitching a heart, then run your
+trumps.  This reaches the 3-card ending noted above.
+</p><p>
+Paul Wendt has noted that the defense can break the squeeze if they
+hold up the <club card="A"/> twice.  This gambit gets rid of my club
+loser, but it fails to give me any more winners, and it keeps me from
+rectifying the count for the squeeze.  My best bet is to try both of
+the red-suit finesses.  If one of them is on, I've got my overtrick.
+If both are on, I've got two overtricks.
+</p><p>
+But why on earth would either opponent duck the club twice?  I'd be dealing
+either with an act of either extreme cunning or extreme stupidity.  Maybe
+my opponent is aware that both finesses are offside?
+</p><p>
+If both red honors are offside, I can only make the overtrick, double-dummy,
+if East is holding the <club card="A"/>, via a strip squeeze at this end position:
+<diagram>
+<hand seat="N" sp="^T" he="J9" di="KJ" cl=""/>
+<hand seat="W" sp="" he="K8" di="T95" cl=""/>
+<hand seat="E" sp="" he="T7" di="Q4" cl="A"/>
+<hand seat="S" sp="" he="AQ" di="8^7" cl="J"/>
+</diagram>
+On the last spade, East clearly can't part with a diamond or the club
+ace, so he must part with a heart.  Now I cross to the <heart card="A"/> and
+throw East in with the club.</p>
+<p>
+Perhaps it is right, given that one of my defenders has brilliantly
+held up the <club card="A"/>, to play for both finesses offside.  Or maybe
+that's just what they want me to think.  I would certainly start
+feeling quite paranoid if they ducked clubs twice.
+</p><p>
+Still, I don't anticipate too many defenders will find that defense.
+I know I wouldn't.
+</p>
+</body></article>

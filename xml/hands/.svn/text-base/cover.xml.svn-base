@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Cover an Honor?</title>
+<body>
+<diagram>
+<header>
+<dealer>South</dealer>
+<vul>Both</vul>
+<scoring>Matchpoints</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+</header>
+<hand seat="N" sp="852" he="8643" di="K973" cl="J4"/>
+<hand seat="W"  sp="J73" he="JT72" di="Q85" cl="Q97"/>
+<hand seat="E"  sp="T9" he="A5" di="A62" cl="AKT832"/>
+<hand seat="S" sp="AKQ64" he="KQ9" di="JT4" cl="65"/>
+</diagram>
+<!--
+             S: 852
+             H: 8643
+             D: K973
+             C: J4
+
+S: J73                        S: T9
+H: JT72                       H: A5
+D: Q85                        D: A62
+C: Q97                        C: AKT832
+
+             S: AKQ64
+             H: KQ9
+             D: JT4
+             C: 65
+-->
+<auction dealer="S">
+<call code="1S"/>
+<call code="P"/>
+<call code="P"/>
+<call code="2C"/>
+
+<call code="P"/>
+<call code="P"/>
+<call code="2S"/>
+<call code="3C"/>
+
+<call code="P"/>
+<call code="P"/>
+<call code="3S"/>
+<call code="P"/>
+
+<call code="P"/>
+<call code="P"/>
+
+<!--
+South   West    North   East
+1S      Pass    Pass    2C
+Pass    Pass    2S      3C
+Pass    Pass    3S      Pass
+Pass    Pass
+-->
+</auction>
+<hr/>
+<p>
+West led a trump, and declarer won in hand and pulled the rest
+of the trumps. Declarer then led the <diamond card="J"/>, 
+ducked all around.  When declarer led the <diamond card="4"/>
+from hand, it was necessary for West to fly the queen, to block the suit,
+preventing South from from gaining entry to dummy to lead hearts.
+</p><p>
+If South had continued with the <diamond card="T"/>, West would have
+to duck, again to deny South a diamond entry.
+</p><p>
+In other words, the only way to keep South from gaining an entry
+to dummy on this hand is to duck if South leads the <diamond card="J"/>
+or <diamond card="T"/>, and fly the queen if South leads the 
+<diamond card="4"/>. 
+</p>
+</body>
+</article>

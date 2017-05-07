@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>A Double Whammy</title>
+<body>
+<diagram>
+<header>
+<dealer>East</dealer>
+<vul>E/W</vul>
+<scoring>IMPs</scoring>
+<source href="http://www.okbridge.com/">OKbridge</source>
+<!-- (IMP-2.37, 1996) -->
+</header>
+<hand seat="N" sp="QT65" he="J3" di="AK7" cl="J752"/>
+<hand seat="S" sp="A3" he="AQ75" di="J93" cl="AQ86"/>
+</diagram>
+<auction dealer="E">
+<call code="P"/>
+<call code="1N"/>
+<call code="P"/>
+<call code="2C"/>
+
+<call code="P"/>
+<call code="2H"/>
+<call code="P"/>
+<call code="3N"/>
+
+<call code="P"/>
+<call code="P"/>
+<call code="P"/>
+<!--
+East    South   West    North
+Pass    1NT     Pass    2C
+Pass    2H      Pass    3NT
+All pass
+-->
+</auction>
+<hr/>
+<p>
+West led the <spade card="4"/> against this game.  Declarer inexplicably
+played low, winning East's nine with the ace.
+</p><p>
+Declarer sees a probable three clubs, two hearts, two diamonds, and two spades.
+But timing is everything on this sort of hand, and of course, clubs
+might not behave.
+</p><p>
+Declarer started with a heart to the jack, East winning the king.
+East exited with the <heart card="T"/>, won by declarer.
+</p><p>
+Declarer next attacked clubs,  leading a low club to the jack, which won.
+Declarer continued clubs, East showing out, pitching a diamond.
+Unfortunate - the trick count is down to eight now.
+</p><p>
+Declarer ducked this club to West's 10, and West exited in hearts.  Declarer
+pitched a club from dummy, winning in hand.
+</p><p>
+Here is the end position with seven tricks left to go (double dummy):
+<diagram>
+<hand seat="N" sp="QT6" he="" di="AK7" cl="7"/>
+<hand seat="W"  sp="J872" he="" di="T" cl="K4"/>
+<hand seat="E"  sp="K" he="9" di="Q8654" cl=""/>
+<hand seat="S" sp="3" he="7" di="J93" cl="AQ"/>
+</diagram>
+
+Declarer led a low spade to the queen, guessing wrong, but East was
+endplayed.  After cashing the high heart, he was forced to lead
+a diamond. Declarer guessed right to play the jack.  Declarer then
+played two more rounds of diamonds, and West was pinched:
+<diagram>
+<hand seat="N" sp="T" he="" di="^K" cl="7"/>
+<hand seat="W"  sp="J" he="" di="" cl="K4"/>
+<hand seat="E"  sp="" he="" di="Q86^5" cl=""/>
+<hand seat="S" sp="" he="" di="^9" cl="AQ"/>
+</diagram>
+A double whammy - an endplay followed by a squeeze.
+</p><p>
+Making <call code="3N"/> was worth 2.12 IMPs, but going down one
+would have been worth -7.84 IMPs, for close to a 10 IMP swing.
+</p></body>
+</article>

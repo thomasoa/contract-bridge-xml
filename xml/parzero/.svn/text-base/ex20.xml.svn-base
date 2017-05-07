@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Untitled XII</title>
+<!--
+#
+# GIB Input ( http://www.gibware.com/ )
+#
+n 62.AQ874.T7.9743
+e KT3.T95.93.AK862
+s AQ84.32.QJ85.QJT
+w J975.KJ6.AK642.5
+#
+# iDeal Input ( http://bridge.thomasoandrews.com/iDeal/notes.html )
+#
+north is {62 AQ874 T7 9743}
+east is {KT3 T95 93 AK862}
+south is {AQ84 32 QJ85 QJT}
+west is {J975 KJ6 AK642 5}
+-->
+<!-- level 2 - hearts, diamonds, clubs -->
+<body>
+<diagram>
+<hand seat="N" sp="62" he="AQ874" di="T7" cl="9743"/>
+<hand seat="W"  sp="J975" he="KJ6" di="AK642" cl="5"/>
+<hand seat="E"  sp="KT3" he="T95" di="93" cl="AK862"/>
+<hand seat="S" sp="AQ84" he="32" di="QJ85" cl="QJT"/>
+</diagram>
+</body>
+</article>

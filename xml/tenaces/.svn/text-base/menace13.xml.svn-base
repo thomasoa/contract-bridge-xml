@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<title>Denying Entries</title>
+<body>
+<diagram>
+<!--
+North makes 5D
+South makes 4H
+-->
+<hand seat="E" sp='AT764' di='T86' he='K87' cl='T5'/>
+<hand seat="N" sp='Q2' di='Q97542' he='43' cl='862'/>
+<hand seat="S" sp='K9' di='KJ' he='AQJ92' cl='AKQJ'/>
+<hand seat="W" sp='J853' di='A3' he='T65' cl='9743'/>
+</diagram>
+<h2>Hearts</h2>
+<p>South makes <contract code="4H"/>.</p>
+<h2>Diamonds</h2>
+<p>If South declares <contract code="5D"/>, West leads a spade.  If
+North plays the <card code="SQ"/>, East wins the ace and exits a
+spade.  Declarer still has to lose the <card code="DA"/>, so he can't afford
+to play the clubs or hearts from her hand, so she must attack diamonds.  West wins the first diamond, and returns a diamond, reaching this position:</p>
+<diagram>
+<hand seat="E" sp='T76' di='T' he='K87' cl='T5'/>
+<hand seat="N" sp='' di='Q975' he='43' cl='862'/>
+<hand seat="S" sp='' di='' he='AQJ92' cl='AKQJ'/>
+<hand seat="W" sp='J8' di='' he='T65' cl='9743'/>
+</diagram>
+<p>South is stuck in his hand, and East must score another trick.</p>
+<p>If North is declaring, East can't lead spades and keep North from winning
+the <card code="SQ"/> to take the heart finesse. So say East leads a diamond to West's ace, and West continues a diamond.</p>
+<p>South plays two rounds of clubs followed by the <card code="SK"/>. East must duck to avoid giving North an entry.  Then South plays a low spade to the queen, and East wins his ace, leading to:</p>
+<diagram>
+<hand seat="E" sp='T76' di='T' he='K87' cl=''/>
+<hand seat="N" sp='' di='Q975' he='43' cl='8'/>
+<hand seat="S" sp='' di='' he='AQJ92' cl='AK'/>
+<hand seat="W" sp='J8' di='' he='T65' cl='97'/>
+</diagram>
+<p>With East on lead, he must yield an entry to the North, or let South finesse hearts, take the heart ace, and ruff a heart to draw trumps and claim.  Either way, declare ends up with 11 tricks.</p>
+</body>
+</article>
