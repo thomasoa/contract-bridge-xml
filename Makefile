@@ -19,6 +19,15 @@ PUBLISH=../public_html/bridge/deals
 XSL=article.xsl articles.xsl articles2.xsl diagram.xsl shared.xsl \
     auction.xsl default.xsl link.xsl hands.xsl inline.xsl test.xsl
 
+ONEXSL = article.xsl
+ONENAME = index.html
+
+ALLXSL = articles2.xsl
+ALLNAME = all.html
+
+MOBILETARGET=all
+mobile:
+	make ONEXSL=mobile-article.xsl ONENAME=mobile.html ALLXSL=mobile-articles.xsl ALLNAME=mobile.html $(MOBILETARGET)
 all: $(DIRS) gzfiles
 
 gzfiles: $(GZTARGETS)
@@ -35,77 +44,68 @@ clean:
 	find . -name '*~' -print | xargs rm
 	rm -f *.zip
 
-everybody: html/everybody/index.html
-everybody-mobile: html/everybody/mobile.html
-all1S: html/all1S/index.html
+everybody: html/everybody/$(ONENAME)
+all1S: html/all1S/$(ONENAME)
 all1S-mobile: html/all1S/mobile.html
 
-html/everybody/index.html: xml/everybody.xml
+html/everybody/$(ONENAME): xml/everybody.xml
 	[ -d html/everybody ] || mkdir -p html/everybody
-	$(XSLTPROC) --output $@ article.xsl $<
+	$(XSLTPROC) --output $@ $(ONEXSL) $<
 
-html/everybody/mobile.html: xml/everybody.xml
-	[ -d html/everybody ] || mkdir -p html/everybody
-	$(XSLTPROC) --output $@ mobile-article.xsl $<
-
-html/all1S/index.html: xml/all1S.xml
+html/all1S/$(ONENAME): xml/all1S.xml
 	[ -d html/all1S ] || mkdir -p html/all1S
-	$(XSLTPROC) --output $@ article.xsl $<
-
-html/all1S/mobile.html: xml/all1S.xml
-	[ -d html/all1S ] || mkdir -p html/all1S
-	$(XSLTPROC) --output $@ mobile-article.xsl $<
+	$(XSLTPROC) --output $@ $(ONEXSL) $<
 
 test: html/test/index.html
-test2: html/test/all.html
+test2: html/test/$(ALLNAME)
 badfit: html/badfit/index.html
-badfit2: html/badfit/all.html
+badfit2: html/badfit/$(ALLNAME)
 parzero: html/parzero/index.html
-parzero2: html/parzero/all.html
+parzero2: html/parzero/$(ALLNAME)
 tenaces: html/tenaces/index.html
-tenaces2: html/tenaces/all.html
+tenaces2: html/tenaces/$(ALLNAME)
 hands: html/hands/index.html
-hands2: html/hands/all.html
+hands2: html/hands/$(ALLNAME)
 
 html/test/index.html: xml/test/table.xml
 	[ -d html/test ] || mkdir -p html/test
 	$(XSLTPROC) --output $@ articles.xsl $<
 
-html/test/all.html: xml/test/table.xml
+html/test/$(ALLNAME): xml/test/table.xml
 	[ -d html/test ] || mkdir -p html/test
-	$(XSLTPROC) --output $@ articles2.xsl $<
+	$(XSLTPROC) --output $@ $(ALLXSL) $<
 
 html/hands/index.html: xml/hands/table.xml
 	[ -d html/hands ] || mkdir -p html/hands
 	$(XSLTPROC) --output $@ articles.xsl $<
 
-html/hands/all.html: xml/hands/table.xml
+html/hands/$(ALLNAME): xml/hands/table.xml
 	[ -d html/hands ] || mkdir -p html/hands
-	$(XSLTPROC) --output $@ articles2.xsl $<
+	$(XSLTPROC) --output $@ $(ALLXSL) $<
 
 html/badfit/index.html: xml/badfit/table.xml
 	[ -d html/badfit ] || mkdir -p html/badfit
 	$(XSLTPROC) --output $@ articles.xsl $<
 
-html/badfit/all.html: xml/badfit/table.xml
+html/badfit/$(ALLNAME): xml/badfit/table.xml
 	[ -d html/badfit ] || mkdir -p html/badfit
-	$(XSLTPROC) --output $@ articles2.xsl $<
+	$(XSLTPROC) --output $@ $(ALLXSL) $<
 
 html/tenaces/index.html: xml/tenaces/table.xml
 	[ -d html/tenaces ] || mkdir -p html/tenaces
 	$(XSLTPROC) --output $@ articles.xsl $<
 
-html/tenaces/all.html: xml/tenaces/table.xml
+html/tenaces/$(ALLNAME): xml/tenaces/table.xml
 	[ -d html/tenaces ] || mkdir -p html/tenaces
-	$(XSLTPROC) --output $@ articles2.xsl $<
+	$(XSLTPROC) --output $@ $(ALLXSL) $<
 
 html/parzero/index.html: xml/parzero/table.xml
 	[ -d html/parzero ] || mkdir -p html/parzero
 	$(XSLTPROC) --output $@ articles.xsl $<
 
-html/parzero/all.html: xml/parzero/table.xml
+html/parzero/$(ALLNAME): xml/parzero/table.xml
 	[ -d html/parzero ] || mkdir -p html/parzero
-	$(XSLTPROC) --output $@ articles2.xsl $<
+	$(XSLTPROC) --output $@ $(ALLXSL) $<
 
 zip: clean
 	rm -rf $(ZIPDIR)
