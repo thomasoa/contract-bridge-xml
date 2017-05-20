@@ -48,6 +48,7 @@ p.default { display: block; }
 
 .diagram  .east {
     float:right;
+    padding-right: 1em;
 }
 
 
