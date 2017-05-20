@@ -26,9 +26,10 @@ ALLXSL = articles2.xsl
 ALLNAME = all.html
 
 MOBILETARGET=all
+all: $(DIRS) gzfiles
+
 mobile:
 	make ONEXSL=mobile-article.xsl ONENAME=mobile.html ALLXSL=mobile-articles.xsl ALLNAME=mobile.html $(MOBILETARGET)
-all: $(DIRS) gzfiles
 
 gzfiles: $(GZTARGETS)
 
