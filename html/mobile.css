@@ -1,0 +1,68 @@
+span.played {
+	color: #3333FF ;
+}
+
+/* Color for black suit symbols &spades; or &clubs; when included in
+   a hand table */
+span.blacksuit {
+     color: black;
+     background: inherit;
+}
+
+/* Gross code for testing purposes, to show paragraphs with
+   bright red symbols in the middle */
+span.forcered span.redsuit {
+     color: #FF0000;
+}
+
+/* 
+  Color for red suit symbols &diams; or &hearts; outside hand diagrams -
+  I've made these slighly darker because a bright red interrupted the flow
+  of the text.
+*/
+span.redsuit {
+     font-family: "Courier New", Courier, monospace;
+     color: #CC0000;
+     background: inherit;
+}
+
+span.blacksuit {
+     font-family: "Courier New", Courier, monospace;
+     color: black;
+     background: inherit;
+}
+pre.testcode {
+   background: #CCCCFF;
+}
+td.auctionannotation div {
+   margin-left: 1em;
+   margin-right: 1em;
+   margin-top: 1ex;
+   margin-bottom: 1ex;
+   font-size: smaller;
+   font-style: italic;
+}
+
+table.auctiontable { margin-left: 1em;}
+table.auctiontable tr.heading td { 
+    vertical-align: top; 
+    padding-bottom: 0;
+    font-style: italic;
+}
+
+table.auctiontable tr td { width: 25%; padding: 0; text-align: left; }
+
+table.auctiontableplusnotes tr { vertical-align: bottom; }
+
+table.auctionplusnotes td.notes { width: auto; padding-top: 1ex; }
+table.auctionplusnotes td { vertical-align: top;}
+
+div.auctionnote {
+    font-size: 80%;
+    margin-left: 2em;
+    text-indent: -1em;
+    padding-top: 2px;
+}
+
+span.footnotetag { font-size: 80%; vertical-align: super; }
+
