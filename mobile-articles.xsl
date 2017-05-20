@@ -130,7 +130,7 @@ Handling <xsl:value-of select="$name"/> (<xsl:value-of select="$title"/>)
 </xsl:variable>
 <div id="{$name}" data-role='page'>
 <div data-role='header'>
-<a href='#toc' data-icon='bars'>Contents</a>
+<a href='#toc' data-icon='bars' data-iconpos="notext">&#xA0;</a>
 <h1><xsl:value-of select='$title'/></h1>
 <xsl:if test='$next'>
 <a href='#{$next}' data-icon='arrow-r' data-iconpos="right">Next</a>
