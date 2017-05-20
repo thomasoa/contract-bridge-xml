@@ -66,3 +66,11 @@ div.auctionnote {
 
 span.footnotetag { font-size: 80%; vertical-align: super; }
 
+span.holding , span.call, span.contract {
+        white-space: nowrap;
+}
+
+.ui-header .ui-title {
+    margin-right: 10%;
+    margin-left: 10%;
+}
