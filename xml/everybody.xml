@@ -107,9 +107,10 @@ notrump.  For a simple example:
 </diagram>
 Here, <contract code="7N"/> makes when declared by North and East.
 </p>
-<p>Richard Pavlicek reports a 
-<link external="http://www.rpbridge.net/7a59.htm#10">deal where
-both sides can make 9 tricks in the same suit,</link> and it is the last
+<p>Richard Pavlicek reports this 
+<!--
+<link external="http://www.rpbridge.net/7a59.htm#10">--> deal where
+both sides can make 9 tricks in the same suit,<!--</link>--> and it is the last
 making contract for both sides:
 <diagram>
            <hand seat="N" sp="9" he="JT9" di="AQ432" cl="AKQ2"/>

@@ -36,15 +36,25 @@ clean:
 	rm -f *.zip
 
 everybody: html/everybody/index.html
+everybody-mobile: html/everybody/mobile.html
 all1S: html/all1S/index.html
+all1S-mobile: html/all1S/mobile.html
 
 html/everybody/index.html: xml/everybody.xml
 	[ -d html/everybody ] || mkdir -p html/everybody
 	$(XSLTPROC) --output $@ article.xsl $<
 
+html/everybody/mobile.html: xml/everybody.xml
+	[ -d html/everybody ] || mkdir -p html/everybody
+	$(XSLTPROC) --output $@ mobile-article.xsl $<
+
 html/all1S/index.html: xml/all1S.xml
 	[ -d html/all1S ] || mkdir -p html/all1S
 	$(XSLTPROC) --output $@ article.xsl $<
+
+html/all1S/mobile.html: xml/all1S.xml
+	[ -d html/all1S ] || mkdir -p html/all1S
+	$(XSLTPROC) --output $@ mobile-article.xsl $<
 
 test: html/test/index.html
 test2: html/test/all.html

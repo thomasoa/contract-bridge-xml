@@ -10,7 +10,7 @@
 <xsl:variable name="mytop">http://bridge.thomasoandrews.com</xsl:variable>
 
 <xsl:template match="bridge:link[@rel]" priority="1">
-<a target="_top" rel='{@rel}' href="{@href}">
+<a target="_top" rel='{@rel}' href="{@href}" data-rel='{@rel}'>
   <xsl:apply-templates/>
 </a>
 </xsl:template>
@@ -23,13 +23,18 @@
 </xsl:template>
 
 <xsl:template match="bridge:link[@rel='onsite']" priority="2">
-<a target="_top" href="{$mytop}{@href}">
+<a target="_top" href="{$mytop}{@href}" data-rel='external'>
 <xsl:apply-templates/>
 </a>
 </xsl:template>
 
+<xsl:template match="bridge:link[@external]" priority="2">
+<a href="{@external}" data-rel='external'>
+  <xsl:apply-templates/>
+</a>
+</xsl:template>
 <xsl:template match="bridge:link" priority="0">
-<a target="_top" href="{@href}">
+<a target="_top" href="{@href}" data-rel='external'>
   <xsl:apply-templates/>
 </a>
 </xsl:template>

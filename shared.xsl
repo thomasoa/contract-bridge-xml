@@ -12,7 +12,7 @@
 <xsl:include href="inline.xsl"/>
 <xsl:include href="hands.xsl"/>
 <xsl:include href="auction.xsl"/>
-<xsl:include href="diagram.xsl"/>
+<xsl:include href="diagram-non-table.xsl"/>
 <xsl:include href="test.xsl"/>
 <xsl:include href="link.xsl"/>
 

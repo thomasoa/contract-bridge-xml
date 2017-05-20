@@ -6,7 +6,7 @@
                 exclude-result-prefixes="trans bridge">
 <!-- Copyright 2002, Thomas Andrews, bridge@thomasoandrews.com -->
 <xsl:import href="shared.xsl"/>
-<xsl:output method="html" encoding="iso-8859-1" doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN"/>
+<xsl:output method="html" encoding="iso-8859-1"/>
 
 <xsl:variable name="copyright">&#169; <xsl:value-of select="/bridge:article/bridge:copyright"/>.</xsl:variable>
 
@@ -29,11 +29,13 @@
 </xsl:template>
 
 <xsl:template match="/">
+<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
 <meta name="format-detection" content="telephone=no" />
 <link rel="stylesheet" type="text/css" href="../article.css"/>
+<link rel="stylesheet" type="text/css" href="../no-table.css"/>
 <meta name="keywords" content="contract bridge, humor, card games"/>
 <xsl:copy-of select="$shortcuticon"/>
 <xsl:call-template name='htmltitle'>
