@@ -33,7 +33,7 @@ Vul
 </xsl:template>
 
 <xsl:template match="bridge:source[@href]">
-<div class="source">From: <a href="{@href}" target="_top"><xsl:apply-templates/></a></div>
+<div class="source"><a href="{@href}" target="_top"><xsl:apply-templates/></a></div>
 </xsl:template>
 
 <xsl:template match="bridge:source">
