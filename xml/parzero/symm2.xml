@@ -9,8 +9,8 @@
 <hand seat="E"  sp="J654" he="" di="T32" cl="AKQ987"/>
 <hand seat="S" sp="" he="T32" di="AKQ987" cl="J654"/>
 </diagram>
-<p>
 <h2>Spades</h2>
+<p>
 Against spades (declared by South) West starts with <heart cards="AKQ"/>,
 then a heart, ruffed by East.  East then cashes his <club cards="AKQ"/>, then
 leads another club, West ruffing with the <spade card="T"/>, which promotes the
