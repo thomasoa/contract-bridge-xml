@@ -18,8 +18,8 @@
 
 <xsl:variable name="signature">
 <div class="signature" data-role='footer'>
-<xsl:value-of select="/bridge:book/bridge:author"/><xsl:text>; </xsl:text>
-<xsl:value-of select="$copyright"/>.
+<h4><xsl:value-of select="/bridge:book/bridge:author"/><xsl:text>; </xsl:text>
+<xsl:value-of select="$copyright"/>.</h4>
 </div>
 </xsl:variable>
 
