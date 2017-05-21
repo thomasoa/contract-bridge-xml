@@ -21,7 +21,6 @@ span.forcered span.redsuit {
   of the text.
 */
 span.redsuit {
-     font-family: "Courier New", Courier, monospace;
      color: #CC0000;
      background: inherit;
 }
@@ -34,6 +33,7 @@ span.blacksuit {
 pre.testcode {
    background: #CCCCFF;
 }
+
 td.auctionannotation div {
    margin-left: 1em;
    margin-right: 1em;
@@ -70,7 +70,10 @@ span.holding , span.call, span.contract {
         white-space: nowrap;
 }
 
-.ui-header .ui-title {
-    margin-right: 10%;
-    margin-left: 10%;
+.articlePage .ui-header .ui-title , .articlePage .ui-footer .ui-title {
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
+
