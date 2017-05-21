@@ -26,7 +26,6 @@ span.redsuit {
 }
 
 span.blacksuit {
-     font-family: "Courier New", Courier, monospace;
      color: black;
      background: inherit;
 }
@@ -41,6 +40,11 @@ td.auctionannotation div {
    margin-bottom: 1ex;
    font-size: smaller;
    font-style: italic;
+}
+
+abbr, acronym {
+    text-decoration: none;
+    border-bottom: none;
 }
 
 table.auctiontable { margin-left: 1em;}
