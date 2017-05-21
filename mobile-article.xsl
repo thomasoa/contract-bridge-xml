@@ -33,7 +33,6 @@
 <meta name='og:image' content='http://bridge.thomasoandrews.com/graphics/falling_small.jpg'/>
 <meta name='og:title' content='{bridge:article/bridge:title}'/>
 <meta name='og:site_name' content='Thomas&#39;s Bridge Fantasia'/>
-<meta name='og:url' content='http://bridge.thomasoandrews.com/evaluator/mobile.html'/>
 <meta name="format-detection" content="telephone=no" />
 <meta name="keywords" content="contract bridge, humor, card games"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
