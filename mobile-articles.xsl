@@ -35,7 +35,6 @@
 <meta name='og:image' content='http://bridge.thomasoandrews.com/graphics/falling_small.jpg'/>
 <meta name='og:title' content='{$booktitle}'/>
 <meta name='og:site_name' content='Thomas&#39;s Bridge Fantasia'/>
-<meta name='og:url' content='http://bridge.thomasoandrews.com/evaluator/mobile.html'/>
 <meta name="format-detection" content="telephone=no" />
 <meta name="keywords" content="contract bridge, humor, card games"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -45,7 +44,7 @@
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <link rel="stylesheet" type="text/css" href="../mobile.css"/>
 <link rel="stylesheet" type="text/css" href="../no-table.css"/>
-<script language="javascript" src="../articles.js" type="text/javascript"> 
+<script language="javascript" src="../mobile.js" type="text/javascript"> 
 </script>
 <title>
 <xsl:copy-of select="$booktitle"/>
@@ -54,7 +53,7 @@
 </head>
 <body>
 
-<div data-role='page' id='toc'>
+<div data-role='page' id='toc' class='tocPage'>
 <div data-role='header'>
 <a href='http://bridge.thomasoandrews.com/' data-icon='home' data-ajax='false'>Home</a>
 <h1>Contents</h1>
@@ -124,19 +123,37 @@
 <xsl:message>
 Handling <xsl:value-of select="$name"/> (<xsl:value-of select="$title"/>)
 </xsl:message>
-<xsl:variable name="prevnexttop">
-</xsl:variable>
-<xsl:variable name="prevnextbottom">
-</xsl:variable>
-<div id="{$name}" data-role='page'>
+<div id="{$name}" data-role='page' class='articlePage' data-next='{$next}' data-prev='{$prev}'>
 <div data-role='header'>
-<a href='#toc' data-icon='bars' data-iconpos="notext">&#xA0;</a>
-<h1><xsl:value-of select='$title'/></h1>
-<xsl:if test='$next'>
-<a href='#{$next}' data-icon='arrow-r' data-iconpos="right">Next</a>
-</xsl:if>
+<div data-role='navbar'>
+<ul  id="nav-{$name}" class="articles_nav">
+<xsl:choose>
+<xsl:when test='$prev'>
+<li> <a href='#{$prev}' data-transition='slide' data-direction='reverse' data-icon='arrow-l'>Previous</a></li>
+</xsl:when>
+<xsl:otherwise>
+<li> <a href='#' data-icon='arrow-l' class='ui-disabled'>Previous</a></li>
+</xsl:otherwise>
+</xsl:choose>
+<li><a href='#toc' data-icon='bars' data-transition='slidedown'>Contents</a></li>
+<xsl:choose>
+<xsl:when test='$next'>
+<li> <a data-transition='slide' data-iconpos='right' href='#{$next}' data-icon='arrow-r'>Next</a></li>
+</xsl:when>
+<xsl:otherwise>
+<li> <a data-iconpos='right' href='#' data-icon='arrow-r' class='ui-disabled'>Next</a></li>
+</xsl:otherwise>
+</xsl:choose>
+
+</ul>
+</div>
+<h1 id='header-{$name}' class='articleTitle'><xsl:value-of select='$title'/></h1>
 </div>
 <xsl:apply-templates select="$article"/>
+<div data-role='footer'>
+<h4><xsl:value-of select='$signature'/></h4>
+</div>
+
 </div>
 </xsl:template>
 
