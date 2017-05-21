@@ -135,7 +135,7 @@ Handling <xsl:value-of select="$name"/> (<xsl:value-of select="$title"/>)
 <li> <a href='#' data-icon='arrow-l' class='ui-disabled'>Previous</a></li>
 </xsl:otherwise>
 </xsl:choose>
-<li><a href='#toc' data-icon='bars' data-transition='slidedown'>Contents</a></li>
+<li><a href='#toc' data-icon='bars' data-transition='slideup' data-direction='reverse'>Contents</a></li>
 <xsl:choose>
 <xsl:when test='$next'>
 <li> <a data-transition='slide' data-iconpos='right' href='#{$next}' data-icon='arrow-r'>Next</a></li>

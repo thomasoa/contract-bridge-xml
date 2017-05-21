@@ -1,4 +1,5 @@
 $(function(){
+	$('#toc li a').attr('data-transition','slideup');
 	function swipeHandler( event ){
 	    var $page = $(event.currentTarget);
 	    var $next = $page.data('next');
