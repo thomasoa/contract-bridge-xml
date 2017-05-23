@@ -64,13 +64,11 @@ p.default { display: block; }
 }
 
 .holding:before {
-    font-family: "Courier New",Courier, monospace;
+    width:2em;
 }
 
 .spades:before {
-   font-size: 1.2em;
    content: "\2660  ";
-   width: 2em;
 }
 
 .hearts:before {
