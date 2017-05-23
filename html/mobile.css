@@ -81,3 +81,6 @@ span.holding , span.call, span.contract {
     padding-left: 10%;
 }
 
+.holding:before, .blacksuit, .redsuit {
+   font-size: 80%
+}
