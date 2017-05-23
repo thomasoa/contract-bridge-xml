@@ -40,10 +40,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link rel="stylesheet"
           href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../themes/bridge-fantasia.min.css"/>
 <link rel="stylesheet" type="text/css" href="../mobile.css"/>
 <link rel="stylesheet" type="text/css" href="../no-table.css"/>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script language="javascript" src="../mobile.js" type="text/javascript"> 
 </script>
 <title>
@@ -53,12 +54,12 @@
 </head>
 <body>
 
-<div data-role='page' id='toc' class='tocPage'>
+<div data-role='page' id='toc' class='tocPage' data-theme='a'>
 <div data-role='header'>
 <a href='http://bridge.thomasoandrews.com/' data-icon='home' data-ajax='false'>Home</a>
 <h1>Contents</h1>
 </div>
-<div data-role='main' class='ui-content'>
+<div data-role='content' class='ui-content'>
 <h2><xsl:copy-of select="$booktitle"/>
 </h2>
 <ul data-role='listview'>
@@ -77,7 +78,7 @@
 </xsl:template>
 
 <xsl:template mode="toc" match="bridge:chapter">
-<li data-role='list-divider'><xsl:value-of select="bridge:title"/></li>
+<li data-role='list-divider'>Chapter: <xsl:value-of select="bridge:title"/></li>
 <xsl:apply-templates mode="toc" select="bridge:article"/>
 </xsl:template>
 
