@@ -1,6 +1,9 @@
 $(function(){
 	$('#toc li a').attr('data-transition','slideup');
 	function swipeHandler( event ){
+	    if ($(event.target).hasClass('testcode')) {
+		return;
+	    }
 	    var $page = $(event.currentTarget);
 	    var $next = $page.data('next');
 	    var $prev = $page.data('prev');

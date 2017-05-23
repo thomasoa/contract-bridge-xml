@@ -29,9 +29,6 @@ span.blacksuit {
      color: black;
      background: inherit;
 }
-pre.testcode {
-   background: #CCCCFF;
-}
 
 td.auctionannotation div {
    margin-left: 1em;
@@ -83,4 +80,10 @@ span.holding , span.call, span.contract {
 
 .holding:before, .blacksuit, .redsuit {
    font-size: 80%
+}
+
+pre.testcode {
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+    background-color: #F0F0FF;
 }
