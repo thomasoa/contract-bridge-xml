@@ -1,4 +1,5 @@
 $(function(){
+	$('#bookinfopopup').enhanceWithin().popup();
 	$('#toc li a').attr('data-transition','slideup');
 	function swipeHandler( event ){
 	    if ($(event.target).hasClass('testcode')) {
