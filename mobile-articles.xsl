@@ -43,7 +43,7 @@
 <link rel="stylesheet" type="text/css" href="../themes/bridge-fantasia.min.css"/>
 <link rel="stylesheet" type="text/css" href="../mobile.css"/>
 <link rel="stylesheet" type="text/css" href="../no-table.css"/>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <script language="javascript" src="../mobile.js" type="text/javascript"> 
 </script>
@@ -54,10 +54,14 @@
 </head>
 <body>
 
+<div id="bookinfopopup" data-theme="a">
+<p>Formatted with <a data-rel='external' href="https://github.com/thomasoa/contract-bridge-xml/tree/mobile">contract bridge XML</a>.</p>
+</div>
 <div data-role='page' id='toc' class='tocPage' data-theme='a'>
 <div data-role='header'>
-<a href='http://bridge.thomasoandrews.com/' data-icon='home' data-ajax='false'>Home</a>
+<a href="http://bridge.thomasoandrews.com/" class="ui-alt-icon ui-nodisc-icon" data-icon="home" data-theme='b' data-ajax='false'>Home</a>
 <h1>Contents</h1>
+<a href="#bookinfopopup" data-rel="popup" data-icon="info" data-iconpos="notext" title='About' class="ui-alt-icon ui-btn-right ui-nodisc-icon" ></a>
 </div>
 <div data-role='content' class='ui-content'>
 <h2><xsl:copy-of select="$booktitle"/>
@@ -78,7 +82,7 @@
 </xsl:template>
 
 <xsl:template mode="toc" match="bridge:chapter">
-<li data-role='list-divider'>Chapter: <xsl:value-of select="bridge:title"/></li>
+<li data-role='list-divider'><xsl:value-of select="bridge:title"/></li>
 <xsl:apply-templates mode="toc" select="bridge:article"/>
 </xsl:template>
 
