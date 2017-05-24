@@ -86,4 +86,25 @@ pre.testcode {
     overflow:scroll;
     -webkit-overflow-scrolling: touch;
     background-color: #F0F0FF;
+    padding: 1em;
+}
+
+div.paragraph,dl,p,div.testnote,div.testoutput {
+    margin-top: 1em;
+    max-width: 30em;
+    line-height: 1.3;
+}
+
+#default { font-weight: bold; }
+
+p.default { display: block; }
+
+#toc li.ui-li-divider {
+    font-size: 120%;
+    padding: 0.2em 1em;
+    text-align: center;
+}
+
+#toc .ui-header h2 {
+    text-align: center;
 }
