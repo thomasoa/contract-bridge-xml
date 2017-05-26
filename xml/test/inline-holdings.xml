@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+	 xmlns:card="http://www.thomasoandrews.com/xmlns/bridge#card">
 <title>Cards and Holdings</title>
 <body>
 <test title="Cards - 1">
@@ -45,6 +46,18 @@ example
 <testnote>
 I'm not sure which is better, but I thought I'd give some
 flexibility.
+</testnote>
+</test>
+
+<test title="Cards - 3">
+<testbody>
+Alternatively, you can use the <em>card</em> namespace, 
+for example
+     <card:SA/> or <card:HT/>
+- to represent a card.
+</testbody>
+<testnote>
+This is by far the most economical in the code, but it requires you to declare the <tt>card:</tt> namespace.
 </testnote>
 </test>
 

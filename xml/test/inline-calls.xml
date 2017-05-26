@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
-<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+         xmlns:call="http://www.thomasoandrews.com/xmlns/bridge#call"
+         xmlns:contract="http://www.thomasoandrews.com/xmlns/bridge#contract"
+>
 <title>Calls and Contracts</title>
 <body>
 <test title="All Calls">

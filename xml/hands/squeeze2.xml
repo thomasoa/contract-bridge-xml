@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+         xmlns:call="http://www.thomasoandrews.com/xmlns/bridge#call"
+>
 <title>A Simple Positional Squeeze</title>
 <body>
 <diagram>

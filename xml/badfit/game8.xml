@@ -1,4 +1,6 @@
-<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+         xmlns:card="http://www.thomasoandrews.com/xmlns/bridge#card"
+>
 <title>Wrong-sided III</title>
 <date>05/18/2008</date>
 <body>
@@ -42,9 +44,9 @@ in South, leading to this position:</p>
 </diagram>
 <p>Twist and turn as he might, North can not avoid losing control from this position.</p>
 <p>So, why does <contract code="4S"/> make when declared by South?</p>
-<p>The trick is that East never gets into his hand, so the only way to force ruffs of the heart suit is for West to lead hearts.  This not only loses a trick to the <card code="HK"/>, but it also loses a <em>tempo.</em></p>
-<p>Say West leads the <card code='HA'/> and another heart. </p>
-<p>South wins the <card code='HK'/> and leads a low diamond to West's ace.</p>
+<p>The trick is that East never gets into his hand, so the only way to force ruffs of the heart suit is for West to lead hearts.  This not only loses a trick to the <card:HK/>, but it also loses a <em>tempo.</em></p>
+<p>Say West leads the <card:HA/> and another heart. </p>
+<p>South wins the <card:HK/> and leads a low diamond to West's ace.</p>
 <diagram>
 <hand seat="N" sp="AKJ9" he="" di="T85" cl="K83"/>
 <hand seat="W"  sp="8653" he="9832" di="" cl="A4"/>
@@ -53,9 +55,9 @@ in South, leading to this position:</p>
 </diagram>
 <p>What does West lead now?</p>
 <p>On a trump lead, South wins and leads a club from hand, and West wins his ace. (Or declarer wins, draws trumps and scores a total of four trumps, a heart, four diamonds, and a club.)</p>
-<p>On lead now, West can either lead a heart or spade. On a spade, North draws trump and claim.  On a heart, South ruffs with the <card code="S2"/>, crosses to the <card code="CK"/> and claims.</p>
-<p>So maybe West should have led a heart when in with the <card code="DA"/>?</p>
-<p>In that case, South ruffs with <card code="S2"/> and leads a low club.  Again, West must win his <card code="CA"/> or it is all over, leading to this position:</p>
+<p>On lead now, West can either lead a heart or spade. On a spade, North draws trump and claim.  On a heart, South ruffs with the <card:S2/>, crosses to the <card:CK/> and claims.</p>
+<p>So maybe West should have led a heart when in with the <card:DA/>?</p>
+<p>In that case, South ruffs with <card:S2/> and leads a low club.  Again, West must win his <card:CA/> or it is all over, leading to this position:</p>
 <diagram>
 <hand seat="N" sp="AKJ9" he="" di="T85" cl="K"/>
 <hand seat="W"  sp="8653" he="832" di="" cl="4"/>
@@ -63,7 +65,7 @@ in South, leading to this position:</p>
 <hand seat="S" sp="Q" he="" di="KQ97" cl="Q96"/>
 </diagram>
 <p>If West leads a spade, declarer draw trump and claims.</p>
-<p>If West leads a heart, declarer ruffs in South with the <card code="SQ"/>, crosses to the <card code="CK"/>, draws trumps and claims.</p>
+<p>If West leads a heart, declarer ruffs in South with the <card:SQ/>, crosses to the <card:CK/>, draws trumps and claims.</p>
 
 </body>
 </article>

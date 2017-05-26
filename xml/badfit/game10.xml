@@ -1,4 +1,6 @@
-<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+         xmlns:card="http://www.thomasoandrews.com/xmlns/bridge#card"
+>
 <title>A Matchpoint Top</title>
 <date>05/18/2008</date>
 <body>
@@ -25,7 +27,7 @@
 -->
 <p>North/South can make nine tricks in notrump, but their best contract is <contract code="4S"/> by South.</p>
 <p>Say West leads his stiff heart.</p>
-<p>North wins, takes the ace of diamonds, diamond finesse, and the diamond king, pitching a club.  A diamond ruff, overruffing East if necessary, followed by two top clubs and a club ruff.  West remains with only spades, so South leads a heart and West ruffs low leading to this position (assuming East ruffed ahead of you with the <card code="SJ"/> at some point:)</p>
+<p>North wins, takes the ace of diamonds, diamond finesse, and the diamond king, pitching a club.  A diamond ruff, overruffing East if necessary, followed by two top clubs and a club ruff.  West remains with only spades, so South leads a heart and West ruffs low leading to this position (assuming East ruffed ahead of you with the <card:SJ/> at some point:)</p>
 <diagram>
 <hand seat="N" sp="2" he="J3" di="" cl="T"/>
 <hand seat="W"  sp="AT86" he="" di="" cl=""/>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+         xmlns:contract="http://www.thomasoandrews.com/xmlns/bridge#contract">
 <title>Major Pain</title>
 <body>
 <diagram id="start">

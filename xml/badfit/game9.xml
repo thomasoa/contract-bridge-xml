@@ -1,4 +1,6 @@
-<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+         xmlns:card="http://www.thomasoandrews.com/xmlns/bridge#card"
+>
 <title>A Fairly Weak Suit</title>
 <date>05/18/2008</date>
 <body>
@@ -35,7 +37,7 @@
 <hand seat="E"  sp="Q96" he="865" di="" cl=""/>
 <hand seat="S" sp="2" he="7" di="875" cl="8"/>
 </diagram>
-<p>South plays a last club, and North ruffs with the heart nine, East unable to overruff.  Now North cashes the <card code="SA"/> and ruffs a spade with the <card code="H7"/>. Finally, South leads a diamond at this position:</p>
+<p>South plays a last club, and North ruffs with the heart nine, East unable to overruff.  Now North cashes the <card:SA/> and ruffs a spade with the <card:H7/>. Finally, South leads a diamond at this position:</p>
 
 <diagram>
 <hand seat="N" sp="T8" he="J" di="" cl=""/>

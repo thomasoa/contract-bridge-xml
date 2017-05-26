@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
-<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+         xmlns:card="http://www.thomasoandrews.com/xmlns/bridge#card"
+         xmlns:contract="http://www.thomasoandrews.com/xmlns/bridge#contract"
+>
 <title>XXX?</title>
 <body>
 <diagram id="start">
@@ -23,7 +26,7 @@
           C: AJ87
 -->
 <p>Only North can make <contract code="3N"/>.</p>
-<p>If South declares <contract code="3N"/>, then a <card code="CQ"/> lead sets the contract.  When West gets in with the diamond king, he can continue
+<p>If South declares <contract code="3N"/>, then a <card:CQ/> lead sets the contract.  When West gets in with the diamond king, he can continue
 clubs, the defense taking four clubs and a diamond.</p>
 <p>But the <contract code="5D"/> contract makes only when declared by West.</p>
 </body>

@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
-<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+         xmlns:card="http://www.thomasoandrews.com/xmlns/bridge#card"
+         xmlns:contract="http://www.thomasoandrews.com/xmlns/bridge#contract"
+>
 <title>From the Real World</title>
 <body>
 <diagram>
@@ -17,15 +20,15 @@ Gal Hegedus. When played in the match, the two contracts were <contract code='3N
 the exact best sides for these two games.</p>
 <h2>Spades</h2>
 <p>If South declares <contract code="4S"/>, he can make by unblocking the
-<card code="DA"/> and using the <card code="S9"/> as an entry to pitch
+<card:DA/> and using the <card:S9/> as an entry to pitch
 either a club or heart loser.</p>
 <p>If North declares, however, East can lead a spade to kill North's entry
 before the diamonds are unblocked, and declarer must lose two hearts, a
 spade, and a club.</p>
 <h2>Notrump</h2>
-<p>If South declares <contract code="3N"/>, a lead of the <card code="CT"/> sets it.  Declarer cannot avoid losing four clubs and a spade.</p>
+<p>If South declares <contract code="3N"/>, a lead of the <card:CT/> sets it.  Declarer cannot avoid losing four clubs and a spade.</p>
 <p>But if North declares, the defense run into a blockage problem in clubs.  East must lead one of his high clubs, which declarer can safely win with the ace,
-leaving the club jack in his hand.  Then when West wins the <card code="SK"/>, the club suit is blocked:</p>
+leaving the club jack in his hand.  Then when West wins the <card:SK/>, the club suit is blocked:</p>
 <diagram>
 <hand seat="S" sp='AQJT84' he='A76' di='' cl='2'/>
 <hand seat="W" sp='5' he='J8' di='Q986' cl='T97'/>

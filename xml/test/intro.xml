@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
-<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+         xmlns:call="http://www.thomasoandrews.com/xmlns/bridge#call"
+>
 <title>Introduction</title>
 <body>
 <p>This set of documents shows what the inputs and outputs look like in my
@@ -7,7 +9,7 @@ XML/XSL/CSS documents.</p>
 <p>
 The XSL processing converts the documents to HTML - this amounts to
 creating tables for hand diagrams and auctions, converting codes like "2H" to
-<call code="2H"/>, deciding whether to put white-spaces in holdings,
+<call:_2H/>, deciding whether to put white-spaces in holdings,
 etc.  The resulting HTML generated has plenty of <em>class</em>
 attributes added to the  &lt;div>, &lt;p>, and &lt;span> tags which
 makes additional formatting customization via Cascading Style Sheets

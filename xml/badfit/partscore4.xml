@@ -1,4 +1,6 @@
-<article xmlns="http://www.thomasoandrews.com/xmlns/bridge">
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+         xmlns:card="http://www.thomasoandrews.com/xmlns/bridge#card"
+>
 <title>A 5-Card Fit</title>
 <body>
 <h2>From Bert Beentjes</h2>
@@ -16,9 +18,9 @@ In this example, theoretical par is <contract code="1S"/>, making, by
 South.
 </p>
 <p>
-If East/West play <contract code="1S"/>, the defense starts with the <card code="HA"/>,
+If East/West play <contract code="1S"/>, the defense starts with the <card:HA/>,
 followed by a club to the ten, finessing East's queen, then the 
-<card code="DA"/>, <card code="CA"/>, <card code="CK"/> and a fourth club
+<card:DA/>, <card:CA/>, <card:CK/> and a fourth club
 at this position:
 <diagram>
 <hand seat="N" sp="J97" he="T8" di="T6" cl="^J"/>
@@ -36,7 +38,7 @@ a seventh trick. [If they play only one round, South still has the trump
 queen, and therefore can still execute the trump promotion above.] 
 </p><p>
 Say they start with the <spade cards="AK"/>, then East plays a diamond.
-South finesses the queen, and West wins the <card code="DK"/> leading
+South finesses the queen, and West wins the <card:DK/> leading
 to this position:
 <diagram>
 <hand seat="N" sp="J" he="AT8" di="T6" cl="KJ96"/>
@@ -53,10 +55,10 @@ clubs, then plays a low heart from hand at this position.
 <hand seat="E" sp="" he="QJ643" di="3" cl=""/>
 <hand seat="S" sp="" he="97^2" di="A98" cl=""/>
 </diagram>
-Declarer ducks if West plays the <card code="HK"/>, and West can
+Declarer ducks if West plays the <card:HK/>, and West can
 safely exit his low heart or a trump. 
 </p>
-<p>Dummy wins the <card code="HA"/>
+<p>Dummy wins the <card:HA/>
 and leads the last club, and we get to our favorite position:
 <diagram>
 <hand seat="N" sp="" he="T" di="T6" cl="^J"/>
@@ -68,7 +70,7 @@ West can either ruff this and be forced to lead a diamond, or let
 it win and give declarer his seventh trick.
 </p>
 <p>
-So, when in with the <card code="DK"/>, West has to lead a heart.  If he
+So, when in with the <card:DK/>, West has to lead a heart.  If he
 leads a low heart, declarer wins the ace and immediately exits a heart,
 which West must win with the king.
 </p>
