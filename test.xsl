@@ -3,6 +3,7 @@
 		xmlns:check="http://www.thomasoandrews.com/xmlns/checklink"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:bridge="http://www.thomasoandrews.com/xmlns/bridge"
+		xmlns:card="http://www.thomasoandrews.com/xmlns/bridge#card"
                 exclude-result-prefixes="bridge check">
 
 <!-- Copyright 2002, Thomas Andrews, bridge@thomasoandrews.com -->

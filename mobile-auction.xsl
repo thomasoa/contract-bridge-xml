@@ -3,6 +3,7 @@
 		xmlns:trans="http://www.thomasoandrews.com/xmlns/bridge/trans"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:bridge="http://www.thomasoandrews.com/xmlns/bridge"
+		xmlns:call="http://www.thomasoandrews.com/xmlns/bridge#call"
                 xmlns:common="http://exslt.org/common"
                 extension-element-prefixes="common"
                 exclude-result-prefixes="trans bridge common">
@@ -22,10 +23,10 @@
 </xsl:when>
 
 <xsl:otherwise>
-<xsl:value-of select="number(substring(@code,1,1))"/>
+<xsl:value-of select="number(substring($code,1,1))"/>
 <xsl:text> </xsl:text>
 <xsl:call-template name="suitsym">
-<xsl:with-param name="letter" select="substring(@code,2)"/>
+<xsl:with-param name="letter" select="substring($code,2)"/>
 </xsl:call-template>
 </xsl:otherwise>
 
@@ -224,6 +225,23 @@
     </span>
 </xsl:if>
 
+</xsl:template>
+
+<xsl:template match="call:*">
+<xsl:call-template name="call">
+<xsl:with-param name="context" select="@context"/>
+<xsl:with-param name="code">
+<xsl:choose>
+<xsl:when test="substring(local-name(),1,1)='_'">
+<xsl:value-of select="substring(local-name(),2)"/>
+</xsl:when>
+<xsl:otherwise>
+<xsl:value-of select='local-name()'/>
+</xsl:otherwise>
+</xsl:choose>
+</xsl:with-param>
+</xsl:call-template>
+<xsl:value-of select="@comment"/>
 </xsl:template>
 
 <xsl:template match="bridge:call">

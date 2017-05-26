@@ -3,6 +3,8 @@
 		xmlns:trans="http://www.thomasoandrews.com/xmlns/bridge/trans"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:bridge="http://www.thomasoandrews.com/xmlns/bridge"
+		xmlns:card="http://www.thomasoandrews.com/xmlns/bridge#card"
+		xmlns:contract="http://www.thomasoandrews.com/xmlns/bridge#contract"
                 exclude-result-prefixes="trans bridge">
 
 <!-- Copyright 2002, Thomas Andrews, bridge@thomasoandrews.com -->
@@ -114,27 +116,40 @@
     </xsl:call-template>
 </xsl:template>
 
-<!-- Handling the card tag -->
-<xsl:template match="bridge:card">
-<xsl:variable name="suit" select="substring(@code,1,1)"/>
-<xsl:variable name="rank" select="substring(@code,2,1)"/>
+<xsl:template name="gen_card">
+<xsl:param name="code"/>
+<xsl:variable name="suit" select="substring($code,1,1)"/>
+<xsl:variable name="rank" select="substring($code,2,1)"/>
 <xsl:variable name="english">
     <xsl:call-template name="english_card">
        <xsl:with-param name="suit" select="$suit"/>
        <xsl:with-param name="rank" select="$rank"/>
     </xsl:call-template>
 </xsl:variable>
-
+<!-- Handling the card tag -->
 <abbr class='card' title="{$english}">
 <xsl:call-template name="holding">
 <xsl:with-param name="symbol">
 <xsl:call-template name="suitsym">
-<xsl:with-param name="letter" select="substring(@code,1,1)"/>
+<xsl:with-param name="letter" select="substring($code,1,1)"/>
 </xsl:call-template>
 </xsl:with-param>
-<xsl:with-param name="attr" select="substring(@code,2,1)"/>
+<xsl:with-param name="attr" select="substring($code,2,1)"/>
 </xsl:call-template>
 </abbr>
+</xsl:template>
+
+<xsl:template match="card:*">
+  <xsl:call-template name="gen_card">
+    <xsl:with-param name='code' select='local-name()'/>
+  </xsl:call-template>
+</xsl:template>
+
+<xsl:template match="bridge:card">
+  <xsl:call-template name='gen_card'>
+    <xsl:with-param name='code' select='@code'/>
+  </xsl:call-template>
+
 </xsl:template>
 
 <!--    Handling the holding tag    -->
@@ -398,6 +413,12 @@
 <xsl:template match="bridge:contract[@code]">
 <xsl:call-template name="inlinecontract">
 <xsl:with-param name="code" select="@code"/>
+</xsl:call-template>
+</xsl:template>
+
+<xsl:template match="contract:*">
+<xsl:call-template name="inlinecontract">
+<xsl:with-param name="code" select="local-name()"/>
 </xsl:call-template>
 </xsl:template>
 

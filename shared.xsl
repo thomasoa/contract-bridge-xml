@@ -15,29 +15,10 @@
 <xsl:include href="diagram-non-table.xsl"/>
 <xsl:include href="test.xsl"/>
 <xsl:include href="link.xsl"/>
+<xsl:include href="local.xsl"/> <!-- copy local.xsl.example to local.xsl first -->
 
 <xsl:variable name="creationNote">
 Article formatted with <a href="http://bridge.thomasoandrews.com/xml/">BridgeML</a>.
-</xsl:variable>
-
-<!-- Used to add google analytics javascript to output -->
-<xsl:template name="analytics">
-<!-- Google analytics -->
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-5586620-2");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
-</xsl:template>
-
-<xsl:variable name="shortcuticon">
-<link rel="SHORTCUT ICON" href="http://www.thomasoandrews.com/icon/bridge.ico"/> 
 </xsl:variable>
 
 </xsl:stylesheet>

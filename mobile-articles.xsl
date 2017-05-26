@@ -50,16 +50,18 @@
 <title>
 <xsl:copy-of select="$booktitle"/>
 </title>
+<xsl:call-template name="analytics"/>
 
 </head>
 <body>
 
 <div id="bookinfopopup" data-theme="a">
-<p>Formatted with <a data-rel='external' href="https://github.com/thomasoa/contract-bridge-xml/tree/mobile">contract bridge XML</a>.</p>
+<p>Formatted with <a rel="external" href="https://github.com/thomasoa/contract-bridge-xml/tree/mobile">contract bridge XML</a>.</p>
+<p>While reading these articles, you can swipe right or left to get to the next or previous article in this set.</p>
 </div>
 <div data-role='page' id='toc' class='tocPage' data-theme='a'>
 <div data-role='header'>
-<a href="http://bridge.thomasoandrews.com/" class="ui-alt-icon ui-nodisc-icon" data-icon="home" data-theme='b' data-ajax='false'>Home</a>
+<a href="../mobile-index.html" data-ajax='false' class="ui-alt-icon ui-nodisc-icon" data-icon="home" data-theme='b'>More...</a>
 <h1>Contents</h1>
 <a href="#bookinfopopup" data-rel="popup" data-icon="info" data-iconpos="notext" title='About' class="ui-alt-icon ui-btn-right ui-nodisc-icon" ></a>
 </div>

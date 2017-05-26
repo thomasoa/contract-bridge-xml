@@ -23,6 +23,7 @@
 <xsl:apply-templates select="$title"/>
 </xsl:variable>
 <title><xsl:value-of select="$applied"/></title>
+<xsl:call-template name="analytics"/>
 </xsl:template>
 
 <xsl:template match="/">
@@ -56,7 +57,7 @@
 <xsl:template match="bridge:article">
 <div data-role='page'>
 <div data-role='header'>
-<a href='http://bridge.thomasoandrews.com/' data-icon='home' data-ajax='false'>Home</a>
+<a href='../mobile-index.html' rel='external' data-icon='home' data-ajax='false'>More...</a>
 <xsl:apply-templates select="bridge:title"/>
 </div>
 <div data-role='main' class='ui-content'>
