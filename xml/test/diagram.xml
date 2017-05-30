@@ -80,5 +80,16 @@ and void.
 </testnote>
 </test>
 
+<test title="North and East Only">
+<testbody>
+<diagram>
+<hand seat="N" sp="QT9" he="AJT9" di="9654" cl="K2"/>
+<hand seat="E" sp="AJ32" he="K" di="AKQJ" cl="AQJT"/>
+</diagram>
+</testbody>
+<testnote>
+A diagram with only north and east.
+</testnote>
+</test>
 </body>
 </article>

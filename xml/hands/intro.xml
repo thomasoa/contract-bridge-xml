@@ -53,16 +53,13 @@ partscores, after we have made an overcall.
 Pavlicek's <link href="http://www.rpbridge.net/7z69.htm">Bridge Writing Style Guide.</link>
 I'm using a combination of XML/XSL/CSS to generate the (static) HTML files.
 If you are interested in how it is done, you can
-<link rel='onsite' href="/deals/test/">read my XML Test Pages</link>, which have sample inputs adjacent to generated outputs.  XML lets you write articles without
-worrying about the formatting, which is done later.  This allows the formatting
-to be more uniform.
+<link rel='onsite' mobile="/deals/test/mobile.html" href="/deals/test/">read my XML Test Pages</link>, which have sample inputs adjacent to generated outputs.  
+XML lets you write articles without worrying about the formatting, which is done later.  This allows the formatting to be more uniform.
 </p><p>There might be some glitches I missed during the change.
 If you see any flaws, either in layout, grammar, or analysis, please feel free
-to point them out.  Also, let me know if this is unreadable on some browser -
-I'm guessing it won't work with browsers older than IE 5.0 or Netscape 6.0,
-but I could be wrong. 
+to point them out. 
 </p><p>
 Send comments to
 <a href="mailto:bridge@thomasoandrews.com (Thomas Andrews)">
-bridge@thomasoandrews.com</a>. <!-- <club/><diamond/><heart/><spade/> -->
+bridge@thomasoandrews.com</a>. 
 </p></body></article>
