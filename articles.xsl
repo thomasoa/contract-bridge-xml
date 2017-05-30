@@ -10,7 +10,7 @@
 <!-- Copyright 2002, Thomas Andrews, bridge@thomasoandrews.com -->
 <xsl:import href="shared.xsl"/>
 
-<xsl:output method="html" encoding="iso-8859-1"/>
+<xsl:output method="html" encoding="utf-8"/>
 
 <xsl:variable name="dest"><xsl:value-of select="/bridge:book/@dest"/></xsl:variable>
 
@@ -32,6 +32,7 @@
 <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <xsl:copy-of select="$shortcuticon"/>
 
 <title>
@@ -49,6 +50,7 @@
 <common:document href='toc.html'> 
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <link rel="stylesheet" type="text/css" href="../article.css"/>
 <xsl:copy-of select="$shortcuticon"/>
 <title>
@@ -61,7 +63,6 @@
 <em>Bridge Fantasia</em></a>
 </div>
 <div class="tocindex">
-<!--<h3><xsl:copy-of select="$booktitle"/></h3>-->
 <h3>Contents</h3>
 <xsl:apply-templates select="bridge:book/bridge:chapter|bridge:book/bridge:article"/>
 <br/>
@@ -152,7 +153,7 @@ Creating <xsl:value-of select="concat($dest,'/',$html)"/> (<xsl:value-of select=
 <common:document href="{$html}">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <link rel="stylesheet" type="text/css" href="../article.css"/>
 <link rel="stylesheet" type="text/css" href="../no-table.css"/>
 <xsl:if test="$next">

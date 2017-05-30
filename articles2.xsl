@@ -8,7 +8,7 @@
 <!-- Copyright 2002, Thomas Andrews, bridge@thomasoandrews.com -->
 <xsl:import href="shared.xsl"/>
 
-<xsl:output method="html" encoding="iso-8859-1" doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN"/>
+<xsl:output method="html" encoding="utf-8" doctype-public="-//W3C//DTD HTML 4.01 Transitional//EN"/>
 
 <xsl:variable name="dest"><xsl:value-of select="/bridge:book/@dest"/></xsl:variable>
 
@@ -33,6 +33,7 @@
 
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <xsl:copy-of select="$shortcuticon"/>
 <link rel="stylesheet" type="text/css" href="../article.css"/>
 <link rel="stylesheet" type="text/css" href="../no-table.css"/>
