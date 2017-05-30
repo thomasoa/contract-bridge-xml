@@ -376,3 +376,8 @@ div.auctionnote {
 }
 
 span.footnotetag { font-size: 80%; vertical-align: super; }
+
+abbr, acronym {
+    text-decoration: none;
+    border-bottom: none;
+}
