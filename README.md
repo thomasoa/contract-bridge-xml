@@ -11,6 +11,10 @@ The Makefile assumes you have xsltproc installed.
 
 There are one-at-a-time scripts, which can publish a single article, and article-set scripts, which can publish a "book" of articles.
 
+First thing first, copy the file "local.xsl.example" to "local.xsl." Nothing will work without it.
+
+If you want, you can add your own analytics code to the local.xsl. 
+
 Examples:
 ```
      # Create a single article HTML page
