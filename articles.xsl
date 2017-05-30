@@ -154,6 +154,7 @@ Creating <xsl:value-of select="concat($dest,'/',$html)"/> (<xsl:value-of select=
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
 <link rel="stylesheet" type="text/css" href="../article.css"/>
+<link rel="stylesheet" type="text/css" href="../no-table.css"/>
 <xsl:if test="$next">
 <link rel="next" href="{$next}.html"/>
 </xsl:if>

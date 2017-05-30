@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+	 xmlns:card="http://www.thomasoandrews.com/xmlns/bridge#card"
          xmlns:contract="http://www.thomasoandrews.com/xmlns/bridge#contract"
 >
 <title>Trashing Entries</title>
@@ -24,7 +25,7 @@ only entry to dummy before the diamonds are set up.
 Still, he has what appears to be two club tricks, two spade tricks,
 four heart tricks, and a diamond, if he can get them in time.
 </p><p>
-So declarer leads the <heart card="T"/>, finessing, and East ducks.
+So declarer leads the <card:HT/>, finessing, and East ducks.
 </p><p>
 Declarer then finesses in clubs, and East wins.  At this position:
 <diagram original="start">
@@ -43,13 +44,13 @@ killed South's entry to the long diamonds, and second, it did so
 without providing declarer a second entry to North's hand.
 </p><p>
 If South declares, on the other hand, West can kill the diamond suit
-by leading the <spade card="K"/>, but this give South two things in return.
+by leading the <card:SK/>, but this give South two things in return.
 The first is the immediate tempo advantage of having his second spade
 trick set up right away. The second is that the spade suit
 provides an interesting threat to East at the end position.
 </p><p>
-After the <spade card="K"/> lead, South wins the <spade card="A"/>,
-and the play proceeds much as above.  Declarer leads the <heart card="T"/>,
+After the <card:SK/> lead, South wins the <card:SA/>,
+and the play proceeds much as above.  Declarer leads the <card:HT/>,
 ducked all around. Declarer then takes the club finesse.  East wins at
 this position:
 <diagram original="start">
@@ -60,11 +61,11 @@ this position:
 </diagram>
 </p>
 <p>
-East naturally leads the <spade card="J"/>, West unblocks the eight and
-declarer's queen wins.  Declarer then unblocks the <club card="A"/>, and leads
+East naturally leads the <card:SJ/>, West unblocks the eight and
+declarer's queen wins.  Declarer then unblocks the <card:CA/>, and leads
 a diamond to the king.  West must duck the first diamond.  If he wins
-and shifts to spades, his side gets two spades, the <diamond card="A"/>,
-and the <club card="K"/>, but then the diamonds are good.
+and shifts to spades, his side gets two spades, the <card:DA/>
+and the <card:CK/>, but then the diamonds are good.
 </p><p>
 Declarer then strands himself completely by continuing diamonds.
 West wins at this position:
@@ -78,12 +79,12 @@ West wins at this position:
 <p>West obviously cannot lead a club, or South's hand is good.</p>
 <p>If West leads a spade, East gets his two spade tricks, but then must surrender the rest of the tricks by leading a heart (setting up North) or a club
 (to the good South hand.)</p>
-<p>If West leads a heart, South hops up with the <heart card="A"/>
+<p>If West leads a heart, South hops up with the <card:HA/>
 and continues hearts, and again East is thrown in, this time with the
-<spade card="9"/> a threat in dummy.</p>
+<card:S9/> a threat in dummy.</p>
 <p>Whatever West leads, his side can only get two more tricks.</p>
 <p>Perhaps East should not have exited a spade when in with the 
-<club card="K"/>? It does not matter;  declarer can reach a
+<card:CK/>? It does not matter;  declarer can reach a
 substantially similar end-position:
 <diagram  original="start">
 <hand seat="N" sp="Q95" he="AQJ7" di="" cl=""/>
@@ -91,7 +92,7 @@ substantially similar end-position:
 <hand seat="E"  sp="JT7" he="K8" di="" cl="T4"/>
 <hand seat="S" sp="2" he="" di="Q9875" cl="J"/>
 </diagram>
-West again on lead with the <diamond card="A"/>, and again the
+West again on lead with the <card:DA/>, and again the
 defense cannot take more than two tricks.  This time, if West leads a
 heart, declarer wins the ace, exits a heart, and then must duck the
 first spade to finish the endplay.
@@ -103,10 +104,10 @@ the above hand.</p>
 Now, what about the <contract code="5D"/> contract?
 </p><p>
 West leads a club, and the finesse is taken.  East continues a club.
-Declarer then leads the <heart card="A"/> and <heart card="Q"/>,
+Declarer then leads the <card:HA/> and <card:HQ/>,
 forcing East to cover. Declarer ruffs low, and must ruff his good 
-<club card="J"/> in dummy to pitch his spade loser on the 
-<heart card="J"/>.  Declarer is now at this position:
+<card:CJ/> in dummy to pitch his spade loser on the 
+<card:HJ/>.  Declarer is now at this position:
 <diagram  original="start">
 <hand seat="N" sp="Q954" he="73" di="6" cl=""/>
 <hand seat="W"  sp="K86" he="9" di="AJ" cl="9"/>
@@ -115,8 +116,8 @@ forcing East to cover. Declarer ruffs low, and must ruff his good
 </diagram>
 Declarer cannot avoid a second diamond loser.  If he leads a
 diamond to the king, West wins the ace and continues with the
-<heart card="9"/>.  East ruffs with the <diamond card="T"/>,
-and West's <diamond card="J"/> is promoted.
+<card:H9/>.  East ruffs with the <card:DT/>,
+and West's <card:DJ/> is promoted.
 </p>
 <p>The attack of the club suit killed a vital entry.  Without that
 lead, declarer could afford to pitch the spade loser after the trumps
@@ -126,10 +127,10 @@ are drawn.
 <p>So maybe <contract code="5D"/> can make if North declares?  Indeed,
 it can.  It may appear that East can lead a spade to set the contract,
 but that is an illusion.</p>
-<p>North calls for the <spade card="A"/>, then plays the 
-<heart card="A"/> and <heart card="Q"/> immediately.
+<p>North calls for the <card:SA/>, then plays the 
+<card:HA/> and <card:HQ/> immediately.
 East must cover, and declarer ruffs.  Declarer then leads
-the <diamond card="K"/>, West winning at this position:
+the <card:DK/>, West winning at this position:
 <diagram  original="start">
 <hand seat="N" sp="Q95" he="J73" di="6" cl="AQ"/>
 <hand seat="W" sp="K8" he="95" di="J" cl="9752"/>
@@ -138,9 +139,9 @@ the <diamond card="K"/>, West winning at this position:
 </diagram>
 </p><p>
 West is caught in something like "Morton's Fork."  If he cashes
-the <spade card="K"/>, declarer can pitch two clubs on major-suit
-winners in hand. And if West does not cash the <spade card="K"/>,
-the spade winner vanished on the <heart card="J"/>.  In either case,
+the <card:SK/>, declarer can pitch two clubs on major-suit
+winners in hand. And if West does not cash the <card:SK/>,
+the spade winner vanished on the <card:HJ/>.  In either case,
 declarer is able to get rid of one of his black suit losers.
 </p>
 <h2>Post-mortem</h2>

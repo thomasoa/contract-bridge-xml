@@ -35,6 +35,8 @@
 <head>
 <xsl:copy-of select="$shortcuticon"/>
 <link rel="stylesheet" type="text/css" href="../article.css"/>
+<link rel="stylesheet" type="text/css" href="../no-table.css"/>
+
 <script language="javascript" src="../articles.js" type="text/javascript"> 
 </script>
 <title>
