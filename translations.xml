@@ -66,7 +66,7 @@ Card faces:
 <vul id="E/W">E-W</vul>
 <vul id="N/S">N-S</vul>
 
-<!-- Determines which hand is to the left
+<!-- Determines which hand is to the left in an auction table,
      based on the dealer. -->
 <leftmost dealer="W" left="W" gap="0"/>
 <leftmost dealer="S" left="S" gap="0"/>
