@@ -1,7 +1,7 @@
 # Bridge Publishing XML
 
 When writing my bridge articles for http://bridge.thomasoandrews.com/, 
-I wanted to maintain a consistent look, and to publish in many different way. I was
+I wanted to maintain a consistent look, and to publish in many different ways. I was
 just learning XSL, and decided to pick an XML format for the articles and use XSL
 to format in different ways.
 
