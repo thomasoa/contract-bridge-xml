@@ -97,6 +97,13 @@ const Clubs: Suit = f({ name: 'clubs', singular: 'club', letter: 'C', symbol: '\
 const AllSuits: readonly Suit[] = [Spades, Hearts, Diamonds, Clubs]
 Object.freeze(AllSuits)
 
+const suitsMap  = new Map<string,Suit>()
+AllSuits.forEach((suit) => {
+    suitsMap.set(suit.name,suit)
+    suitsMap.set(suit.letter,suit)
+    suitsMap.set(suit.singular,suit)
+})
+
 const Suits = {
     spades: Spades,
     hearts: Hearts,
@@ -104,10 +111,18 @@ const Suits = {
     clubs: Clubs,
     all: AllSuits as readonly Suit[],
     each: AllSuits.forEach.bind(AllSuits),
-    map: AllSuits.map.bind(AllSuits)
+    map: AllSuits.map.bind(AllSuits),
+    byText: (text:string):Suit => { 
+        const suit = suitsMap.get(text)
+        if (suit) { return suit }
+        throw new TypeError(`${text} is not a valid suit name`)
+    }
 }
+
 Suits.each(Object.freeze)
 Object.freeze(Suits)
+
+
 
 class Card {
     suit: Suit;
