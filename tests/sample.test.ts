@@ -20,20 +20,27 @@ async function loadXMLFile():Promise<Document> {
     }
     throw new Error('Failed to load')
 }
-function suitCallBack(suit:Suit, element:Element):string {
-    console.log('Suit element',suit.name)
+
+function holdingCallback(element:Element):string {
     const card = element.getAttribute('card')
     if (card) {
         const rank = Deck.ranks.byName(card)
-        return suit.symbol + rank.brief
+        // console.log('card',suit.symbol,rank.brief)
+        return rank.brief
     }
 
     const cards = element.getAttribute('cards')
     if (cards) {
         const ranks = Deck.ranks.parse(cards)
-        return suit.symbol + ranks.map((rank) => rank.brief).join("-")
+        return ranks.map((rank) => rank.brief).join("-")
     }
-    return suit.name
+
+    return '-'
+}
+
+function suitCallBack(suit:Suit, element:Element):string {
+    const card = element.getAttribute('card')
+    return suit.symbol + ' '+ holdingCallback(element)
 }
 
 function ignoreElement(element:Element):string {
@@ -43,15 +50,17 @@ function ignoreElement(element:Element):string {
 const callbacks = new Map<string,(element:Element) => string>()
 
 Deck.suits.each((suit:Suit) => {
-    callbacks.set(suit.singular, (element) => suitCallBack(suit,element))
+    callbacks.set(suit.singular, (element) => suit.symbol + holdingCallback(element))
 })    
+callbacks.set('holding',holdingCallback)
 
 callbacks.set('diagram',ignoreElement)
 
 function defaultCallback(element:Element):string {
     let result = ""
-    for (let i=0; i<element.childNodes.length; i++) {
-        result += toPlainText(element.childNodes[i])
+    const children = element.childNodes
+    for (let i=0; i<children.length; i++) {
+        result += toPlainText(children[i])
     }
     return result
 }
@@ -63,7 +72,7 @@ function toPlainText(node:Node):string {
 
     if (node.nodeType == Node.ELEMENT_NODE) {
         const element = node as Element
-        // console.log("Element",element.tagName,element.namespaceURI)
+        //console.log("Element",element.tagName,element.namespaceURI)
         const callback = callbacks.get(element.tagName) || defaultCallback
         return callback(element)
     } else if (node.nodeType == Node.TEXT_NODE) {
@@ -87,7 +96,8 @@ test('Test',()=>{
         expect(contents).toBeDefined()
         const body:Element= topNode.getElementsByTagNameNS(bridgeNS,'body')[0]
         console.log('body',body,body.namespaceURI)
-        // console.log(toPlainText(body))
+        const text = toPlainText(body)
+        console.log(text)
     })
     return promise
 })
