@@ -19,16 +19,16 @@
         "tsc-alias": "^1.8.5"
     },
     "scripts": {
-        "build": "tsc --declaration && npm run build:copy && npm run build:fiximports && npm run build:revision",
+        "build": "tsc && npm run build:copy && npm run build:fiximports && npm run build:revision",
         "test": "jest --silent=false",
         "test-coverage": "jest --silent=false --collect-coverage",
         "cleanbuild": "npm run clean && npm run build",
         "clean": "rm -rf dest",
         "publish": "npm run cleanbuild && npm run publish:script",
-        "publish:script": "sh publish.sh Commit $(git rev-parse HEAD) to $(git config --get remote.origin.url)",
-        "build:fiximports": "sh fiximports.sh",
+        "publish:script": "sh bin/publish.sh Commit $(git rev-parse HEAD) to $(git config --get remote.origin.url)",
+        "build:fiximports": "sh bin/fiximports.sh",
         "build:copy": "mkdir -p dest && (cd public; tar cf - .) | (cd dest; tar xf -)",
-        "build:revision": "sh getrevision.sh"
+        "build:revision": "sh bin/getrevision.sh"
     },
     "babel": {
         "env": {
