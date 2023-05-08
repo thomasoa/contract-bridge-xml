@@ -6,3 +6,4 @@ coverage/**/*
 *.zip
 dest/**/*
 .DS_Store
+css
