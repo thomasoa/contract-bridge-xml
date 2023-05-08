@@ -90,7 +90,7 @@ class Rank {
 
 
 
-const Spades: Suit = f({ name: 'spades', singular: 'spade' letter: 'S', symbol: '\U+2660', order: 0, summand: 0 })
+const Spades: Suit = f({ name: 'spades', singular: 'spade', letter: 'S', symbol: '\U+2660', order: 0, summand: 0 })
 const Hearts: Suit = f({ name: 'hearts', singular: 'heart', letter: 'H', symbol: '\U+2665', order: 1, summand: 13 * 1 })
 const Diamonds: Suit = f({ name: 'diamonds', singular: 'diamond', letter: 'D', symbol: '\U+2666', order: 2, summand: 13 * 2 })
 const Clubs: Suit = f({ name: 'clubs', singular: 'club', letter: 'C', symbol: '\U+2663', order: 3, summand: 13 * 3 })
