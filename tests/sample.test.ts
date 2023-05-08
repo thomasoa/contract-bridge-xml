@@ -1,6 +1,6 @@
 import { promises as fsPromise } from 'fs'
 import { DOMParser, Node } from './dom'
-import { Deck, Seats } from '../src/bridge/constants'
+import { Deck, Suit, Rank, Card, Seats } from '../src/bridge/constants'
 
 async function loadXMLFile():Promise<Document> {
     let contents:XMLDocument|undefined = undefined
@@ -20,16 +20,20 @@ async function loadXMLFile():Promise<Document> {
     }
     throw new Error('Failed to load')
 }
-function suitCallBack(element:Element):string {
-    const suit = element.tagName
-    const letter = suit.slice(0,1).toUpperCase()
-    console.log('Suit element',suit,letter)
-    const card = element.getAttribute('card') ||
-                 element.getAttribute('cards')
+function suitCallBack(suit:Suit, element:Element):string {
+    console.log('Suit element',suit.name)
+    const card = element.getAttribute('card')
     if (card) {
-        return letter + ' '+ card
+        const rank = Deck.ranks.byName(card)
+        return suit.symbol + rank.brief
     }
-    return letter
+
+    const cards = element.getAttribute('cards')
+    if (cards) {
+        const ranks = Deck.ranks.parse(cards)
+        return suit.symbol + ranks.map((rank) => rank.brief).join("-")
+    }
+    return suit.name
 }
 
 function ignoreElement(element:Element):string {
@@ -38,8 +42,8 @@ function ignoreElement(element:Element):string {
 
 const callbacks = new Map<string,(element:Element) => string>()
 
-Deck.suits.each((suit) => {
-    callbacks.set(suit.singular,suitCallBack)
+Deck.suits.each((suit:Suit) => {
+    callbacks.set(suit.singular, (element) => suitCallBack(suit,element))
 })    
 
 callbacks.set('diagram',ignoreElement)
@@ -59,7 +63,7 @@ function toPlainText(node:Node):string {
 
     if (node.nodeType == Node.ELEMENT_NODE) {
         const element = node as Element
-        console.log("Element",element.tagName,element.namespaceURI)
+        // console.log("Element",element.tagName,element.namespaceURI)
         const callback = callbacks.get(element.tagName) || defaultCallback
         return callback(element)
     } else if (node.nodeType == Node.TEXT_NODE) {
@@ -83,7 +87,7 @@ test('Test',()=>{
         expect(contents).toBeDefined()
         const body:Element= topNode.getElementsByTagNameNS(bridgeNS,'body')[0]
         console.log('body',body,body.namespaceURI)
-        console.log(toPlainText(body))
+        // console.log(toPlainText(body))
     })
     return promise
 })
