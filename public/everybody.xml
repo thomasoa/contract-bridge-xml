@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<?xml-stylesheet title="Default" type="text/xsl" href="article.xsl" media="screen"?>
+<article xmlns="http://www.thomasoandrews.com/xmlns/bridge"
+      dest="everybody">
+<author email="bridge@thomasoandrews.com">Thomas Andrews</author>
+<copyright>1999-2009</copyright>
+<title>Everybody Makes</title>
+<programdata program="GIB" href="http://www.gibware.com/">
+s A8765432.KJ.QT9.
+w KJ.QT9..A8765432
+n QT9..A8765432.KJ
+w .A8765432.KJ.QT9
+</programdata>
+<!-- level 3 - spades, hearts, clubs -->
+<body>
+<diagram id="start">
+           <hand seat="N" sp="QT9" di="KJ" he="A8765432" cl=""/>
+<hand seat="W" sp="" di="QT9" he="KJ" cl="A8765432"/>
+                            <hand seat="E" sp="KJ" di="A8765432" he="" cl="QT9"/>
+           <hand seat="S" sp="A8765432" di="" he="QT9" cl="KJ"/>
+</diagram>
+<p>
+In this symmetric deal, nine tricks can be made in notrump by any declarer.
+</p>
+<p>
+Given the symmetry of the deal, we only need to analyze one declarer, 
+so we pick South as declarer just for consistency.
+</p>
+<p>
+Fundamentally, the problem for the defense is that even though they
+can set up either diamonds or clubs with one lead of the suit, both suits
+are blocked, and there is no immediate entry to the hand that is set
+up. </p>
+<p> Isn't declarer similarly blocked?  Yes.  But look what happens to
+the deal when West leads a low club.  North <em>pitches a spade</em>,
+and South wins the trick in his hand, then leads a low spade to the ten,
+East winning the jack, leading to:
+<diagram original="start">
+<hand seat="N" sp="Q" di="KJ" he="A8765432" cl=""/>
+<hand seat="W" sp="" di="QT" he="KJ" cl="A876543"/>
+<hand seat="E" sp="K" di="A8765432" he="" cl="T9"/>
+<hand seat="S" sp="A876543" di="" he="QT9" cl="J"/>
+</diagram>
+East/West's clubs are blocked, and West at the moment has no entry.
+What does East lead here?  When North/South get back in, they have
+seven spades and the <heart card="A"/>, along with the <club card="K"/>
+from the first trick.  But at this point the defense can only take two
+clubs and the <diamond cards="A"/> before surrendering the lead.
+</p>
+<p>
+But what if West led a diamond?  Then North covers, and, whatever East
+does, South pitches a heart.  Now, South only needs to lose one
+heart to take seven heart tricks, plus a diamond and a spade.
+</p>
+<p>
+Finally, if West leads a heart, he lets East pitch a club to begin
+an unblock, but he does nothing to set up any of his own suits.
+Instead, he has blown his heart stop.  Declarer just wins three
+hearts (the hearts are still blocked) and plays a low spade to the
+ten, and East is forced to win, leading to this position:
+<diagram original="start">
+           <hand seat="N" sp="QT" di="KJ" he="87654" cl=""/>
+           <hand seat="S" sp="A876543" di="" he="" cl="KJ"/>
+</diagram>
+Whatever East/West pitch on the three hearts and a spade, all they
+can take when East gets in is their diamond and club aces, and then when
+declarer gets back in, he takes the ace and queen of spade and five
+hearts, along with the first three hearts [if the
+defense takes the <club card="A"/>, North must pitch a heart, but then
+South's <club card="K"/> becomes good.] 
+</p>
+<h2>What is happening here?</h2>
+<p>Each side has two suits they might try
+to set up.  In order to set up and run a suit, they need to lose a trick in the suit, and then either pitch a card from the <holding cards="QT9"/> holding to unblock the suit, or lose the lead again to set up an entry to the long
+suit to make up for the blockage.
+</p>
+<p>Now, when West leads a club, he does the first step - losing the
+mandatory club trick.  But the club also lets North pitch a spade, so
+both sides take a step towards their respective goals.  When North leads
+a spade to lose to East, West gets to pitch, but he holds the <holding
+cards="QT9"/> in <em>diamonds.</em>  If he pitches a diamond, East/West 
+have taken one step towards establishing diamonds and one step towards
+establishing clubs, while North/South have taken the two steps needed
+to establish spades. 
+</p>
+<h2>Comments</h2>
+<p>I have been informed that this deal was previously discovered by
+John Beasley, and reported in "The Games and Puzzles Journal" in 1988.
+</p>
+<p>I have computed
+double-dummy results for all 16,777,216 different symmetric deals.
+"representatives." 
+Of these deals, this is the only one where each side can make nine
+tricks in notrump.  In fact, it is the only one that can make more
+than seven tricks in notrump.  Is this deal unique?  I can't claim
+that at this moment, but I would not be surprised if it was.  It is
+certainly unique amongst symmetric deals.
+</p>
+<p>
+There are known cases where both <em>sides</em> can make 13 tricks in 
+notrump.  For a simple example:
+<diagram>
+           <hand seat="N" sp="AKQJT98" he="AKQJT9" di="" cl=""/>
+<hand seat="W" sp="" he="" di="AKQJT98" cl="AKQJT9"/>
+                            <hand seat="E" sp="765432" he="8765432" di="" cl=""/>
+           <hand seat="S" sp="" he="" di="765432" cl="8765432"/>
+</diagram>
+Here, <contract code="7N"/> makes when declared by North and East.
+</p>
+<p>Richard Pavlicek reports a 
+<link external="http://www.rpbridge.net/7a59.htm#10">deal where
+both sides can make 9 tricks in the same suit,</link> and it is the last
+making contract for both sides:
+<diagram>
+           <hand seat="N" sp="9" he="JT9" di="AQ432" cl="AKQ2"/>
+<hand seat="W" sp="" he="" di="JT98765" cl="876543"/>
+                           <hand seat="E" sp="AKQ8" he="AKQ87" di="K" cl="JT9"/>
+           <hand seat="S" sp="JT765432" he="65432" di="" cl=""/>
+</diagram>
+Both East and South can make <contract code="3S"/>, and no higher contract
+makes.
+</p>
+</body>
+</article>
