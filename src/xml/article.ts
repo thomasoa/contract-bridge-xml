@@ -1,4 +1,4 @@
-import {Deck, Seats, Suit, Rank, Card, Seat} from '../bridge/constants'
+import {Deck, Seats, Suit, Rank, Card, Seat} from '../basics/src/bridge/constants'
 
 interface ParseContext {
     inParagraph: Boolean
