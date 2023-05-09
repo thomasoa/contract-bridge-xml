@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo Nothing to publish
+exit 0
 [ -d dest ] || echo 'Directory ./dest does not exist'
 [ -d dest ] || exit
 
