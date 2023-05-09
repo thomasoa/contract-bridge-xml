@@ -3,6 +3,6 @@ module.exports = {
     "verbose": true,
     "maxWorkers": 1, /* hack for bigint tests? */
     "coveragePathIgnorePatterns": [
-        "index.js"
+        "dest/basics/.*", "src/basics/.*"
     ]
 };
