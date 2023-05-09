@@ -1,3 +1,3 @@
 [submodule "src/basics"]
-	path = basics
+	path = src/basics
 	url = https://github.com/thomasoa/ts-bridge-basics
