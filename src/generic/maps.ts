@@ -1,6 +1,6 @@
 export class TransformKeyMap<K1,K2,V> {
-    map:Map<K2,V> 
-    transform: (key:K1) => K2
+    readonly map:Map<K2,V> 
+    readonly transform: (key:K1) => K2
 
     constructor(transform: (key:K1)=> K2, map:Map<K2,V> = new Map<K2,V>()) {
         this.transform = transform
@@ -22,7 +22,7 @@ export class TransformKeyMap<K1,K2,V> {
 }
 
 export class UpcaseMap<V> extends TransformKeyMap<String,String,V> {
-   constructor() {
-       super((s:String) => s.toUpperCase())
+   constructor(map:Map<String,V> = new Map<String,V>()) {
+       super((s:String) => s.toUpperCase(),map)
    }
 }
