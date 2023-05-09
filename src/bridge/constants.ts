@@ -51,10 +51,10 @@ const West = { name: "west", letter: "W", order: 3 }
 const AllSeats: readonly Seat[] = [North, East, South, West]
 AllSeats.forEach(Object.freeze)
 Object.freeze(AllSeats)
-const SeatMap = new UpcaseMap<Seat>()
+const SeatNameMap = new UpcaseMap<Seat>()
 AllSeats.forEach((seat:Seat) => {
-    SeatMap.set(seat.name, seat)
-    SeatMap.set(seat.letter, seat)
+    SeatNameMap.set(seat.name, seat)
+    SeatNameMap.set(seat.letter, seat)
 })
 
 const Seats = {
@@ -65,7 +65,7 @@ const Seats = {
     all: AllSeats,
     each: AllSeats.forEach.bind(AllSeats),
     map: AllSeats.map.bind(AllSeats),
-    byText: SeatMap.get.bind(SeatMap)
+    byText: SeatNameMap.get.bind(SeatNameMap)
 }
 
 Object.freeze(Seats)
@@ -102,11 +102,11 @@ const Clubs: Suit = f({ name: 'clubs', singular: 'club', letter: 'C', symbol: '\
 const AllSuits: readonly Suit[] = [Spades, Hearts, Diamonds, Clubs]
 Object.freeze(AllSuits)
 
-const suitsMap  = new UpcaseMap<Suit>()
+const SuitNameMap  = new UpcaseMap<Suit>()
 AllSuits.forEach((suit) => {
-    suitsMap.set(suit.name,suit)
-    suitsMap.set(suit.letter,suit)
-    suitsMap.set(suit.singular,suit)
+    SuitNameMap.set(suit.name,suit)
+    SuitNameMap.set(suit.letter,suit)
+    SuitNameMap.set(suit.singular,suit)
 })
 
 const Suits = {
@@ -117,7 +117,7 @@ const Suits = {
     all: AllSuits as readonly Suit[],
     each: AllSuits.forEach.bind(AllSuits),
     map: AllSuits.map.bind(AllSuits),
-    byText: suitsMap.get.bind(suitsMap)
+    byText: SuitNameMap.get.bind(SuitNameMap)
 }
 
 Suits.each(Object.freeze)
@@ -190,7 +190,7 @@ class RankParser {
 }
 
 function createRankParser(): (text: string) => RankLookupResult {
-    const map = new Map<string, RankParser>()
+    const map = new UpcaseMap<RankParser>()
 
     const add = (parser: RankParser): void => {
         map.set(parser.letter, parser)
