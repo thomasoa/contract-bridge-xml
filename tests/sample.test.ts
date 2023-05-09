@@ -1,6 +1,6 @@
 import { promises as fsPromise } from 'fs'
-import { DOMParser, Node } from './testdom'
 import { Deck, Suit, Rank, Card, Seats } from '../src/basics/src/bridge/constants'
+import { DOMParser, Node } from './testdom'
 
 async function loadXMLFile():Promise<Document> {
     let contents:XMLDocument|undefined = undefined
