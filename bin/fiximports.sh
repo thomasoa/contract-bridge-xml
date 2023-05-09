@@ -7,6 +7,6 @@
 #
 # So my fix is to compile without the .js in the imports, then 'fix' them by
 # adding them back in with a perl script. Sooooo gross.
-perl -pe '/\.[cm]?js"/ || s/from "([^"]*)"/from "$1.js"/' -i.bak dest/*/*.js
+find dest -name '*.js' -print | xargs perl -pe '/\.[cm]?js"/ || s/from "([^"]*)"/from "$1.js"/' -i.bak
 find dest -name '*.bak' -print | xargs rm 
 
