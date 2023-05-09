@@ -30,6 +30,8 @@
  * 
  */
 
+import {UpcaseMap} from "../generic/maps"
+
 function f<T>(obj: T): T {
     Object.freeze(obj)
     return obj
@@ -49,6 +51,11 @@ const West = { name: "west", letter: "W", order: 3 }
 const AllSeats: readonly Seat[] = [North, East, South, West]
 AllSeats.forEach(Object.freeze)
 Object.freeze(AllSeats)
+const SeatMap = new UpcaseMap<Seat>()
+AllSeats.forEach((seat:Seat) => {
+    SeatMap.set(seat.name, seat)
+    SeatMap.set(seat.letter, seat)
+})
 
 const Seats = {
     north: North,
@@ -57,9 +64,10 @@ const Seats = {
     west: West,
     all: AllSeats,
     each: AllSeats.forEach.bind(AllSeats),
-    map: AllSeats.map.bind(AllSeats)
-
+    map: AllSeats.map.bind(AllSeats),
+    byText: SeatMap.get.bind(SeatMap)
 }
+
 Object.freeze(Seats)
 
 type Suit = {
@@ -84,11 +92,8 @@ class Rank {
         this.letter = letter || brief
         this.summand = order
         Object.freeze(this)
-
     }
 }
-
-
 
 const Spades: Suit = f({ name: 'spades', singular: 'spade', letter: 'S', symbol: '\U+2660', order: 0, summand: 0 })
 const Hearts: Suit = f({ name: 'hearts', singular: 'heart', letter: 'H', symbol: '\U+2665', order: 1, summand: 13 * 1 })
@@ -97,7 +102,7 @@ const Clubs: Suit = f({ name: 'clubs', singular: 'club', letter: 'C', symbol: '\
 const AllSuits: readonly Suit[] = [Spades, Hearts, Diamonds, Clubs]
 Object.freeze(AllSuits)
 
-const suitsMap  = new Map<string,Suit>()
+const suitsMap  = new UpcaseMap<Suit>()
 AllSuits.forEach((suit) => {
     suitsMap.set(suit.name,suit)
     suitsMap.set(suit.letter,suit)
@@ -112,11 +117,7 @@ const Suits = {
     all: AllSuits as readonly Suit[],
     each: AllSuits.forEach.bind(AllSuits),
     map: AllSuits.map.bind(AllSuits),
-    byText: (text:string):Suit => { 
-        const suit = suitsMap.get(text)
-        if (suit) { return suit }
-        throw new TypeError(`${text} is not a valid suit name`)
-    }
+    byText: suitsMap.get.bind(suitsMap)
 }
 
 Suits.each(Object.freeze)
