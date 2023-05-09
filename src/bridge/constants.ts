@@ -129,6 +129,7 @@ class Card {
     suit: Suit;
     rank: Rank;
     short: string;
+    shortRS: string;
     order: number;
     constructor(suit: Suit, rank: Rank) {
         this.suit = suit
@@ -277,8 +278,17 @@ function make_cards(): Card[] {
 }
 
 const AllCards: readonly Card[] = make_cards()
-const CardsByName = new Map<string, Card>(AllCards.map((card) => [card.short, card]))
-function cardBySuitRank(suit: Suit, rank: Rank) {
+const CardsByName = new UpcaseMap<Card>()
+AllCards.forEach((card:Card) => {
+    const rank = card.rank
+    const suit = card.suit
+    [ rank.brief, rank.letter].forEach((rankStr: string) => {
+        CardsByName.set(suit.letter + rankStr,card)
+        CardsByName.set(rankStr + suit.letter,card)
+    })
+})
+
+function cardBySuitRank(suit: Suit, rank: Rank): Card {
     return AllCards[suit.summand + rank.summand]
 }
 
