@@ -1,6 +1,6 @@
 {
-    "includes": ["src/**/*"],
-    "exclude": ["tests/**/*"],
+    "includes": ["src/**/*,'basics/src/**"],
+    "exclude": ["tests/**", "src/basics/**", "**/*.test.ts"],
     "compilerOptions": {
         "baseUrl": ".",
         "lib":["es2022","dom"],
