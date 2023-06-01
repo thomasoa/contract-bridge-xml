@@ -1,0 +1,127 @@
+/*
+ * CSS for layout of bridge deals without using tables.
+ * Originally written for my bridge articles.
+ *
+ * Assumes the HTML is of the form:
+ *  <div class='diagram'>
+ *      <div class='header'> ... optional ...</div>
+ *      <div class='hand north'>... north hand ,,,</div>
+ *      <div class='hand west'>... west hand ...</div>
+ *      <div class='hand east'>... east hand ..,</div>
+ *      <div class='hand south'>... south hand...</div>
+ *  </div>
+ * 
+ * Order of hands is important. Where the hands look like:
+ *
+ *   <div class="hand east">
+ *    <div class="holding spades"><span  class="holding">... cards ...</span></div>
+ *    <div class="holding hearts"><span  class="holding">... cards ...</span></div>
+ *    <div class="holding diamonds"><span class="holding">... cards ...</span></div>
+ *    <div class="holding clubs"><span  class="holding">...cards ...</span></div>
+ *   </div>
+ * 
+ */
+ 
+ .diagram .header {
+    grid-area: topleft;
+    font-size: smaller;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    margin-bottom: 0;
+    margin-top: 1ex;
+    padding: 0.25em;
+    width: 6em;
+    background: #FFFFFF;
+    margin-bottom: auto;
+}
+
+.diagram {
+    display: grid;
+    grid-template-areas: "topleft north topright" "west table east" "bottomleft south bottomright";
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-left: 3em;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 24em;
+}
+
+
+
+.diagram  .hand {
+    max-width: 7em;
+}
+
+.diagram .north {
+    grid-area: north;
+    margin-bottom: 1ex;
+}
+
+.diagram  .south {
+    grid-area:south;
+    margin-top: 1ex;
+}
+
+.diagram .north, .diagram .south {
+    margin-left: 0em;
+}
+
+.diagram  .west {
+    padding-left: 2em;
+    grid-area: west;
+}
+
+.diagram  .east {
+    grid-area: east;
+}
+
+.diagram .east, .diagram .west, .diagram .table {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.diagram .table {
+    grid-area: table;
+    width: 7em;
+    height: 7em;
+    background-color: green;
+    padding-left: -1em;
+}
+
+.red {
+    color: red;
+}
+
+.hand .seatname {
+    margin-left: 1em;
+    font-size: smaller;
+    font-style: italic;
+}
+
+.holding:before {
+    width:2em;
+}
+
+.holding {
+    white-space: nowrap; 
+    /* text-indent: -1em; */
+}
+
+.diagram .spades:before {
+   content: "\2660  ";
+   color: black;
+}
+
+.diagram .hearts:before {
+   color: red;
+   content: "\2665  ";
+}
+
+.diagram .diamonds:before {
+   content: "\2666  ";
+   color: red;
+}
+
+.diagram .clubs:before {
+   content: "\2663  ";
+   color: black;
+}

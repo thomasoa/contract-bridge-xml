@@ -1,0 +1,98 @@
+/* Light yellowish background for articles */
+@media screen {
+body {
+    background: #FFFFCC;
+}
+
+/* Bluish image background for table of contents frame */
+body.toc {
+    background: url(http://thomaso.best.vwh.net/graphics/idealbg.jpg)
+}
+
+/* Links are dark blue when unvisited,
+   darker/grayer blue when visited,
+   and white when the mouse is over them (with blue background.) */
+A:link {
+   color: #003399;
+}
+
+A:visited {
+   color: #222255;
+}
+
+A:hover {
+   color: white ;
+   background: #3366CC ;
+}
+
+A:active {
+   color: #000099 ;
+}
+
+A.image:hover {
+   background: transparent ;
+   color: black ;
+}
+
+div#toc {
+	background: url(http://thomaso.best.vwh.net/graphics/idealbg.jpg);
+}
+
+/* The blue bar above and below each article, pointing to
+   the next and previous articles, as well as the "book title" */
+table.prevandnext {
+    background: #CCCCEE;
+    color: inherit;
+}
+
+/* Make header info in diagrams smaller */
+div.diagheader {
+    background: #FFFFDD;
+}
+
+/* Font information for cards played in the current trick 
+	- large, bold, blue */
+span.played {
+	color: #3333FF ;
+}
+
+/* Color for red suit symbols &diams; or &hearts; when included in
+   a hand table or auction table */
+table.hand span.redsuit , table.auctiontable span.redsuit {
+     color: #CC0000;
+     background: inherit;
+}
+
+/* Color for black suit symbols &spades; or &clubs; when included in
+   a hand table */
+span.blacksuit {
+     color: black;
+     background: inherit;
+}
+
+/* Gross code for testing purposes, to show paragraphs with
+   bright red symbols in the middle */
+span.forcered span.redsuit {
+     color: #FF0000;
+}
+
+/* 
+  Color for red suit symbols &diams; or &hearts; outside hand diagrams -
+  I've made these slighly darker because a bright red interrupted the flow
+  of the text.
+*/
+span.redsuit {
+     font-family: "Courier New", Courier, monospace;
+     color: #CC0000;
+     background: inherit;
+}
+
+span.blacksuit {
+     font-family: "Courier New", Courier, monospace;
+     color: black;
+     background: inherit;
+}
+pre.testcode {
+   background: #CCCCFF;
+}
+}
