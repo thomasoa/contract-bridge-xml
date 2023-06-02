@@ -1,4 +1,4 @@
-JAVA=java
+AVA=java
 XSLTPROC=xsltproc
 
 CLASSDIR=classes
@@ -19,7 +19,7 @@ PUBLISH=../public_html/bridge/deals
 XSL=article.xsl articles.xsl articles2.xsl diagram.xsl shared.xsl \
     auction.xsl default.xsl link.xsl hands.xsl inline.xsl test.xsl
 
-all: $(DIRS) gzfiles
+all: html-copy $(DIRS) gzfiles
 
 gzfiles: $(GZTARGETS)
 
@@ -31,9 +31,11 @@ publish: all
 	cp README $(XML)/README.txt
 
 clean:
-	cd html ; rm -rf */*.html
-	find . -name '*~' -print | xargs rm
-	rm -f *.zip
+	rm -rf html
+
+html-copy:
+	mkdir -p html
+	( cd static ; git ls-files . | xargs tar cf - ) | (cd html; tar xf -)
 
 everybody: html/everybody/index.html
 all1S: html/all1S/index.html
