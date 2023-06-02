@@ -1,0 +1,21 @@
+table.hand, table.deal, table.dealwithheader {
+	page-break-after: avoid;
+	page-break-inside: avoid;
+}
+
+table.auctiontable {
+	page-break-after: avoid;
+	page-break-inside: avoid;
+}
+
+table.prevandnext {
+	display: none;
+}
+
+h1, h2, h3, h4 {
+    page-break-after: avoid;
+}
+
+div.bridgediagram {
+    page-break-inside: avoid;
+}
